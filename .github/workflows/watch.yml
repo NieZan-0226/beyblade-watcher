@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '5,20,35,50 * * * *'   # 每 15 分鐘，偏移 5 分避開整點
   workflow_dispatch:                 # 手動觸發
+    inputs:
+      test_notify:
+        description: '發送測試通知到手機'
+        type: boolean
+        default: false
 
 permissions:
   contents: write                    # 允許 commit 回寫狀態檔
@@ -28,6 +33,19 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python beyblade_watcher.py
+
+      - name: Send test notification
+        if: ${{ inputs.test_notify == true }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          python - <<'EOF'
+          import os, requests, json
+          topic = os.environ["NTFY_TOPIC"]
+          payload = {"topic": topic, "title": "測試通知", "message": "GitHub Actions 連線正常！", "priority": 4, "tags": ["white_check_mark"]}
+          r = requests.post("https://ntfy.sh", data=json.dumps(payload).encode(), timeout=10)
+          print(f"ntfy HTTP {r.status_code}")
+          EOF
 
       - name: Commit state files back to repo
         run: |
