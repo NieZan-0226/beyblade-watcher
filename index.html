@@ -105,7 +105,7 @@
   footer{text-align:center;color:var(--muted);font-size:11.5px;margin-top:30px;opacity:.7}
 
   /* tabs */
-  .tabs{display:flex;gap:8px;margin:18px 0 0}
+  .tabs{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}
   .tab{font-family:"Chakra Petch",sans-serif;font-weight:600;font-size:13.5px;letter-spacing:.4px;
     background:var(--card);border:1px solid var(--line);color:var(--muted);
     padding:9px 20px;border-radius:11px;cursor:pointer;transition:.15s}
@@ -120,6 +120,56 @@
   .video{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;
     border:1px solid var(--line);background:#000}
   .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+  /* filters (selects / search) */
+  .filter{background:var(--card2);border:1px solid var(--line);color:var(--txt);font:inherit;font-size:12.5px;
+    padding:8px 12px;border-radius:10px;cursor:pointer;transition:.15s}
+  .filter:focus{outline:none;border-color:var(--orange)}
+  input.filter{cursor:text;flex:1 1 150px;min-width:130px}
+
+  /* 比賽 cards */
+  .ev-when{font-family:"Chakra Petch",sans-serif;font-weight:700;font-size:15px;color:var(--gold);margin-bottom:4px}
+  .ev-store{font-size:14.5px;font-weight:700;margin-bottom:2px}
+  .ev-tel{font-size:12px;color:var(--cyan);text-decoration:none;font-weight:500;margin-left:7px;white-space:nowrap}
+  .ev-tel:hover{text-decoration:underline}
+  .meta{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px;margin:13px 0}
+  .meta>div{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .meta dt{font-size:10.5px;color:var(--muted);letter-spacing:.3px}
+  .meta dd{font-size:13px;color:var(--txt);font-weight:500;word-break:break-word}
+  .ev-addr{display:block;margin-top:auto;font-size:12.5px;color:var(--muted);text-decoration:none;
+    border-top:1px solid var(--line);padding-top:10px;line-height:1.5}
+  .ev-addr:hover{color:var(--cyan)}
+
+  /* badges (new variants) */
+  .b-soon{background:rgba(39,227,208,.15);color:var(--cyan);border:1px solid rgba(39,227,208,.4)}
+  .b-fmt,.b-use{background:rgba(138,152,173,.14);color:var(--muted);border:1px solid var(--line)}
+  .b-sys,.b-code{background:var(--gold);color:#241a04}
+  .t-atk{background:rgba(255,84,112,.16);color:var(--danger);border:1px solid rgba(255,84,112,.4)}
+  .t-def{background:rgba(39,227,208,.15);color:var(--cyan);border:1px solid rgba(39,227,208,.4)}
+  .t-sta{background:rgba(54,211,153,.15);color:var(--green);border:1px solid rgba(54,211,153,.4)}
+  .t-bal{background:rgba(255,194,75,.15);color:var(--gold);border:1px solid rgba(255,194,75,.4)}
+
+  /* 圖鑑 sub-tabs */
+  .subtabs{display:flex;gap:7px;margin:18px 0 4px;flex-wrap:wrap}
+  .subtab{font-family:"Noto Sans TC";font-size:12.5px;font-weight:600;background:transparent;
+    border:1px solid var(--line);color:var(--muted);padding:7px 16px;border-radius:999px;cursor:pointer;transition:.15s}
+  .subtab:hover{color:var(--txt)}
+  .subtab.active{background:var(--card2);color:var(--orange);border-color:var(--orange)}
+  .subpanel{display:none}
+  .subpanel.active{display:block}
+  .bey-name{font-size:14.5px;font-weight:500;line-height:1.45;margin-bottom:4px}
+  .ax-note{font-size:12px;color:var(--muted);line-height:1.6;white-space:pre-line;margin-top:auto;
+    border-top:1px solid var(--line);padding-top:10px}
+
+  /* 固鎖 tables */
+  .lock-title{font-family:"Chakra Petch",sans-serif;font-weight:700;font-size:15px;color:var(--orange);
+    letter-spacing:.5px;margin:6px 0 12px}
+  .lock-title.gap{margin-top:28px}
+  .lock-row{display:grid;grid-template-columns:60px 1fr;gap:14px;align-items:center;
+    background:linear-gradient(150deg,var(--card),var(--card2));border:1px solid var(--line);
+    border-radius:12px;padding:13px 15px;margin-bottom:10px}
+  .lock-key{font-family:"Chakra Petch",sans-serif;font-weight:700;font-size:21px;color:var(--gold);text-align:center}
+  .lock-desc{font-size:12.5px;color:var(--txt);line-height:1.6;white-space:pre-line}
 </style>
 </head>
 <body>
@@ -133,8 +183,10 @@
   </header>
 
   <nav class="tabs">
-    <button class="tab active" id="tab-products" onclick="showTab('products')">商品</button>
-    <button class="tab" id="tab-tips" onclick="showTab('tips')">技巧</button>
+    <button class="tab active" data-tab="products" onclick="showTab('products')">商品</button>
+    <button class="tab" data-tab="tips" onclick="showTab('tips')">技巧</button>
+    <button class="tab" data-tab="events" onclick="showTab('events')">比賽</button>
+    <button class="tab" data-tab="dex" onclick="showTab('dex')">圖鑑</button>
   </nav>
 
   <section class="panel active" id="panel-products">
@@ -169,6 +221,44 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
       </div>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-events">
+    <div class="bar">
+      <div class="stat"><span class="dot"></span> 即將舉行 <b id="ev-count">–</b> 場</div>
+      <select class="filter" id="ev-region" onchange="renderEvents()"><option value="">全部地區</option></select>
+      <select class="filter" id="ev-store" onchange="renderEvents()"><option value="">全部店家</option></select>
+    </div>
+    <div class="grid" id="ev-grid"></div>
+  </section>
+
+  <section class="panel" id="panel-dex">
+    <nav class="subtabs">
+      <button class="subtab active" data-sub="beys" onclick="showSub('beys')">陀螺圖鑑</button>
+      <button class="subtab" data-sub="axes" onclick="showSub('axes')">軸心</button>
+      <button class="subtab" data-sub="locks" onclick="showSub('locks')">固鎖</button>
+    </nav>
+
+    <div class="subpanel active" id="sub-beys">
+      <div class="grid" id="bey-grid"></div>
+    </div>
+
+    <div class="subpanel" id="sub-axes">
+      <div class="bar">
+        <div class="stat"><span class="dot"></span> <b id="ax-count">–</b> 顆軸心</div>
+        <select class="filter" id="ax-type" onchange="renderAxes()"><option value="">全部類型</option></select>
+        <select class="filter" id="ax-use" onchange="renderAxes()"><option value="">全部泛用度</option></select>
+        <input class="filter" id="ax-search" type="search" placeholder="搜尋代號 / 備註…" oninput="renderAxes()">
+      </div>
+      <div class="grid" id="axis-grid"></div>
+    </div>
+
+    <div class="subpanel" id="sub-locks">
+      <h3 class="lock-title">固鎖・刃</h3>
+      <div id="lock-blade"></div>
+      <h3 class="lock-title gap">固鎖・高度</h3>
+      <div id="lock-height"></div>
     </div>
   </section>
 
@@ -239,12 +329,170 @@
     }
     btn.textContent="↻ 重新整理";
   }
+  // 簡易 HTML 跳脫，避免資料內含特殊字元破壞版面
+  function esc(s){
+    return String(s==null?"":s).replace(/[&<>"']/g,c=>(
+      {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  }
+
   function showTab(name){
-    const onProducts = name === "products";
-    document.getElementById("panel-products").classList.toggle("active", onProducts);
-    document.getElementById("panel-tips").classList.toggle("active", !onProducts);
-    document.getElementById("tab-products").classList.toggle("active", onProducts);
-    document.getElementById("tab-tips").classList.toggle("active", !onProducts);
+    document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("active", p.id==="panel-"+name));
+    document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active", t.dataset.tab===name));
+    if(name==="events") renderEvents();
+    if(name==="dex") renderDex();
+  }
+
+  /* ============ 比賽 ============ */
+  let EVENTS = null;
+  function localToday(){
+    const d=new Date();
+    return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+  }
+  function daysUntil(dateStr){
+    const a=new Date(localToday()+"T00:00:00"), b=new Date(dateStr+"T00:00:00");
+    return Math.round((b-a)/86400000);
+  }
+  function regionOf(addr){ const m=(addr||"").match(/^(..[市縣])/); return m?m[1]:"其他"; }
+
+  async function renderEvents(){
+    const grid=document.getElementById("ev-grid");
+    if(!EVENTS){
+      try{
+        const r=await fetch("events.json?_="+Date.now());
+        if(!r.ok) throw new Error("no events");
+        EVENTS=(await r.json()).events||[];
+      }catch(e){ grid.innerHTML='<div class="empty">讀不到 events.json。</div>'; return; }
+      buildEventFilters();
+    }
+    const today=localToday();
+    const fr=document.getElementById("ev-region").value;
+    const fs=document.getElementById("ev-store").value;
+    const list=EVENTS
+      .filter(e=>e.date>=today)
+      .filter(e=>!fr || regionOf(e.address)===fr)
+      .filter(e=>!fs || e.store===fs)
+      .sort((a,b)=> a.date===b.date ? (a.time||"").localeCompare(b.time||"") : a.date.localeCompare(b.date));
+    document.getElementById("ev-count").textContent=list.length;
+    if(!list.length){ grid.innerHTML='<div class="empty">目前沒有即將到來的比賽。</div>'; return; }
+    grid.innerHTML=list.map((e,i)=>{
+      const n=daysUntil(e.date);
+      const tag = n<=0
+        ? '<span class="badge b-new">今日</span>'
+        : '<span class="badge b-soon">還有 '+n+' 天</span>';
+      const md=e.date.slice(5).replace("-","/");
+      const maps="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(e.address||"");
+      const tel = e.phone ? ' <a class="ev-tel" href="tel:'+esc(e.phone)+'">'+esc(e.phone)+'</a>' : '';
+      return '<div class="card'+(n<=0?" new":"")+'" style="animation-delay:'+(i*40)+'ms">'
+        + '<div class="badges">'+tag+'<span class="badge b-fmt">'+esc(e.format||"")+'</span></div>'
+        + '<div class="ev-when">'+md+' '+esc(e.weekday||"")+' · '+esc(e.time||"")+'</div>'
+        + '<div class="ev-store">'+esc(e.store||"")+tel+'</div>'
+        + '<dl class="meta">'
+          + '<div><dt>賽制</dt><dd>'+esc(e.format||"-")+'</dd></div>'
+          + '<div><dt>報名方式</dt><dd>'+esc(e.signup||"-")+'</dd></div>'
+          + '<div><dt>人數上限</dt><dd>'+(e.capacity!=null?esc(e.capacity)+" 人":"-")+'</dd></div>'
+        + '</dl>'
+        + '<a class="ev-addr" href="'+maps+'" target="_blank" rel="noopener">📍 '+esc(e.address||"無地址")+'</a>'
+        + '</div>';
+    }).join("");
+  }
+
+  function buildEventFilters(){
+    const today=localToday();
+    const upcoming=EVENTS.filter(e=>e.date>=today);
+    const regions=[...new Set(upcoming.map(e=>regionOf(e.address)))].sort();
+    const stores=[...new Set(upcoming.map(e=>e.store).filter(Boolean))].sort();
+    const fill=(sel,arr)=>{ arr.forEach(v=>{
+      const o=document.createElement("option"); o.value=v; o.textContent=v; sel.appendChild(o);
+    }); };
+    fill(document.getElementById("ev-region"), regions);
+    fill(document.getElementById("ev-store"), stores);
+  }
+
+  /* ============ 圖鑑 ============ */
+  let DEX = null;
+  function showSub(name){
+    document.querySelectorAll("#panel-dex .subpanel").forEach(p=>p.classList.toggle("active", p.id==="sub-"+name));
+    document.querySelectorAll("#panel-dex .subtab").forEach(t=>t.classList.toggle("active", t.dataset.sub===name));
+  }
+  async function renderDex(){
+    if(DEX) return;
+    try{
+      const r=await fetch("parts.json?_="+Date.now());
+      if(!r.ok) throw new Error("no parts");
+      DEX=await r.json();
+    }catch(e){
+      document.getElementById("bey-grid").innerHTML='<div class="empty">讀不到 parts.json。</div>';
+      return;
+    }
+    renderBeys();
+    buildAxisFilters();
+    renderAxes();
+    renderLocks();
+  }
+
+  function renderBeys(){
+    const list=DEX["陀螺圖鑑"]||[];
+    document.getElementById("bey-grid").innerHTML=list.map((b,i)=>{
+      const id=esc(b["系統"]||"")+"-"+esc(b["編號"]||"")+(b["副號"]?("·"+esc(b["副號"])):"");
+      return '<div class="card" style="animation-delay:'+(i*22)+'ms">'
+        + '<div class="badges"><span class="badge b-sys">'+id+'</span></div>'
+        + '<div class="bey-name">'+esc(b["名稱"]||"未命名")+'</div>'
+        + '<dl class="meta">'
+          + '<div><dt>固鎖</dt><dd>'+esc(b["固鎖"]||"-")+'</dd></div>'
+          + '<div><dt>軸心</dt><dd>'+esc(b["軸心"]||"-")+'</dd></div>'
+        + '</dl></div>';
+    }).join("");
+  }
+
+  function buildAxisFilters(){
+    const ax=DEX["軸心"]||[];
+    const types=[...new Set(ax.map(a=>a["類型"]).filter(Boolean))];
+    const uses=[...new Set(ax.map(a=>a["泛用度"]).filter(Boolean))];
+    const fill=(sel,arr)=>arr.forEach(v=>{
+      const o=document.createElement("option"); o.value=v; o.textContent=v; sel.appendChild(o);
+    });
+    fill(document.getElementById("ax-type"), types);
+    fill(document.getElementById("ax-use"), uses);
+  }
+
+  function renderAxes(){
+    const ax=DEX["軸心"]||[];
+    const ft=document.getElementById("ax-type").value;
+    const fu=document.getElementById("ax-use").value;
+    const q=document.getElementById("ax-search").value.trim().toLowerCase();
+    const typeCls={"攻擊":"t-atk","防禦":"t-def","持久":"t-sta","平衡":"t-bal"};
+    const list=ax.filter(a=>
+      (!ft || a["類型"]===ft) &&
+      (!fu || a["泛用度"]===fu) &&
+      (!q || (a["軸心"]+" "+a["備註"]+" "+a["軸端"]+" "+a["射法"]).toLowerCase().includes(q)));
+    document.getElementById("ax-count").textContent=list.length;
+    const g=document.getElementById("axis-grid");
+    if(!list.length){ g.innerHTML='<div class="empty">沒有符合條件的軸心。</div>'; return; }
+    g.innerHTML=list.map((a,i)=>(
+      '<div class="card" style="animation-delay:'+(i*22)+'ms">'
+      + '<div class="badges">'
+        + '<span class="badge b-code">'+esc(a["軸心"]||"?")+'</span>'
+        + '<span class="badge '+(typeCls[a["類型"]]||"")+'">'+esc(a["類型"]||"")+'</span>'
+        + '<span class="badge b-use">'+esc(a["泛用度"]||"")+'</span>'
+      + '</div>'
+      + '<dl class="meta">'
+        + '<div><dt>軸端</dt><dd>'+esc(a["軸端"]||"-")+'</dd></div>'
+        + '<div><dt>齒數</dt><dd>'+esc(a["齒數"]||"-")+'</dd></div>'
+        + '<div><dt>高度</dt><dd>'+esc(a["高度"]||"-")+'</dd></div>'
+        + '<div><dt>射法</dt><dd>'+esc(a["射法"]||"-")+'</dd></div>'
+      + '</dl>'
+      + (a["備註"]?'<p class="ax-note">'+esc(a["備註"])+'</p>':"")
+      + '</div>'
+    )).join("");
+  }
+
+  function renderLocks(){
+    const row=x=>(k,d)=>'<div class="lock-row"><div class="lock-key">'+esc(x[k])+'</div>'
+      +'<div class="lock-desc">'+esc(x[d])+'</div></div>';
+    document.getElementById("lock-blade").innerHTML=
+      (DEX["固鎖_刃"]||[]).map(x=>row(x)("刃","說明")).join("");
+    document.getElementById("lock-height").innerHTML=
+      (DEX["固鎖_高度"]||[]).map(x=>row(x)("高度","說明")).join("");
   }
 
   load();
