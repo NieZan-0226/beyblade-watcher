@@ -71,7 +71,8 @@
   .grid{display:grid;grid-template-columns:1fr;gap:13px}
   @media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
 
-  .card{position:relative;background:linear-gradient(150deg,var(--card),var(--card2));
+  .card{position:relative;display:flex;flex-direction:column;
+    background:linear-gradient(150deg,var(--card),var(--card2));
     border:1px solid var(--line);border-radius:15px;padding:17px 17px 15px 21px;overflow:hidden;
     opacity:0;transform:translateY(10px);animation:rise .5s forwards}
   @keyframes rise{to{opacity:1;transform:none}}
@@ -90,7 +91,7 @@
 
   .title{font-size:15px;font-weight:500;line-height:1.45;margin-bottom:12px;
     display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .foot{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto}
   .price{font-family:"Chakra Petch",sans-serif;font-weight:700;font-size:19px;color:var(--gold)}
   .price small{font-size:11px;color:var(--muted);font-family:"Noto Sans TC"}
   .price.na{font-size:13px;color:var(--muted);font-weight:500}
@@ -102,6 +103,23 @@
 
   .empty{text-align:center;color:var(--muted);padding:50px 20px;font-size:14px}
   footer{text-align:center;color:var(--muted);font-size:11.5px;margin-top:30px;opacity:.7}
+
+  /* tabs */
+  .tabs{display:flex;gap:8px;margin:18px 0 0}
+  .tab{font-family:"Chakra Petch",sans-serif;font-weight:600;font-size:13.5px;letter-spacing:.4px;
+    background:var(--card);border:1px solid var(--line);color:var(--muted);
+    padding:9px 20px;border-radius:11px;cursor:pointer;transition:.15s}
+  .tab:hover{color:var(--txt);border-color:var(--orange)}
+  .tab.active{background:linear-gradient(135deg,var(--orange),var(--orange-d));color:#1a0b06;
+    border-color:transparent;box-shadow:0 4px 14px rgba(255,94,43,.28)}
+  .panel{display:none}
+  .panel.active{display:block}
+
+  /* tips videos (RWD 16:9) */
+  .videos{display:flex;flex-direction:column;gap:16px;margin-top:20px}
+  .video{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;
+    border:1px solid var(--line);background:#000}
+  .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 </style>
 </head>
 <body>
@@ -114,15 +132,45 @@
     </div>
   </header>
 
-  <div class="bar">
-    <div class="stat"><span class="dot"></span> 共 <b id="count">–</b> 項</div>
-    <div class="stat">最後更新 <b id="updated">–</b></div>
-    <button class="refresh" id="refresh" onclick="load()">↻ 重新整理</button>
-  </div>
+  <nav class="tabs">
+    <button class="tab active" id="tab-products" onclick="showTab('products')">商品</button>
+    <button class="tab" id="tab-tips" onclick="showTab('tips')">技巧</button>
+  </nav>
 
-  <div class="preview-note" id="preview">預覽模式:目前顯示的是範例資料(瀏覽器無法直接讀本機檔案)。掛上 GitHub Pages、或放在 feed.json 旁邊時,就會自動顯示真實資料。</div>
+  <section class="panel active" id="panel-products">
+    <div class="bar">
+      <div class="stat"><span class="dot"></span> 共 <b id="count">–</b> 項</div>
+      <div class="stat">最後更新 <b id="updated">–</b></div>
+      <button class="refresh" id="refresh" onclick="load()">↻ 重新整理</button>
+    </div>
 
-  <div class="grid" id="grid"></div>
+    <div class="preview-note" id="preview">預覽模式:目前顯示的是範例資料(瀏覽器無法直接讀本機檔案)。掛上 GitHub Pages、或放在 feed.json 旁邊時,就會自動顯示真實資料。</div>
+
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="panel" id="panel-tips">
+    <div class="videos">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/_el8OLeEARU" title="Beyblade 教學影片 1"
+          loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/bH8rDjve0CA" title="Beyblade 教學影片 2"
+          loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/JXJ9oDPT9ZA" title="Beyblade 教學影片 3"
+          loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
 
   <footer>資料來源 feed.json・每 15 分鐘由 GitHub Actions 自動更新</footer>
 </div>
@@ -191,6 +239,14 @@
     }
     btn.textContent="↻ 重新整理";
   }
+  function showTab(name){
+    const onProducts = name === "products";
+    document.getElementById("panel-products").classList.toggle("active", onProducts);
+    document.getElementById("panel-tips").classList.toggle("active", !onProducts);
+    document.getElementById("tab-products").classList.toggle("active", onProducts);
+    document.getElementById("tab-tips").classList.toggle("active", !onProducts);
+  }
+
   load();
   setInterval(load, 5*60*1000);  // 每 5 分鐘自動更新一次
 </script>
