@@ -19,6 +19,7 @@ Beyblade X 上架 / 補貨偵測引擎  (Funbox / Cyberbiz)
 """
 
 import os
+import time
 import json
 from datetime import datetime, timezone
 
@@ -39,6 +40,14 @@ MAX_PAGES = 10           # 最多翻幾頁（防呆，避免無限迴圈）
 NOTIFY_PRICE_DROP = os.environ.get("NOTIFY_PRICE_DROP", "1") == "1"
 FLOOD_THRESHOLD = 15     # 單次事件超過這個數，改發一則摘要避免洗版
 DEBUG = os.environ.get("DEBUG", "0") == "1"
+
+# 抓取重試：連不到 Funbox（連線逾時等）時，先重試幾次再算失敗，避免偶發網路抖動。
+RETRY_ATTEMPTS = int(os.environ.get("RETRY_ATTEMPTS", "3"))      # 總共嘗試幾次
+RETRY_BASE_DELAY = float(os.environ.get("RETRY_BASE_DELAY", "2"))  # 退避基準秒數（指數成長）
+# 連續失敗達到這個次數才發警告，偶爾一次逾時不吵人。成功一次就歸零。
+FAIL_ALERT_THRESHOLD = int(os.environ.get("FAIL_ALERT_THRESHOLD", "4"))
+# 狀態檔裡存放監看器自身狀態（連續失敗次數等）的保留鍵，不會和商品鍵衝突。
+META_KEY = "__watcher_meta__"
 
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -73,6 +82,23 @@ def fetch_all_products():
         if len(page_list) < PAGE_LIMIT:
             break  # 最後一頁
     return all_raw
+
+
+def fetch_all_products_with_retry():
+    """重試包裝：逾時/連不到時自動重試，每次間隔指數退避。全失敗才丟出例外。"""
+    last_err = None
+    for attempt in range(1, RETRY_ATTEMPTS + 1):
+        try:
+            return fetch_all_products()
+        except Exception as e:
+            last_err = e
+            if attempt < RETRY_ATTEMPTS:
+                delay = RETRY_BASE_DELAY * (2 ** (attempt - 1))  # 2, 4, 8…秒
+                print(f"抓取失敗（第 {attempt}/{RETRY_ATTEMPTS} 次）：{e}；{delay:.0f} 秒後重試…")
+                time.sleep(delay)
+            else:
+                print(f"抓取失敗（第 {attempt}/{RETRY_ATTEMPTS} 次，已用盡重試）：{e}")
+    raise last_err
 
 
 def _extract_list(data):
@@ -174,6 +200,22 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
+def split_meta(state):
+    """把監看器自身狀態（META_KEY）從商品狀態裡分出來，回傳 (products, meta)。"""
+    products = dict(state)
+    meta = products.pop(META_KEY, None)
+    if not isinstance(meta, dict):
+        meta = {}
+    return products, meta
+
+
+def save_state_with_meta(products, meta):
+    """存檔時把商品狀態與 meta 合在一起寫回。"""
+    out = dict(products)
+    out[META_KEY] = meta
+    save_state(out)
+
+
 def write_feed(current, new_keys=(), restock_keys=()):
     """產出給 iOS app 讀的清單。new/restock 為這次新增或補貨的商品。"""
     new_keys, restock_keys = set(new_keys), set(restock_keys)
@@ -236,17 +278,40 @@ def ntfy_publish(title, message, tags=None, priority=3, click=None):
 # ============ 主流程 ============
 def main():
     print("開始檢查 Beyblade 上架 / 補貨…")
+
+    # 先讀狀態，把連續失敗計數拿出來（抓取成敗都要用到）
+    state, meta = split_meta(load_state())
+    fail_count = int(meta.get("consecutive_failures", 0) or 0)
+
     try:
-        raw = fetch_all_products()
+        raw = fetch_all_products_with_retry()
     except Exception as e:
-        # 端點壞掉時也推播一聲，免得你以為「都沒新品」其實是爬蟲掛了
-        print(f"抓取失敗：{e}")
-        ntfy_publish(
-            "⚠️ 陀螺監看器抓取失敗",
-            f"無法讀取 Funbox API：{e}\n可能是端點改版或被擋，請去看一下。",
-            tags=["warning"], priority=4,
-        )
+        # 重試都失敗才走到這裡：累計連續失敗次數，存回狀態檔
+        fail_count += 1
+        meta["consecutive_failures"] = fail_count
+        meta["last_failure_at"] = datetime.now(timezone.utc).isoformat()
+        meta["last_error"] = str(e)
+        save_state_with_meta(state, meta)
+        print(f"抓取失敗：{e}（連續第 {fail_count} 次）")
+
+        # 只有連續失敗達門檻才發警告；之後每再累積一輪門檻才再提醒一次，避免洗版
+        if fail_count >= FAIL_ALERT_THRESHOLD and \
+                (fail_count - FAIL_ALERT_THRESHOLD) % FAIL_ALERT_THRESHOLD == 0:
+            ntfy_publish(
+                "⚠️ 陀螺監看器連續抓取失敗",
+                f"已連續 {fail_count} 次無法讀取 Funbox API。\n"
+                f"最後錯誤：{e}\n可能是端點改版或被擋，請去看一下。",
+                tags=["warning"], priority=4,
+            )
+        else:
+            print(f"未達連續失敗門檻（{FAIL_ALERT_THRESHOLD}），暫不發警告。")
         return
+
+    # 抓取成功：連續失敗計數歸零
+    if fail_count:
+        print(f"抓取成功，連續失敗計數由 {fail_count} 歸零。")
+    meta["consecutive_failures"] = 0
+    meta.pop("last_error", None)
 
     if DEBUG and raw:
         print("=== 第一筆商品原始 JSON（用來核對欄位名）===")
@@ -261,17 +326,18 @@ def main():
             current[p["key"]] = p
 
     if not current:
+        # 連得上但解析不到（欄位可能對不上）：保留舊商品狀態，但仍把失敗計數歸零
+        save_state_with_meta(state, meta)
         print("沒解析到任何商品（欄位可能對不上，用 DEBUG=1 檢查）。")
         return
 
-    state = load_state()
     now = datetime.now(timezone.utc).isoformat()
 
     # 第一次執行：建立基準，不發通知，但仍輸出 feed 讓 app 有東西可顯示
     if not state:
         for p in current.values():
             p["first_seen"] = now
-        save_state(current)
+        save_state_with_meta(current, meta)
         write_feed(current)
         print(f"首次執行：已記錄 {len(current)} 個商品為基準，下次有變動才通知。")
         return
@@ -297,7 +363,7 @@ def main():
     # 不在這次清單裡的舊商品保留原狀態（之後再出現可正確判斷補貨）
     merged = dict(state)
     merged.update(current)
-    save_state(merged)
+    save_state_with_meta(merged, meta)
 
     # 輸出給 app 的清單，標記這次的新上架與補貨
     write_feed(
