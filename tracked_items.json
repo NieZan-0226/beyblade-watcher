@@ -15,6 +15,30 @@
     "in_stock": true,
     "first_seen": "2026-06-05T10:36:58.529447+00:00"
   },
+  "66047422": {
+    "key": "66047422",
+    "title": "BEYBLADE X 戰鬥陀螺 CX-15 邪神狂怒",
+    "url": "https://shop.funbox.com.tw/products/bb09727",
+    "price": 350.0,
+    "in_stock": false,
+    "first_seen": "2026-06-12T06:20:43.834477+00:00"
+  },
+  "66047421": {
+    "key": "66047421",
+    "title": "BEYBLADE X 戰鬥陀螺 CX-14 騎士堡壘",
+    "url": "https://shop.funbox.com.tw/products/bb09726",
+    "price": 495.0,
+    "in_stock": false,
+    "first_seen": "2026-06-12T06:20:43.834477+00:00"
+  },
+  "66047419": {
+    "key": "66047419",
+    "title": "BEYBLADE X 戰鬥陀螺 CX-13 龍王閃擊",
+    "url": "https://shop.funbox.com.tw/products/bb09725",
+    "price": 495.0,
+    "in_stock": false,
+    "first_seen": "2026-06-12T06:20:43.834477+00:00"
+  },
   "__watcher_meta__": {
     "consecutive_failures": 0,
     "last_failure_at": "2026-06-09T19:04:05.581299+00:00"
