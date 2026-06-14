@@ -28,7 +28,7 @@ import requests
 # ============ 設定區（都可用環境變數覆蓋，密碼絕不要寫死在程式裡）============
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh")
 # ⚠️ 換成你自己的隨機字串（越亂越好，等於密碼，知道的人都能看到你的通知）
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "beyblade-x-k7m2qz")
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC") or "beyblade-x-k7m2qz"
 
 API_BASE = "https://shop.funbox.com.tw/category_products/takaratomy/beyblade.json"
 SHOP_BASE = "https://shop.funbox.com.tw"
