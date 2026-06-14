@@ -507,7 +507,7 @@
     const btn=document.getElementById("refresh"); btn.textContent="載入中…";
     await loadWatch();
     try{
-      const r = await fetch("feed.json?_="+Date.now());
+      const r = await fetch("https://raw.githubusercontent.com/AltonShih/beyblade-watcher/main/feed.json?_="+Date.now());
       if(!r.ok) throw new Error("no feed");
       render(await r.json(), false);
     }catch(e){
@@ -875,7 +875,7 @@
     const note=document.getElementById("trend-note");
     if(HIST===null){
       try{
-        const r=await fetch("history.jsonl?_="+Date.now());
+        const r=await fetch("https://raw.githubusercontent.com/AltonShih/beyblade-watcher/main/history.jsonl?_="+Date.now());
         if(!r.ok) throw new Error("no history");
         HIST=parseHistory(await r.text());
       }catch(e){
