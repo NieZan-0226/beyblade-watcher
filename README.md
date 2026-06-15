@@ -71,11 +71,11 @@ crontab -e
 每分鐘執行一次，log 依日期分檔，並刪除超過 24 小時的 log。注意 crontab 裡的 `%` 要寫成 `\%`：
 
 ```cron
-*/1 * * * * cd /home/nspectrum/beyblade-watcher && NTFY_TOPIC=beyblade-x-k7m2qz /usr/bin/python3 beyblade_watcher.py >> watcher-$(date +\%F).log 2>&1
-17 * * * * find /home/nspectrum/beyblade-watcher -name 'watcher-*.log' -mmin +1440 -delete
+*/1 * * * * cd /home/*USER*/beyblade-watcher && NTFY_TOPIC=beyblade-x-k7m2qz /usr/bin/python3 beyblade_watcher.py >> watcher-$(date +\%F).log 2>&1
+17 * * * * find /home/*USER*/beyblade-watcher -name 'watcher-*.log' -mmin +1440 -delete
 ```
 
-請把 `/home/nspectrum/beyblade-watcher` 換成實際 clone 的路徑。
+請把 `/home/*USER*/beyblade-watcher` 換成實際 clone 的路徑。
 
 ### Red Hat / Rocky / AlmaLinux / CentOS
 
@@ -100,11 +100,11 @@ crontab -e
 加入：
 
 ```cron
-*/1 * * * * cd /home/nspectrum/beyblade-watcher && NTFY_TOPIC=beyblade-x-k7m2qz /usr/bin/python3 beyblade_watcher.py >> watcher-$(date +\%F).log 2>&1
-17 * * * * find /home/nspectrum/beyblade-watcher -name 'watcher-*.log' -mmin +1440 -delete
+*/1 * * * * cd /home/*USER*/beyblade-watcher && NTFY_TOPIC=beyblade-x-k7m2qz /usr/bin/python3 beyblade_watcher.py >> watcher-$(date +\%F).log 2>&1
+17 * * * * find /home/*USER*/beyblade-watcher -name 'watcher-*.log' -mmin +1440 -delete
 ```
 
-請把 `/home/nspectrum/beyblade-watcher` 換成實際 clone 的路徑。
+請把 `/home/*USER*/beyblade-watcher` 換成實際 clone 的路徑。
 
 ### Windows
 
@@ -146,7 +146,7 @@ New-Item -ItemType Directory -Force -Path "$PWD\logs"
 如果想沿用單一 `watcher.log`，也可以每天凌晨清空一次：
 
 ```cron
-0 0 * * * : > /home/nspectrum/beyblade-watcher/watcher.log
+0 0 * * * : > /home/*USER*/beyblade-watcher/watcher.log
 ```
 
 ## 部署
