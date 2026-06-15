@@ -7,7 +7,7 @@ Beyblade X 上架 / 補貨偵測器 — 監看 [Funbox](https://shop.funbox.com.
 
 **https://beybladewatcher-tw.netlify.app**
 
-看板資料來自 `feed.json`，由 GitHub Actions 每 15 分鐘自動更新後推回 repo，
+看板資料來自 `feed.json`，由 GitHub Actions 每分鐘自動更新後推回 repo，
 Netlify 偵測到更新即自動重新部署。
 
 ## 運作方式
