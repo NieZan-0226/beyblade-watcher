@@ -22,3 +22,24 @@ Netlify 偵測到更新即自動重新部署。
 
 看板為純靜態網站，Netlify 直接發佈 repo 根目錄、無需 build（見 `netlify.toml`）。
 已連結 GitHub 自動部署：推送到 `main`（含監看器更新 `feed.json`）即自動重新上線。
+
+## VM / crontab
+
+`history.jsonl` 會由程式自動清理，只保留最近 24 小時的資料。若要改保留時間，可設定：
+
+```bash
+HISTORY_RETENTION_HOURS=24
+```
+
+VM 上建議把 log 依日期分檔，再用 `find` 刪掉超過一天的檔案。注意 crontab 裡的 `%` 要寫成 `\%`：
+
+```cron
+*/1 * * * * cd /home/nspectrum/beyblade-watcher && NTFY_TOPIC=beyblade-x-k7m2qz /usr/bin/python3 beyblade_watcher.py >> watcher-$(date +\%F).log 2>&1
+17 * * * * find /home/nspectrum/beyblade-watcher -name 'watcher-*.log' -mmin +1440 -delete
+```
+
+如果想沿用單一 `watcher.log`，也可以每天凌晨清空一次：
+
+```cron
+0 0 * * * : > /home/nspectrum/beyblade-watcher/watcher.log
+```

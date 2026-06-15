@@ -21,7 +21,7 @@ Beyblade X 上架 / 補貨偵測引擎  (Funbox / Cyberbiz)
 import os
 import time
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -36,6 +36,7 @@ STATE_FILE = os.environ.get("STATE_FILE", "tracked_items.json")
 FEED_FILE = os.environ.get("FEED_FILE", "feed.json")  # 給 iOS app 讀的清單
 WATCHLIST_FILE = os.environ.get("WATCHLIST_FILE", "watchlist.json")  # 關注清單關鍵字
 HISTORY_FILE = os.environ.get("HISTORY_FILE", "history.jsonl")  # 歷史紀錄（append 累積）
+HISTORY_RETENTION_HOURS = int(os.environ.get("HISTORY_RETENTION_HOURS", "24"))  # history 只保留最近 N 小時
 
 PAGE_LIMIT = 50          # 每頁筆數
 MAX_PAGES = 10           # 最多翻幾頁（防呆，避免無限迴圈）
@@ -242,7 +243,7 @@ def matched_keyword(title, keywords):
 
 
 def append_history(current, ts):
-    """把這次每個商品的快照以 append 方式寫進 history.jsonl，長期累積不覆蓋。"""
+    """把這次每個商品的快照 append 到 history.jsonl，並保留最近一天。"""
     lines = []
     for p in current.values():
         lines.append(json.dumps({
@@ -255,6 +256,65 @@ def append_history(current, ts):
     if lines:
         with open(HISTORY_FILE, "a", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
+    prune_history(ts)
+
+
+def _parse_history_ts(value):
+    """解析 history.jsonl 裡的 ISO 時間；讀不到就回 None，讓清理流程略過該列。"""
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def prune_history(now_ts):
+    """只保留 HISTORY_RETENTION_HOURS 以內的 history.jsonl 紀錄。"""
+    if HISTORY_RETENTION_HOURS <= 0 or not os.path.exists(HISTORY_FILE):
+        return
+
+    now_dt = _parse_history_ts(now_ts) or datetime.now(timezone.utc)
+    if now_dt.tzinfo is None:
+        now_dt = now_dt.replace(tzinfo=timezone.utc)
+    cutoff = now_dt - timedelta(hours=HISTORY_RETENTION_HOURS)
+
+    tmp_file = f"{HISTORY_FILE}.tmp"
+    kept = 0
+    removed = 0
+
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as src, \
+                open(tmp_file, "w", encoding="utf-8") as dst:
+            for line in src:
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError:
+                    removed += 1
+                    continue
+
+                row_ts = _parse_history_ts(row.get("ts"))
+                if row_ts is None:
+                    removed += 1
+                    continue
+                if row_ts.tzinfo is None:
+                    row_ts = row_ts.replace(tzinfo=timezone.utc)
+
+                if row_ts >= cutoff:
+                    dst.write(json.dumps(row, ensure_ascii=False) + "\n")
+                    kept += 1
+                else:
+                    removed += 1
+        os.replace(tmp_file, HISTORY_FILE)
+        if removed:
+            print(f"已清理 history：保留 {kept} 筆，移除 {removed} 筆超過 {HISTORY_RETENTION_HOURS} 小時的紀錄。")
+    except OSError as e:
+        print(f"清理 history 失敗：{e}")
+        try:
+            if os.path.exists(tmp_file):
+                os.remove(tmp_file)
+        except OSError:
+            pass
 
 
 def write_feed(current, new_keys=(), restock_keys=()):
