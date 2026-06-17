@@ -1,17 +1,8 @@
 {
-  "updated_at": "2026-06-17T06:51:25.415181+00:00",
+  "updated_at": "2026-06-17T11:50:41.103021+00:00",
   "source": "Funbox",
   "count": 3,
   "products": [
-    {
-      "id": "68051695",
-      "title": "【預購APP兌換限定】戰鬥陀螺 UX-00 空力天馬 3-70A 紅色版",
-      "url": "https://shop.funbox.com.tw/products/bbpr09652",
-      "price": 999999.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-06-17T06:51:25.332543+00:00"
-    },
     {
       "id": "57883050",
       "title": "【先行預購】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -29,6 +20,15 @@
       "in_stock": true,
       "status": "normal",
       "first_seen": "2026-06-05T10:36:58.529447+00:00"
+    },
+    {
+      "id": "68051695",
+      "title": "【預購APP兌換限定】戰鬥陀螺 UX-00 空力天馬 3-70A 紅色版",
+      "url": "https://shop.funbox.com.tw/products/bbpr09652",
+      "price": 999999.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-06-17T06:51:25.332543+00:00"
     }
   ]
 }
