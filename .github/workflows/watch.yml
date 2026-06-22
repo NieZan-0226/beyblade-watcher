@@ -1,9 +1,9 @@
-name: Beyblade Watcher
+name: TheWatcher
 
 on:
   schedule:
-    - cron: '5,20,35,50 * * * *'   # 每 15 分鐘，偏移 5 分避開整點
-  workflow_dispatch:                 # 手動觸發
+    - cron: '5,20,35,50 * * * *'
+  workflow_dispatch:
     inputs:
       test_notify:
         description: '發送測試通知到手機'
@@ -11,12 +11,11 @@ on:
         default: false
 
 permissions:
-  contents: write                    # 允許 commit 回寫狀態檔
+  contents: write
 
 jobs:
   watch:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -29,10 +28,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run watcher
+      - name: Run both watchers
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python beyblade_watcher.py
+        run: python the_watcher.py
 
       - name: Send test notification
         if: ${{ inputs.test_notify == true }}
@@ -42,7 +41,7 @@ jobs:
           python - <<'EOF'
           import os, requests, json
           topic = os.environ["NTFY_TOPIC"]
-          payload = {"topic": topic, "title": "測試通知", "message": "GitHub Actions 連線正常！", "priority": 4, "tags": ["white_check_mark"]}
+          payload = {"topic": topic, "title": "TheWatcher 測試通知", "message": "Funbox + 玩具反斗城整合監控排程正常！", "priority": 4, "tags": ["white_check_mark"]}
           r = requests.post("https://ntfy.sh", data=json.dumps(payload).encode(), timeout=10)
           print(f"ntfy HTTP {r.status_code}")
           EOF
@@ -51,6 +50,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add tracked_items.json feed.json history.jsonl
+          git add funbox_tracked_items.json toysrus_tracked_items.json funbox_feed.json toysrus_feed.json feed.json funbox_history.jsonl toysrus_history.jsonl history.jsonl
           git diff --staged --quiet && echo "No changes to commit" || \
-            git commit -m "chore: update state [skip ci]" && git push
+            git commit -m "chore: update combined state [skip ci]" && git push
