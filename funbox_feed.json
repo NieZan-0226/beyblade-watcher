@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T04:53:27.621968+00:00",
+  "updated_at": "2026-06-28T08:22:24.789415+00:00",
   "source": "Funbox",
   "count": 2,
   "products": [
@@ -17,7 +17,7 @@
       "title": "【先行預購】APP兌換 戰鬥陀螺 BXG-17 限定軸心組 黑金版",
       "url": "https://shop.funbox.com.tw/products/bbpr94986",
       "price": 999999.0,
-      "in_stock": true,
+      "in_stock": false,
       "status": "normal",
       "first_seen": "2026-06-05T10:36:58.529447+00:00"
     }
