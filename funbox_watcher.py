@@ -489,8 +489,8 @@ def send_starred(p, kind, kw):
     price = f"NT${int(p['price'])}" if p["price"] else ""
     stock = "（有貨）" if p["in_stock"] else "（目前缺貨）"
     ntfy_publish(
-        f"[Funbox] 🔔關注 {kind}：{p['title']}",
-        f"命中關鍵字「{kw}」\n{price} {stock}\n點我查看",
+        f"[Funbox] 🔔 關注{kind}",
+        f"{p['title']}\n命中關鍵字「{kw}」\n{price} {stock}\n點我查看",
         tags=["bell", "star"], priority=5, click=p["url"],
     )
 
@@ -532,8 +532,14 @@ def send_notifications(new_items, restocks, price_drops, keywords=()):
         lines = []
         if new_items:
             lines.append(f"🆕 新上架 {len(new_items)} 項")
+            lines.extend(f"- {p['title']}" for p in new_items[:5])
+            if len(new_items) > 5:
+                lines.append(f"...還有 {len(new_items) - 5} 項新上架")
         if restocks:
             lines.append(f"🔁 補貨 {len(restocks)} 項")
+            lines.extend(f"- {p['title']}" for p in restocks[:5])
+            if len(restocks) > 5:
+                lines.append(f"...還有 {len(restocks) - 5} 項補貨")
         if price_drops:
             lines.append(f"📉 降價 {len(price_drops)} 項")
         ntfy_publish("[Funbox] 陀螺大量異動",
@@ -544,19 +550,19 @@ def send_notifications(new_items, restocks, price_drops, keywords=()):
     # 補貨最重要（最高優先），逐項推播並附直達連結
     for p in restocks:
         price = f"NT${int(p['price'])}" if p["price"] else ""
-        ntfy_publish(f"[Funbox] 🔁 補貨！{p['title']}", f"{price}\n點我直接前往購買",
+        ntfy_publish(f"[Funbox] 🔁 補貨", f"{p['title']}\n{price}\n點我直接前往購買",
                      tags=["rotating_light"], priority=5, click=p["url"])
 
     for p in new_items:
         price = f"NT${int(p['price'])}" if p["price"] else ""
         stock = "（有貨）" if p["in_stock"] else "（目前缺貨）"
-        ntfy_publish(f"[Funbox] 🆕 新上架：{p['title']}", f"{price} {stock}\n點我查看",
+        ntfy_publish(f"[Funbox] 🆕 新上架", f"{p['title']}\n{price} {stock}\n點我查看",
                      tags=["sparkles"], priority=4, click=p["url"])
 
     for p, old_price in price_drops:
         ntfy_publish(
-            f"[Funbox] 📉 降價：{p['title']}",
-            f"NT${int(old_price)} → NT${int(p['price'])}\n點我查看",
+            "[Funbox] 📉 降價",
+            f"{p['title']}\nNT${int(old_price)} → NT${int(p['price'])}\n點我查看",
             tags=["chart_with_downwards_trend"], priority=3, click=p["url"])
 
 

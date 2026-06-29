@@ -26,9 +26,11 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
 
-      - name: Run both watchers
+      - name: Run all watchers
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python the_watcher.py
@@ -41,7 +43,7 @@ jobs:
           python - <<'EOF'
           import os, requests, json
           topic = os.environ["NTFY_TOPIC"]
-          payload = {"topic": topic, "title": "TheWatcher 測試通知", "message": "Funbox + 玩具反斗城整合監控排程正常！", "priority": 4, "tags": ["white_check_mark"]}
+          payload = {"topic": topic, "title": "TheWatcher 測試通知", "message": "Funbox + 玩具反斗城 + M.M小舖整合監控排程正常！", "priority": 4, "tags": ["white_check_mark"]}
           r = requests.post("https://ntfy.sh", data=json.dumps(payload).encode(), timeout=10)
           print(f"ntfy HTTP {r.status_code}")
           EOF
@@ -50,6 +52,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add funbox_tracked_items.json toysrus_tracked_items.json funbox_feed.json toysrus_feed.json feed.json funbox_history.jsonl toysrus_history.jsonl history.jsonl
+          git add funbox_tracked_items.json toysrus_tracked_items.json mmtoyshop_tracked_items.json funbox_feed.json toysrus_feed.json mmtoyshop_feed.json feed.json funbox_history.jsonl toysrus_history.jsonl mmtoyshop_history.jsonl history.jsonl
           git diff --staged --quiet && echo "No changes to commit" || \
             git commit -m "chore: update combined state [skip ci]" && git push

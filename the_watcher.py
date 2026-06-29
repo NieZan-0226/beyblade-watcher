@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""一次執行 Funbox 與 Toys\"R\"Us Beyblade 監控器，並合併看板資料。"""
+"""一次執行 Funbox、Toys"R"Us 與 M.M小舖 Beyblade 監控器，並合併看板資料。"""
 
 import json
 import os
@@ -31,6 +31,15 @@ WATCHERS = (
         "feed": "toysrus_feed.json",
         "history": "toysrus_history.jsonl",
         "topic_env": "TOYSRUS_NTFY_TOPIC",
+    },
+    {
+        "key": "mmtoyshop",
+        "name": "M.M小舖",
+        "script": "mmtoyshop_watcher.py",
+        "state": "mmtoyshop_tracked_items.json",
+        "feed": "mmtoyshop_feed.json",
+        "history": "mmtoyshop_history.jsonl",
+        "topic_env": "MMTOYSHOP_NTFY_TOPIC",
     },
 )
 
@@ -90,7 +99,7 @@ def merge_feeds():
     ))
     combined = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "Funbox + Toys\"R\"Us Taiwan",
+        "source": "Funbox + Toys\"R\"Us Taiwan + M.M小舖",
         "count": len(products),
         "products": products,
     }
