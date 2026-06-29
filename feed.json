@@ -1,19 +1,8 @@
 {
-  "updated_at": "2026-06-29T22:41:35.811840+00:00",
+  "updated_at": "2026-06-29T23:42:30.096885+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + M.M小舖",
   "count": 32,
   "products": [
-    {
-      "id": "funbox:50580835",
-      "title": "【先行預購】APP兌換 戰鬥陀螺 BXG-17 限定軸心組 黑金版",
-      "url": "https://shop.funbox.com.tw/products/bbpr94986",
-      "price": 999999.0,
-      "in_stock": true,
-      "status": "restock",
-      "first_seen": "2026-06-05T10:36:58.529447+00:00",
-      "source_id": "50580835",
-      "source": "Funbox"
-    },
     {
       "id": "funbox:57883050",
       "title": "【先行預購】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -23,6 +12,17 @@
       "status": "normal",
       "first_seen": "2026-06-05T10:36:58.529447+00:00",
       "source_id": "57883050",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:50580835",
+      "title": "【先行預購】APP兌換 戰鬥陀螺 BXG-17 限定軸心組 黑金版",
+      "url": "https://shop.funbox.com.tw/products/bbpr94986",
+      "price": 999999.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-06-05T10:36:58.529447+00:00",
+      "source_id": "50580835",
       "source": "Funbox"
     },
     {
