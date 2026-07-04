@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T18:42:17.376271+00:00",
+  "updated_at": "2026-07-04T19:56:23.350240+00:00",
   "source": "Toys\"R\"Us Taiwan",
   "count": 6,
   "products": [
@@ -13,19 +13,19 @@
       "first_seen": "2026-06-22T06:32:24.270953+00:00"
     },
     {
-      "id": "10008186",
-      "title": "Beyblade戰鬥陀螺 BX-17 極限衝擊對戰組",
-      "url": "https://www.toysrus.com.tw/zh-tw/beyblade%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BA-bx-17-%E6%A5%B5%E9%99%90%E8%A1%9D%E6%93%8A%E5%B0%8D%E6%88%B0%E7%B5%84-10008186.html",
-      "price": 1599.0,
+      "id": "10008185",
+      "title": "Beyblade戰鬥陀螺 BX-15 雄獅獵爪",
+      "url": "https://www.toysrus.com.tw/zh-tw/beyblade%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BA-bx-15-%E9%9B%84%E7%8D%85%E7%8D%B5%E7%88%AA-10008185.html",
+      "price": 389.0,
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-06-22T06:32:24.270953+00:00"
     },
     {
-      "id": "10008185",
-      "title": "Beyblade戰鬥陀螺 BX-15 雄獅獵爪",
-      "url": "https://www.toysrus.com.tw/zh-tw/beyblade%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BA-bx-15-%E9%9B%84%E7%8D%85%E7%8D%B5%E7%88%AA-10008185.html",
-      "price": 389.0,
+      "id": "10008186",
+      "title": "Beyblade戰鬥陀螺 BX-17 極限衝擊對戰組",
+      "url": "https://www.toysrus.com.tw/zh-tw/beyblade%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BA-bx-17-%E6%A5%B5%E9%99%90%E8%A1%9D%E6%93%8A%E5%B0%8D%E6%88%B0%E7%B5%84-10008186.html",
+      "price": 1599.0,
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-06-22T06:32:24.270953+00:00"
