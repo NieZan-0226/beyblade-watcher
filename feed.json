@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T03:45:27.136422+00:00",
-  "source": "Funbox + Toys\"R\"Us Taiwan + M.M小舖",
-  "count": 32,
+  "updated_at": "2026-07-08T06:16:49.212930+00:00",
+  "source": "Funbox + Toys\"R\"Us Taiwan + M.M小舖 + 誠品線上",
+  "count": 33,
   "products": [
     {
       "id": "funbox:57883050",
@@ -378,6 +378,18 @@
       "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
       "source_id": "Shopee6a3bdd1861f83",
       "source": "M.M小舖"
+    },
+    {
+      "id": "eslite:10042014802683132117006",
+      "title": "BEYBLADE X戰鬥陀螺/ UX-14/ 天蠍長矛0-70Z",
+      "url": "https://www.eslite.com/product/10042014802683132117006",
+      "price": null,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-07-08T06:16:49.177491+00:00",
+      "image": "https://s2.eslite.com/unsafe/s.eslite.com/b2b/newItem/2026/04/24/1940_114736419_603_mainCoverImage1.jpg",
+      "source_id": "10042014802683132117006",
+      "source": "誠品線上"
     }
   ]
 }
