@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""一次執行 Funbox、Toys"R"Us、M.M小舖與誠品線上 Beyblade 監控器，並合併看板資料。"""
+"""一次執行 Funbox、Toys"R"Us、M.M小舖、誠品線上與森森 Beyblade 監控器，並合併看板資料。"""
 
 import json
 import os
@@ -49,6 +49,15 @@ WATCHERS = (
         "feed": "eslite_feed.json",
         "history": "eslite_history.jsonl",
         "topic_env": "ESLITE_NTFY_TOPIC",
+    },
+    {
+        "key": "sensen",
+        "name": "森森文具玩具",
+        "script": "sensen_watcher.py",
+        "state": "sensen_tracked_items.json",
+        "feed": "sensen_feed.json",
+        "history": "sensen_history.jsonl",
+        "topic_env": "SENSEN_NTFY_TOPIC",
     },
 )
 
@@ -108,7 +117,7 @@ def merge_feeds():
     ))
     combined = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "Funbox + Toys\"R\"Us Taiwan + M.M小舖 + 誠品線上",
+        "source": "Funbox + Toys\"R\"Us Taiwan + M.M小舖 + 誠品線上 + 森森文具玩具",
         "count": len(products),
         "products": products,
     }
