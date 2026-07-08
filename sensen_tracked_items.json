@@ -1,5 +1,7 @@
 {
   "__meta__": {
-    "consecutive_failures": 0
+    "consecutive_failures": 1,
+    "last_failure_at": "2026-07-08T10:51:55.629846+00:00",
+    "last_error": "HTTPSConnectionPool(host='www.sen-sen.com.tw', port=443): Max retries exceeded with url: /collections/%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BAx.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sen-sen.com.tw', port=443) at 0x7fd7cfe8a8a0>, 'Connection to www.sen-sen.com.tw timed out. (connect timeout=25)'))"
   }
 }
