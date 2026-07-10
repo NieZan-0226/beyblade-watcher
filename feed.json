@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-07-10T15:40:54.472867+00:00",
+  "updated_at": "2026-07-10T17:37:59.493417+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + M.M小舖 + 誠品線上 + 森森文具玩具",
   "count": 58,
   "products": [
+    {
+      "id": "sensen:x-hangar-y35-battle-outing-box",
+      "title": "【限時3天送CX-18】X-HANGAR Y-35 戰鬥外出箱｜陀螺對戰盤與收納展示櫃（6色可選）",
+      "url": "https://www.sen-sen.com.tw/products/x-hangar-y35-battle-outing-box",
+      "price": 3099.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-07-10T17:37:59.039342+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY5NDU5MDc1LzE3ODM2OTg4MTFfNmEwZGM4ODU1OTc4NjFjZjQ1NGEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=8efdf8f7d3a4c8b6",
+      "source_id": "x-hangar-y35-battle-outing-box",
+      "source": "森森文具玩具"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -473,18 +485,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNTIxNjA3LzE3NjAyNjk1OTBfYzIxNWQ4Njk0ZjRiYzgwNTY4MmMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=a1bd284e5574149f",
       "source_id": "beyblade-x-戰鬥陀螺x-bxg-15烈焰飛鳳s-闇黑ver",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-bxg-34曼達洛人星區長吉迪恩",
-      "title": "BEYBLADE X 戰鬥陀螺X BXG-34曼達洛人/星區長吉迪恩",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bxg-34曼達洛人星區長吉迪恩",
-      "price": 699.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU1MDQyNjQyLzE3NDQ5Nzg2NzJfZjVlOTA1YzJmZmVjYzRkNGFjYmYuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=64ae73bb2ac76400",
-      "source_id": "beyblade-x-戰鬥陀螺x-bxg-34曼達洛人星區長吉迪恩",
       "source": "森森文具玩具"
     },
     {
