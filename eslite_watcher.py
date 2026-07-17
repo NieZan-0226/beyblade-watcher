@@ -18,6 +18,7 @@ EXHIBITION_URL = os.environ.get(
     "ESLITE_EXHIBITION_URL",
     "https://www.eslite.com/exhibitions/CU202503-00091",
 )
+NTFY_CLICK_URL = os.environ.get("ESLITE_NTFY_CLICK_URL", "https://reurl.cc/xWdQOe")
 SOURCE_NAME = "誠品線上"
 
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh")
@@ -284,22 +285,27 @@ def write_feed(current, new_keys=(), restock_keys=()):
         }, f, ensure_ascii=False, indent=2)
 
 
+def ntfy_topics():
+    return [topic.strip() for topic in str(NTFY_TOPIC).split(",") if topic.strip()]
+
+
 def ntfy_publish(title, message, tags=None, priority=3, click=None):
-    payload = {
-        "topic": NTFY_TOPIC,
-        "title": title,
-        "message": message,
-        "priority": priority,
-        "tags": tags or [],
-    }
-    if click:
-        payload["click"] = click
-    try:
-        resp = requests.post(NTFY_SERVER, data=json.dumps(payload).encode("utf-8"), timeout=10)
-        if resp.status_code >= 300:
-            print(f"ntfy 回應異常：{resp.status_code} {resp.text[:200]}")
-    except Exception as e:
-        print(f"發送 ntfy 通知失敗：{e}")
+    for topic in ntfy_topics():
+        payload = {
+            "topic": topic,
+            "title": title,
+            "message": message,
+            "priority": priority,
+            "tags": tags or [],
+        }
+        if click:
+            payload["click"] = click
+        try:
+            resp = requests.post(NTFY_SERVER, data=json.dumps(payload).encode("utf-8"), timeout=10)
+            if resp.status_code >= 300:
+                print(f"ntfy topic {topic} 回應異常：{resp.status_code} {resp.text[:200]}")
+        except Exception as e:
+            print(f"發送 ntfy topic {topic} 通知失敗：{e}")
 
 
 def price_text(p):
@@ -322,7 +328,7 @@ def send_starred(p, kind, kw):
         event_message(p, kind, f"命中「{kw}」"),
         tags=["bell", "star"],
         priority=5,
-        click=p["url"],
+        click=NTFY_CLICK_URL,
     )
 
 
@@ -334,7 +340,7 @@ def notify_delisted(delisted):
             f"{title}\n已從誠品線上 BEYBLADE 策展頁消失。",
             tags=["arrow_down"],
             priority=2,
-            click=p.get("url"),
+            click=NTFY_CLICK_URL,
         )
 
 
@@ -371,20 +377,20 @@ def send_notifications(new_items, restocks, price_drops, keywords=()):
         lines += summarize("🆕 新上架", new_items)
         if price_drops:
             lines.append(f"📉 降價 {len(price_drops)} 項")
-        ntfy_publish(f"[{SOURCE_NAME}] 陀螺大量異動", "\n".join(lines), tags=["bell"], priority=4)
+        ntfy_publish(f"[{SOURCE_NAME}] 陀螺大量異動", "\n".join(lines), tags=["bell"], priority=4, click=NTFY_CLICK_URL)
         return
 
     for p in restocks:
-        ntfy_publish(f"[{SOURCE_NAME}] 🔁 補貨", event_message(p, "補貨"), tags=["rotating_light"], priority=5, click=p["url"])
+        ntfy_publish(f"[{SOURCE_NAME}] 🔁 補貨", event_message(p, "補貨"), tags=["rotating_light"], priority=5, click=NTFY_CLICK_URL)
     for p in new_items:
-        ntfy_publish(f"[{SOURCE_NAME}] 🆕 新上架", event_message(p, "新上架"), tags=["sparkles"], priority=4, click=p["url"])
+        ntfy_publish(f"[{SOURCE_NAME}] 🆕 新上架", event_message(p, "新上架"), tags=["sparkles"], priority=4, click=NTFY_CLICK_URL)
     for p, old_price in price_drops:
         ntfy_publish(
             f"[{SOURCE_NAME}] 📉 降價",
             event_message(p, "降價", f"NT${int(old_price)} → NT${int(p['price'])}"),
             tags=["chart_with_downwards_trend"],
             priority=3,
-            click=p["url"],
+            click=NTFY_CLICK_URL,
         )
 
 
@@ -408,6 +414,7 @@ def main():
                 f"已連續 {fail_count} 次無法讀取誠品線上策展頁。\n最後錯誤：{e}",
                 tags=["warning"],
                 priority=4,
+                click=NTFY_CLICK_URL,
             )
         return
 

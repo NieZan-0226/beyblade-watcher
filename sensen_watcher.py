@@ -234,22 +234,27 @@ def write_feed(current, new_keys=(), restock_keys=()):
         }, f, ensure_ascii=False, indent=2)
 
 
+def ntfy_topics():
+    return [topic.strip() for topic in str(NTFY_TOPIC).split(",") if topic.strip()]
+
+
 def ntfy_publish(title, message, tags=None, priority=3, click=None):
-    payload = {
-        "topic": NTFY_TOPIC,
-        "title": title,
-        "message": message,
-        "priority": priority,
-        "tags": tags or [],
-    }
-    if click:
-        payload["click"] = click
-    try:
-        resp = requests.post(NTFY_SERVER, data=json.dumps(payload).encode("utf-8"), timeout=10)
-        if resp.status_code >= 300:
-            print(f"ntfy 回應異常：{resp.status_code} {resp.text[:200]}")
-    except Exception as e:
-        print(f"發送 ntfy 通知失敗：{e}")
+    for topic in ntfy_topics():
+        payload = {
+            "topic": topic,
+            "title": title,
+            "message": message,
+            "priority": priority,
+            "tags": tags or [],
+        }
+        if click:
+            payload["click"] = click
+        try:
+            resp = requests.post(NTFY_SERVER, data=json.dumps(payload).encode("utf-8"), timeout=10)
+            if resp.status_code >= 300:
+                print(f"ntfy topic {topic} 回應異常：{resp.status_code} {resp.text[:200]}")
+        except Exception as e:
+            print(f"發送 ntfy topic {topic} 通知失敗：{e}")
 
 
 def price_text(p):

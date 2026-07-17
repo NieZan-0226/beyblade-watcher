@@ -110,6 +110,12 @@ $env:SENSEN_NTFY_TOPIC = "sensen-topic"
 py .\the_watcher.py
 ```
 
+也可以讓同一個來源同時發送到多個 topic，使用逗號分隔即可。例如 Funbox 同時發到共用頻道與 Funbox 專用頻道：
+
+```bash
+NTFY_TOPIC="beyblade-x-k7m2qz" FUNBOX_NTFY_TOPIC="funbox-beyblade-x-k9m4p7q2,beyblade-x-k7m2qz" python3 the_watcher.py
+```
+
 ### Debug 模式
 
 如果網站改版導致解析異常，可開啟 Debug：
@@ -249,6 +255,7 @@ New-Item -ItemType Directory -Force -Path "$PWD\logs"
 - `NTFY_SERVER`：ntfy 伺服器，預設為 `https://ntfy.sh`
 - `MMTOYSHOP_CATEGORY_URL`：M.M小舖分類網址，預設為戰鬥陀螺分類
 - `ESLITE_EXHIBITION_URL`：誠品線上策展頁網址，預設為 BEYBLADE X 策展頁
+- `ESLITE_NTFY_CLICK_URL`：誠品線上 ntfy 通知點擊後開啟的網址，預設 `https://reurl.cc/xWdQOe`
 - `SENSEN_COLLECTION_API`：森森文具玩具分類 JSON API，預設為戰鬥陀螺X 分類
 - `NOTIFY_PRICE_DROP`：是否發送降價通知，`1` 為開啟，`0` 為關閉
 - `HISTORY_RETENTION_HOURS`：歷史保留小時數，預設 `24`
