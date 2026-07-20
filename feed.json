@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T10:31:05.016121+00:00",
-  "source": "Funbox + Toys\"R\"Us Taiwan + M.M小舖 + 誠品線上 + 森森文具玩具",
-  "count": 42,
+  "updated_at": "2026-07-20T12:32:53.202805+00:00",
+  "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具",
+  "count": 34,
   "products": [
     {
       "id": "funbox:57883050",
@@ -90,102 +90,6 @@
       "first_seen": "2026-06-22T06:32:24.270953+00:00",
       "source_id": "1175417",
       "source": "玩具反斗城"
-    },
-    {
-      "id": "mmtoyshop:Shopee6a3c8cff24b1b",
-      "title": "【M.M小舖】『預購』 9月 TAKARA TOMY 戰鬥陀螺 BX-00 堅甲戰龜S 戰鬥 對戰 復古 熱血",
-      "url": "https://mmtoyshop.com/item/Shopee6a3c8cff24b1b",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-29T06:51:37.138653+00:00",
-      "image": "https://image.bvshop.tw/6353/product/6353_6a3c8cffde2d0.jpeg",
-      "source_id": "Shopee6a3c8cff24b1b",
-      "source": "M.M小舖"
-    },
-    {
-      "id": "mmtoyshop:Shopee6a3c8d57cb46d",
-      "title": "【M.M小舖】『預購』 9月 TAKARA TOMY 戰鬥陀螺 BX-02 惡魔紅鐮4-60T 戰鬥 對戰 復古 熱血",
-      "url": "https://mmtoyshop.com/item/Shopee6a3c8d57cb46d",
-      "price": 395.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-29T06:51:37.138653+00:00",
-      "image": "https://image.bvshop.tw/6353/product/6353_6a3c8d58585f8.jpeg",
-      "source_id": "Shopee6a3c8d57cb46d",
-      "source": "M.M小舖"
-    },
-    {
-      "id": "mmtoyshop:Shopee6a3c8c31f1c9a",
-      "title": "【M.M小舖】『預購』 9月 TAKARA TOMY 戰鬥陀螺 BX-03 魔導幻箭4-80B 戰鬥 對戰 復古 熱血",
-      "url": "https://mmtoyshop.com/item/Shopee6a3c8c31f1c9a",
-      "price": 395.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-29T06:51:37.138653+00:00",
-      "image": "https://image.bvshop.tw/6353/product/6353_6a3c8c32af62b.jpeg",
-      "source_id": "Shopee6a3c8c31f1c9a",
-      "source": "M.M小舖"
-    },
-    {
-      "id": "mmtoyshop:Shopee6a3bdfefada1e",
-      "title": "【M.M小舖】『預購』 9月 TAKARA TOMY 戰鬥陀螺 BX-25 戰鬥陀螺X專業收納包 戰鬥 對戰 復古 熱血",
-      "url": "https://mmtoyshop.com/item/Shopee6a3bdfefada1e",
-      "price": 850.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-29T06:51:37.138653+00:00",
-      "image": "https://image.bvshop.tw/6353/product/6353_6a3bdff025eb1.jpeg",
-      "source_id": "Shopee6a3bdfefada1e",
-      "source": "M.M小舖"
-    },
-    {
-      "id": "mmtoyshop:Shopee6a3c8cb2e60e9",
-      "title": "【M.M小舖】『預購』 9月 TAKARA TOMY 戰鬥陀螺 BX-36 巨鯨怒濤 隨機強化組 戰鬥 對戰 復古 熱血",
-      "url": "https://mmtoyshop.com/item/Shopee6a3c8cb2e60e9",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-29T06:51:37.138653+00:00",
-      "image": "https://image.bvshop.tw/6353/product/6353_6a3c8cb3bafb8.jpeg",
-      "source_id": "Shopee6a3c8cb2e60e9",
-      "source": "M.M小舖"
-    },
-    {
-      "id": "mmtoyshop:Shopee6a3c8db1ac533",
-      "title": "【M.M小舖】『預購』 9月 TAKARA TOMY 戰鬥陀螺 BX-46 無限衝擊對戰組 戰鬥 對戰 復古 熱血",
-      "url": "https://mmtoyshop.com/item/Shopee6a3c8db1ac533",
-      "price": 2500.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-29T06:51:37.138653+00:00",
-      "image": "https://image.bvshop.tw/6353/product/6353_6a3c8db261508.jpeg",
-      "source_id": "Shopee6a3c8db1ac533",
-      "source": "M.M小舖"
-    },
-    {
-      "id": "mmtoyshop:Shopee6a3c8c4605cf2",
-      "title": "【M.M小舖】『預購』 9月 TAKARA TOMY 戰鬥陀螺 BX-49 蒼龍突擊 戰鬥 對戰 復古 熱血",
-      "url": "https://mmtoyshop.com/item/Shopee6a3c8c4605cf2",
-      "price": 470.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-29T06:51:37.138653+00:00",
-      "image": "https://image.bvshop.tw/6353/product/6353_6a3c8c4685dae.jpeg",
-      "source_id": "Shopee6a3c8c4605cf2",
-      "source": "M.M小舖"
-    },
-    {
-      "id": "mmtoyshop:Shopee6a3c8d32c819b",
-      "title": "【M.M小舖】『預購』 9月 TAKARA TOMY 戰鬥陀螺 UX-12 隨機強化組Vol.05 戰鬥 對戰 復古 熱",
-      "url": "https://mmtoyshop.com/item/Shopee6a3c8d32c819b",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-29T06:51:37.138653+00:00",
-      "image": "https://image.bvshop.tw/6353/product/6353_6a3c8d334213e.jpeg",
-      "source_id": "Shopee6a3c8d32c819b",
-      "source": "M.M小舖"
     },
     {
       "id": "eslite:10042014802683132117006",
