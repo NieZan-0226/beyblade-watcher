@@ -124,6 +124,30 @@ NTFY_TOPIC="beyblade-x-k7m2qz" FUNBOX_NTFY_TOPIC="funbox-beyblade-x-k9m4p7q2,bey
 DEBUG=1 NTFY_TOPIC="你的-topic" python3 the_watcher.py
 ```
 
+## Discord Webhook 通知
+
+如果你想讓電腦 Discord 也跳通知，可以在 Discord 頻道建立 Webhook，然後執行時設定 `DISCORD_WEBHOOK_URL`。未設定時會照舊只發 ntfy。
+
+Linux / macOS：
+
+```bash
+DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/xxx/yyy" NTFY_TOPIC="你的-topic" python3 the_watcher.py
+```
+
+搭配 Funbox 同時傳兩個 ntfy topic：
+
+```bash
+DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/xxx/yyy" NTFY_TOPIC="beyblade-x-k7m2qz" FUNBOX_NTFY_TOPIC="funbox-beyblade-x-k9m4p7q2,beyblade-x-k7m2qz" python3 the_watcher.py
+```
+
+cron 範例：
+
+```cron
+*/1 * * * * cd /home/clmadmin/beyblade-watcher && DISCORD_WEBHOOK_URL="你的-discord-webhook-url" NTFY_TOPIC=beyblade-x-k7m2qz FUNBOX_NTFY_TOPIC="funbox-beyblade-x-k9m4p7q2,beyblade-x-k7m2qz" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
+```
+
+Webhook URL 等同於發送權限，請不要公開貼到 GitHub 或聊天室。
+
 ## 關注清單
 
 編輯 `watchlist.json`，放入想特別關注的商品關鍵字：
@@ -156,6 +180,11 @@ schedule:
 5. Secret 填入手機 ntfy App 訂閱的 topic。
 
 請務必設定 `NTFY_TOPIC`，不要把私人 topic 直接寫進程式或 workflow。
+
+如果要 GitHub Actions 也發 Discord，另外新增 Secret：
+
+- Name：`DISCORD_WEBHOOK_URL`
+- Secret：你的 Discord Webhook URL
 
 ### 手動測試 Actions
 
@@ -252,6 +281,8 @@ New-Item -ItemType Directory -Force -Path "$PWD\logs"
 - `MMTOYSHOP_NTFY_TOPIC`：僅 M.M小舖使用的 topic，會覆蓋 `NTFY_TOPIC`
 - `ESLITE_NTFY_TOPIC`：僅誠品線上使用的 topic，會覆蓋 `NTFY_TOPIC`
 - `SENSEN_NTFY_TOPIC`：僅森森文具玩具使用的 topic，會覆蓋 `NTFY_TOPIC`
+- `DISCORD_WEBHOOK_URL`：Discord Webhook URL；未設定時不發 Discord
+- `DISCORD_USERNAME`：Discord Webhook 顯示名稱，預設 `TheWatcher`
 - `NTFY_SERVER`：ntfy 伺服器，預設為 `https://ntfy.sh`
 - `MMTOYSHOP_CATEGORY_URL`：M.M小舖分類網址，預設為戰鬥陀螺分類
 - `ESLITE_EXHIBITION_URL`：誠品線上策展頁網址，預設為 BEYBLADE X 策展頁

@@ -23,6 +23,8 @@ SOURCE_NAME = "誠品線上"
 
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh")
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC") or "eslite-beyblade-k7m2qz"
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+DISCORD_USERNAME = os.environ.get("DISCORD_USERNAME", "TheWatcher")
 STATE_FILE = os.environ.get("STATE_FILE", "eslite_tracked_items.json")
 FEED_FILE = os.environ.get("FEED_FILE", "eslite_feed.json")
 HISTORY_FILE = os.environ.get("HISTORY_FILE", "eslite_history.jsonl")
@@ -289,6 +291,33 @@ def ntfy_topics():
     return [topic.strip() for topic in str(NTFY_TOPIC).split(",") if topic.strip()]
 
 
+def discord_publish(title, message, click=None):
+    if not DISCORD_WEBHOOK_URL:
+        return
+    content = f"{title}\n{message}"
+    if len(content) > 1900:
+        content = content[:1897] + "..."
+    embed = {
+        "title": str(title)[:256],
+        "description": str(message)[:4000],
+        "color": 0x2F80ED,
+    }
+    if click:
+        embed["url"] = click
+    payload = {
+        "username": DISCORD_USERNAME,
+        "content": content,
+        "embeds": [embed],
+        "allowed_mentions": {"parse": []},
+    }
+    try:
+        resp = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=10)
+        if resp.status_code >= 300:
+            print(f"Discord webhook 回應異常：{resp.status_code} {resp.text[:200]}")
+    except Exception as e:
+        print(f"發送 Discord webhook 失敗：{e}")
+
+
 def ntfy_publish(title, message, tags=None, priority=3, click=None):
     for topic in ntfy_topics():
         payload = {
@@ -306,6 +335,7 @@ def ntfy_publish(title, message, tags=None, priority=3, click=None):
                 print(f"ntfy topic {topic} 回應異常：{resp.status_code} {resp.text[:200]}")
         except Exception as e:
             print(f"發送 ntfy topic {topic} 通知失敗：{e}")
+    discord_publish(title, message, click)
 
 
 def price_text(p):

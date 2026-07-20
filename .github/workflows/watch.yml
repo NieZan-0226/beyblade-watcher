@@ -33,6 +33,7 @@ jobs:
       - name: Run all watchers
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python the_watcher.py
 
       - name: Send test notification
