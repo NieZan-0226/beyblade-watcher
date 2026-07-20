@@ -128,22 +128,30 @@ DEBUG=1 NTFY_TOPIC="你的-topic" python3 the_watcher.py
 
 如果你想讓電腦 Discord 也跳通知，可以在 Discord 頻道建立 Webhook，然後執行時設定 `DISCORD_WEBHOOK_URL`。未設定時會照舊只發 ntfy。
 
+如果要同時發到多個 Discord 伺服器 / 頻道，把多個 Webhook URL 用逗號分隔即可。Discord 標所有人的語法是 `@everyone`，不是 `@ALL`；要真的 ping 所有人，請加上 `DISCORD_MENTION="@everyone"`。
+
 Linux / macOS：
 
 ```bash
 DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/xxx/yyy" NTFY_TOPIC="你的-topic" python3 the_watcher.py
 ```
 
+同時發到兩個 Discord webhook，並標所有人：
+
+```bash
+DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/xxx/yyy,https://discord.com/api/webhooks/aaa/bbb" DISCORD_MENTION="@everyone" NTFY_TOPIC="你的-topic" python3 the_watcher.py
+```
+
 搭配 Funbox 同時傳兩個 ntfy topic：
 
 ```bash
-DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/xxx/yyy" NTFY_TOPIC="beyblade-x-k7m2qz" FUNBOX_NTFY_TOPIC="funbox-beyblade-x-k9m4p7q2,beyblade-x-k7m2qz" python3 the_watcher.py
+DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/xxx/yyy,https://discord.com/api/webhooks/aaa/bbb" DISCORD_MENTION="@everyone" NTFY_TOPIC="beyblade-x-k7m2qz" FUNBOX_NTFY_TOPIC="funbox-beyblade-x-k9m4p7q2,beyblade-x-k7m2qz" python3 the_watcher.py
 ```
 
 cron 範例：
 
 ```cron
-*/1 * * * * cd /home/clmadmin/beyblade-watcher && DISCORD_WEBHOOK_URL="你的-discord-webhook-url" NTFY_TOPIC=beyblade-x-k7m2qz FUNBOX_NTFY_TOPIC="funbox-beyblade-x-k9m4p7q2,beyblade-x-k7m2qz" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
+*/1 * * * * cd /home/clmadmin/beyblade-watcher && DISCORD_WEBHOOK_URL="你的-discord-webhook-url-1,你的-discord-webhook-url-2" DISCORD_MENTION="@everyone" NTFY_TOPIC=beyblade-x-k7m2qz FUNBOX_NTFY_TOPIC="funbox-beyblade-x-k9m4p7q2,beyblade-x-k7m2qz" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
 ```
 
 Webhook URL 等同於發送權限，請不要公開貼到 GitHub 或聊天室。
@@ -184,7 +192,12 @@ schedule:
 如果要 GitHub Actions 也發 Discord，另外新增 Secret：
 
 - Name：`DISCORD_WEBHOOK_URL`
-- Secret：你的 Discord Webhook URL
+- Secret：你的 Discord Webhook URL；多個 URL 可用逗號分隔
+
+如果 GitHub Actions 的 Discord 通知也要標所有人，另外新增 Secret：
+
+- Name：`DISCORD_MENTION`
+- Secret：`@everyone`
 
 ### 手動測試 Actions
 
@@ -281,8 +294,9 @@ New-Item -ItemType Directory -Force -Path "$PWD\logs"
 - `MMTOYSHOP_NTFY_TOPIC`：僅 M.M小舖使用的 topic，會覆蓋 `NTFY_TOPIC`
 - `ESLITE_NTFY_TOPIC`：僅誠品線上使用的 topic，會覆蓋 `NTFY_TOPIC`
 - `SENSEN_NTFY_TOPIC`：僅森森文具玩具使用的 topic，會覆蓋 `NTFY_TOPIC`
-- `DISCORD_WEBHOOK_URL`：Discord Webhook URL；未設定時不發 Discord
+- `DISCORD_WEBHOOK_URL`：Discord Webhook URL；未設定時不發 Discord，多個 URL 可用逗號分隔
 - `DISCORD_USERNAME`：Discord Webhook 顯示名稱，預設 `TheWatcher`
+- `DISCORD_MENTION`：Discord 訊息最上方要帶的 mention，例如 `@everyone`；未設定時不標人
 - `NTFY_SERVER`：ntfy 伺服器，預設為 `https://ntfy.sh`
 - `MMTOYSHOP_CATEGORY_URL`：M.M小舖分類網址，預設為戰鬥陀螺分類
 - `ESLITE_EXHIBITION_URL`：誠品線上策展頁網址，預設為 BEYBLADE X 策展頁
