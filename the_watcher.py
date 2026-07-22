@@ -68,6 +68,15 @@ WATCHERS = (
         "history": "momo_history.jsonl",
         "topic_env": "MOMO_NTFY_TOPIC",
     },
+    {
+        "key": "momo_funbox",
+        "name": "MOMO Funbox",
+        "script": "momo_funbox_watcher.py",
+        "state": "momo_funbox_tracked_items.json",
+        "feed": "momo_funbox_feed.json",
+        "history": "momo_funbox_history.jsonl",
+        "topic_env": "MOMO_FUNBOX_NTFY_TOPIC",
+    },
 )
 
 
@@ -126,7 +135,7 @@ def merge_feeds():
     ))
     combined = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石",
+        "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
         "count": len(products),
         "products": products,
     }

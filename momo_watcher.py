@@ -32,7 +32,7 @@ MAX_PAGES = int(os.environ.get("MOMO_MAX_PAGES", "30"))
 FETCH_MODE = os.environ.get("MOMO_FETCH_MODE", "rendered").strip().lower()
 RENDER_TIMEOUT_MS = int(os.environ.get("MOMO_RENDER_TIMEOUT_MS", "60000"))
 VERIFY_SSL = os.environ.get("MOMO_VERIFY_SSL", "0") == "1"
-SOURCE_NAME = "MOMO 墊腳石"
+SOURCE_NAME = os.environ.get("MOMO_SOURCE_NAME", "MOMO 墊腳石")
 
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh")
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC") or "momo-beyblade-k7m2qz"
@@ -123,25 +123,55 @@ def fetch_products_from_rendered_page():
         from playwright.sync_api import sync_playwright
     except ImportError as exc:
         raise RuntimeError(
-            "MOMO 墊腳石需要 Playwright 才能讀取前端渲染後的 TAKARA TOMY 商品；"
+            f"{SOURCE_NAME} 需要 Playwright 才能讀取前端渲染後的 TAKARA TOMY 商品；"
             "請先安裝 playwright 並執行 `python3 -m playwright install chromium`。"
         ) from exc
 
     js = """
-    () => Array.from(document.querySelectorAll('.product-item-goods')).map(card => {
-      const link = card.querySelector('.product-item-name-title-box, a[href*="goodsDetail"]');
-      const img = card.querySelector('img[alt*="TAKARA"], img[alt], .fbm-thumbnail-img');
-      const price = card.querySelector('.product-item-price, [class*="price"]');
-      const text = (card.innerText || '').trim();
-      return {
-        title: ((link && link.getAttribute('title')) || (img && img.getAttribute('alt')) || '').trim(),
-        url: link ? link.href : '',
-        image: img ? img.src : '',
-        priceText: price ? (price.innerText || '').trim() : '',
-        text: text,
-        in_stock: !/(售完|補貨中|缺貨|熱銷一空)/.test(text)
+    () => {
+      const anchors = Array.from(document.querySelectorAll(
+        '.product-item-goods a[href*="goodsDetail"], a[href*="GoodsDetail.jsp?i_code="], a[href*="/goods/GoodsDetail.jsp"]'
+      ));
+      const seen = new Set();
+      const items = [];
+      const findCard = (link) => {
+        const storeCard = link.closest('.product-item-goods');
+        if (storeCard) return storeCard;
+        let el = link.parentElement;
+        while (el && el !== document.body) {
+          const cls = String(el.className || '');
+          if (el.getAttribute('title') || cls.includes('mu-min-h') || cls.includes('hover:mu-shadow')) return el;
+          el = el.parentElement;
+        }
+        return link.parentElement;
       };
-    }).filter(item => /TAKARA\\s*TOMY/i.test(item.title || item.text || ''));
+      for (const link of anchors) {
+        const url = link.href || '';
+        if (!url || seen.has(url)) continue;
+        const card = findCard(link);
+        const img = (card && card.querySelector('img[alt*="TAKARA"], img[alt*="BEYBLADE"], img[alt], .fbm-thumbnail-img'))
+          || link.querySelector('img[alt]');
+        const text = ((card && card.innerText) || link.innerText || '').trim();
+        const title = (
+          link.getAttribute('title')
+          || (card && card.getAttribute('title'))
+          || (link.innerText || '').trim()
+          || (img && img.getAttribute('alt'))
+          || ''
+        ).trim();
+        if (!/TAKARA\\s*TOMY/i.test(title || text)) continue;
+        seen.add(url);
+        items.push({
+          title,
+          url,
+          image: img ? img.src : '',
+          priceText: ((text.match(/\\$\\s*[\\d,]+(?:起)?/) || [])[0] || ''),
+          text,
+          in_stock: !/(售完|補貨中|缺貨|熱銷一空|可訂購時通知我|開賣)/.test(text)
+        });
+      }
+      return items;
+    }
     """
 
     with sync_playwright() as p:
@@ -161,9 +191,12 @@ def fetch_products_from_rendered_page():
             )
             page.goto(SHOP_URL, wait_until="domcontentloaded", timeout=RENDER_TIMEOUT_MS)
             try:
-                page.wait_for_selector(".product-item-goods", timeout=RENDER_TIMEOUT_MS)
+                page.wait_for_selector(
+                    '.product-item-goods, a[href*="GoodsDetail.jsp?i_code="], a[href*="/goods/GoodsDetail.jsp"]',
+                    timeout=RENDER_TIMEOUT_MS,
+                )
             except PlaywrightTimeoutError as exc:
-                raise RuntimeError("MOMO 頁面載入完成，但找不到商品卡片 `.product-item-goods`。") from exc
+                raise RuntimeError("MOMO 頁面載入完成，但找不到商品卡片。") from exc
             page.wait_for_timeout(1500)
             products = page.evaluate(js)
         finally:
@@ -203,7 +236,7 @@ def detect_in_stock(raw):
     if isinstance(raw.get("in_stock"), bool):
         return raw["in_stock"]
     text = str(raw.get("text") or raw.get("goodsStatus") or raw.get("goodsIconType") or "").strip()
-    if re.search(r"售完|補貨中|缺貨|熱銷一空", text):
+    if re.search(r"售完|補貨中|缺貨|熱銷一空|可訂購時通知我|開賣", text):
         return False
     if re.search(r"僅剩|現貨|加入購物車", text):
         return True
@@ -223,7 +256,7 @@ def parse_product(raw):
     url = str(raw.get("goodsUrl") or raw.get("url") or "").strip()
     goods_code = str(raw.get("goodsCode") or raw.get("key") or "").strip()
     if not goods_code and url:
-        match = re.search(r"(TP\d{13,})", url)
+        match = re.search(r"(TP\d{13,})", url) or re.search(r"[?&]i_code=(\d+)", url)
         if match:
             goods_code = match.group(1)
     if not goods_code:
@@ -448,7 +481,7 @@ def notify_delisted(delisted):
         title = p.get("title", p.get("key", "（未知商品）"))
         ntfy_publish(
             f"[{SOURCE_NAME}] 🔻 已下架",
-            f"{title}\n已從 MOMO 墊腳石 BEYBLADE 清單消失。",
+            f"{title}\n已從 {SOURCE_NAME} BEYBLADE 清單消失。",
             tags=["arrow_down"],
             priority=2,
             click=p.get("url"),
@@ -506,7 +539,7 @@ def send_notifications(new_items, restocks, price_drops, keywords=()):
 
 
 def main():
-    print("開始檢查 MOMO 墊腳石 BEYBLADE 上架 / 補貨…")
+    print(f"開始檢查 {SOURCE_NAME} BEYBLADE 上架 / 補貨…")
     state, meta = split_meta(load_state())
     fail_count = int(meta.get("consecutive_failures", 0) or 0)
     initialized = bool(meta.get("initialized"))
@@ -523,7 +556,7 @@ def main():
         if fail_count >= FAIL_ALERT_THRESHOLD and (fail_count - FAIL_ALERT_THRESHOLD) % FAIL_ALERT_THRESHOLD == 0:
             ntfy_publish(
                 f"[{SOURCE_NAME}] ⚠️ 連續抓取失敗",
-                f"已連續 {fail_count} 次無法讀取 MOMO 墊腳石 BEYBLADE 清單。\n最後錯誤：{e}",
+                f"已連續 {fail_count} 次無法讀取 {SOURCE_NAME} BEYBLADE 清單。\n最後錯誤：{e}",
                 tags=["warning"],
                 priority=4,
             )
@@ -557,7 +590,7 @@ def main():
             p["first_seen"] = now
         save_state_with_meta(current, meta)
         write_feed(current)
-        print(f"首次執行：已記錄 {len(current)} 個 MOMO BEYBLADE 商品為基準，下次有變動才通知。")
+        print(f"首次執行：已記錄 {len(current)} 個 {SOURCE_NAME} BEYBLADE 商品為基準，下次有變動才通知。")
         return
 
     new_items, restocks, price_drops = [], [], []
