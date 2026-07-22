@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""一次執行 Funbox、Toys"R"Us、誠品線上、森森與孩子玩伴 Beyblade 監控器，並合併看板資料。"""
+"""一次執行 Funbox、Toys"R"Us、誠品線上、森森、孩子玩伴與 MOMO Beyblade 監控器，並合併看板資料。"""
 
 import json
 import os
@@ -58,6 +58,15 @@ WATCHERS = (
         "feed": "kidplaymate_feed.json",
         "history": "kidplaymate_history.jsonl",
         "topic_env": "KIDPLAYMATE_NTFY_TOPIC",
+    },
+    {
+        "key": "momo",
+        "name": "MOMO 墊腳石",
+        "script": "momo_watcher.py",
+        "state": "momo_tracked_items.json",
+        "feed": "momo_feed.json",
+        "history": "momo_history.jsonl",
+        "topic_env": "MOMO_NTFY_TOPIC",
     },
 )
 
@@ -117,7 +126,7 @@ def merge_feeds():
     ))
     combined = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴",
+        "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石",
         "count": len(products),
         "products": products,
     }

@@ -45,7 +45,7 @@ jobs:
           python - <<'EOF'
           import os, requests, json
           topic = os.environ["NTFY_TOPIC"]
-          payload = {"topic": topic, "title": "TheWatcher 測試通知", "message": "Funbox + 玩具反斗城 + 誠品線上 + 森森文具玩具 + 孩子玩伴整合監控排程正常！", "priority": 4, "tags": ["white_check_mark"]}
+          payload = {"topic": topic, "title": "TheWatcher 測試通知", "message": "Funbox + 玩具反斗城 + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石整合監控排程正常！", "priority": 4, "tags": ["white_check_mark"]}
           r = requests.post("https://ntfy.sh", data=json.dumps(payload).encode(), timeout=10)
           print(f"ntfy HTTP {r.status_code}")
           EOF
@@ -54,6 +54,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add funbox_tracked_items.json toysrus_tracked_items.json eslite_tracked_items.json sensen_tracked_items.json kidplaymate_tracked_items.json funbox_feed.json toysrus_feed.json eslite_feed.json sensen_feed.json kidplaymate_feed.json feed.json funbox_history.jsonl toysrus_history.jsonl eslite_history.jsonl sensen_history.jsonl kidplaymate_history.jsonl history.jsonl
+          git add funbox_tracked_items.json toysrus_tracked_items.json eslite_tracked_items.json sensen_tracked_items.json kidplaymate_tracked_items.json momo_tracked_items.json funbox_feed.json toysrus_feed.json eslite_feed.json sensen_feed.json kidplaymate_feed.json momo_feed.json feed.json funbox_history.jsonl toysrus_history.jsonl eslite_history.jsonl sensen_history.jsonl kidplaymate_history.jsonl momo_history.jsonl history.jsonl
           git diff --staged --quiet && echo "No changes to commit" || \
             git commit -m "chore: update combined state [skip ci]" && git push
