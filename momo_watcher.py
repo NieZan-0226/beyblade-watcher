@@ -7,6 +7,7 @@ import os
 import re
 import time
 from datetime import datetime, timedelta, timezone
+from urllib.parse import urljoin
 
 import requests
 import urllib3
@@ -28,6 +29,8 @@ CATE_CODE = os.environ.get("MOMO_CATE_CODE", "430000000000")
 CATE_LEVEL = int(os.environ.get("MOMO_CATE_LEVEL", "1"))
 KEYWORD_RE = os.environ.get("MOMO_KEYWORD_RE", r"BEYBLADE")
 MAX_PAGES = int(os.environ.get("MOMO_MAX_PAGES", "30"))
+FETCH_MODE = os.environ.get("MOMO_FETCH_MODE", "rendered").strip().lower()
+RENDER_TIMEOUT_MS = int(os.environ.get("MOMO_RENDER_TIMEOUT_MS", "60000"))
 VERIFY_SSL = os.environ.get("MOMO_VERIFY_SSL", "0") == "1"
 SOURCE_NAME = "MOMO 墊腳石"
 
@@ -101,6 +104,9 @@ def fetch_products_page(page=1):
 
 
 def fetch_products():
+    if FETCH_MODE in {"rendered", "playwright", "page"}:
+        return fetch_products_from_rendered_page()
+
     first, products = fetch_products_page(1)
     total_pages = int(first.get("maxPage") or first.get("totalPage") or 1)
     page_limit = min(total_pages, MAX_PAGES)
@@ -108,6 +114,63 @@ def fetch_products():
         _, page_products = fetch_products_page(page)
         products.extend(page_products)
         time.sleep(0.12)
+    return products
+
+
+def fetch_products_from_rendered_page():
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        from playwright.sync_api import sync_playwright
+    except ImportError as exc:
+        raise RuntimeError(
+            "MOMO 墊腳石需要 Playwright 才能讀取前端渲染後的 TAKARA TOMY 商品；"
+            "請先安裝 playwright 並執行 `python3 -m playwright install chromium`。"
+        ) from exc
+
+    js = """
+    () => Array.from(document.querySelectorAll('.product-item-goods')).map(card => {
+      const link = card.querySelector('.product-item-name-title-box, a[href*="goodsDetail"]');
+      const img = card.querySelector('img[alt*="TAKARA"], img[alt], .fbm-thumbnail-img');
+      const price = card.querySelector('.product-item-price, [class*="price"]');
+      const text = (card.innerText || '').trim();
+      return {
+        title: ((link && link.getAttribute('title')) || (img && img.getAttribute('alt')) || '').trim(),
+        url: link ? link.href : '',
+        image: img ? img.src : '',
+        priceText: price ? (price.innerText || '').trim() : '',
+        text: text,
+        in_stock: !/(售完|補貨中|缺貨|熱銷一空)/.test(text)
+      };
+    }).filter(item => /TAKARA\\s*TOMY/i.test(item.title || item.text || ''));
+    """
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+            ],
+        )
+        try:
+            page = browser.new_page(
+                user_agent=HEADERS["User-Agent"],
+                viewport={"width": 1600, "height": 1200},
+                locale="zh-TW",
+            )
+            page.goto(SHOP_URL, wait_until="domcontentloaded", timeout=RENDER_TIMEOUT_MS)
+            try:
+                page.wait_for_selector(".product-item-goods", timeout=RENDER_TIMEOUT_MS)
+            except PlaywrightTimeoutError as exc:
+                raise RuntimeError("MOMO 頁面載入完成，但找不到商品卡片 `.product-item-goods`。") from exc
+            page.wait_for_timeout(1500)
+            products = page.evaluate(js)
+        finally:
+            browser.close()
+
+    if not isinstance(products, list):
+        raise RuntimeError("MOMO 渲染頁面回傳格式不是商品清單。")
     return products
 
 
@@ -127,41 +190,56 @@ def fetch_products_with_retry():
 
 def parse_price(value):
     try:
-        return float(str(value).replace(",", "").replace("$", "").strip())
+        text = str(value).replace(",", "").replace("$", "").strip()
+        match = re.search(r"\d+(?:\.\d+)?", text)
+        if not match:
+            return None
+        return float(match.group(0))
     except (TypeError, ValueError):
         return None
 
 
 def detect_in_stock(raw):
+    if isinstance(raw.get("in_stock"), bool):
+        return raw["in_stock"]
+    text = str(raw.get("text") or raw.get("goodsStatus") or raw.get("goodsIconType") or "").strip()
+    if re.search(r"售完|補貨中|缺貨|熱銷一空", text):
+        return False
+    if re.search(r"僅剩|現貨|加入購物車", text):
+        return True
     stock = raw.get("goodsStock")
     try:
         return int(str(stock).replace(",", "").strip()) > 0
     except (TypeError, ValueError):
-        return str(raw.get("goodsStatus") or raw.get("goodsIconType") or "").strip() not in {"熱銷一空", "售完", "補貨中"}
+        return text not in {"熱銷一空", "售完", "補貨中"}
 
 
 def parse_product(raw):
     if not isinstance(raw, dict):
         return None
-    title = str(raw.get("goodsName") or "").strip()
+    title = str(raw.get("goodsName") or raw.get("title") or "").strip()
     if not title or not re.search(KEYWORD_RE, title, re.I):
         return None
-    goods_code = str(raw.get("goodsCode") or "").strip()
+    url = str(raw.get("goodsUrl") or raw.get("url") or "").strip()
+    goods_code = str(raw.get("goodsCode") or raw.get("key") or "").strip()
+    if not goods_code and url:
+        match = re.search(r"(TP\d{13,})", url)
+        if match:
+            goods_code = match.group(1)
     if not goods_code:
         return None
-    url = str(raw.get("goodsUrl") or "").strip()
     if not url:
         url = f"{SHOP_BASE}/TP/{ENTP_CODE}/goodsDetail/{goods_code}"
     if url.startswith("/"):
-        url = f"{SHOP_BASE}{url}"
+        url = urljoin(SHOP_BASE, url)
 
     return {
         "key": goods_code,
         "title": title,
         "url": url,
-        "price": parse_price(raw.get("goodsPrice") or raw.get("SALE_PRICE")),
+        "price": parse_price(raw.get("goodsPrice") or raw.get("SALE_PRICE") or raw.get("price") or raw.get("priceText")),
         "in_stock": detect_in_stock(raw),
-        "image": str(raw.get("imgUrl") or "").strip(),
+        "image": str(raw.get("imgUrl") or raw.get("image") or "").strip(),
     }
 
 
@@ -457,6 +535,8 @@ def main():
     meta["initialized"] = True
     meta["max_pages"] = MAX_PAGES
     meta["keyword_re"] = KEYWORD_RE
+    meta["fetch_mode"] = FETCH_MODE
+    meta["source_count"] = len(raw)
     meta.pop("last_error", None)
     meta.pop("last_failure_at", None)
 

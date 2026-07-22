@@ -308,8 +308,10 @@ New-Item -ItemType Directory -Force -Path "$PWD\logs"
 - `SENSEN_COLLECTION_API`：森森文具玩具分類 JSON API，預設為戰鬥陀螺X 分類
 - `KIDPLAYMATE_COLLECTION_URL`：孩子玩伴分類網址，預設為戰鬥陀螺分類
 - `KIDPLAYMATE_COLLECTION_API`：孩子玩伴 CYBERBIZ 商品清單 API，預設由戰鬥陀螺分類產生
-- `MOMO_SHOP_URL`：MOMO 墊腳石 TAKARA TOMY 頁面網址，通知點擊時會前往此商品或店鋪頁
+- `MOMO_SHOP_URL`：MOMO 墊腳石 TAKARA TOMY 頁面網址，預設會從這個頁面渲染後抓出商品卡片
 - `MOMO_KEYWORD_RE`：MOMO 商品標題篩選正規式，預設 `BEYBLADE`
+- `MOMO_FETCH_MODE`：MOMO 抓取模式，預設 `rendered`，使用 Playwright 讀取頁面上實際顯示的 TAKARA TOMY 商品
+- `MOMO_RENDER_TIMEOUT_MS`：MOMO 頁面渲染等待時間，預設 `60000`
 - `MOMO_MAX_PAGES`：MOMO 店鋪分類最多掃描頁數，預設 `30`
 - `MOMO_CATE_CODE` / `MOMO_CATE_LEVEL`：MOMO 墊腳石店鋪分類代碼，預設掃描「集換式卡牌、桌遊、公仔盒玩」分類
 - `MOMO_BRAND_NAME` / `MOMO_BRAND_NO`：MOMO 品牌參數，預設 `TAKARA TOMY` / `20190717104950516`
