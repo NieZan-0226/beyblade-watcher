@@ -152,6 +152,14 @@ def fetch_products_from_rendered_page():
         const img = (card && card.querySelector('img[alt*="TAKARA"], img[alt*="BEYBLADE"], img[alt], .fbm-thumbnail-img'))
           || link.querySelector('img[alt]');
         const text = ((card && card.innerText) || link.innerText || '').trim();
+        const availabilityText = (
+          (text.match(/\\d{2}\\/\\d{2}\\s+\\d{2}:\\d{2}\\s*開賣/) || [])[0]
+          || (text.match(/可訂購時通知我/) || [])[0]
+          || (text.match(/售完補貨中/) || [])[0]
+          || (text.match(/熱銷一空/) || [])[0]
+          || (text.match(/僅剩\\s*\\d+\\s*(?:組|件|個)?/) || [])[0]
+          || ''
+        );
         const title = (
           link.getAttribute('title')
           || (card && card.getAttribute('title'))
@@ -167,6 +175,7 @@ def fetch_products_from_rendered_page():
           image: img ? img.src : '',
           priceText: ((text.match(/\\$\\s*[\\d,]+(?:起)?/) || [])[0] || ''),
           text,
+          availability_text: availabilityText,
           in_stock: !/(售完|補貨中|缺貨|熱銷一空|可訂購時通知我|開賣)/.test(text)
         });
       }
@@ -273,7 +282,32 @@ def parse_product(raw):
         "price": parse_price(raw.get("goodsPrice") or raw.get("SALE_PRICE") or raw.get("price") or raw.get("priceText")),
         "in_stock": detect_in_stock(raw),
         "image": str(raw.get("imgUrl") or raw.get("image") or "").strip(),
+        "availability_text": extract_availability_text(raw),
     }
+
+
+def extract_availability_text(raw):
+    text = str(
+        raw.get("availability_text")
+        or raw.get("availabilityText")
+        or raw.get("goodsStatus")
+        or raw.get("text")
+        or ""
+    ).strip()
+    patterns = (
+        r"\d{2}/\d{2}\s+\d{2}:\d{2}\s*開賣",
+        r"可訂購時通知我",
+        r"售完補貨中",
+        r"熱銷一空",
+        r"僅剩\s*\d+\s*(?:組|件|個)?",
+        r"補貨中",
+        r"缺貨",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text)
+        if match:
+            return match.group(0).strip()
+    return ""
 
 
 def load_state():
@@ -332,6 +366,7 @@ def append_history(current, ts):
             "title": p["title"],
             "price": p.get("price"),
             "in_stock": p.get("in_stock", True),
+            "availability_text": p.get("availability_text", ""),
         }, ensure_ascii=False)
         for p in current.values()
     ]
@@ -384,6 +419,7 @@ def write_feed(current, new_keys=(), restock_keys=()):
             "status": status,
             "first_seen": p.get("first_seen"),
             "image": p.get("image", ""),
+            "availability_text": p.get("availability_text", ""),
         })
     products.sort(key=lambda x: ({"new": 0, "restock": 1, "normal": 2}[x["status"]], x["first_seen"] or ""))
     with open(FEED_FILE, "w", encoding="utf-8") as f:
@@ -457,7 +493,8 @@ def price_text(p):
 
 
 def event_message(p, action, extra=""):
-    stock = "有貨" if p.get("in_stock") else "目前缺貨／補貨中"
+    availability = p.get("availability_text") or ""
+    stock = availability or ("有貨" if p.get("in_stock") else "目前缺貨／補貨中")
     lines = [p["title"]]
     detail = " ".join(x for x in (price_text(p), f"({stock})", extra) if x)
     if detail:

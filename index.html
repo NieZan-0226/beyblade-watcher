@@ -474,9 +474,11 @@
       if(isWatched(p.title)) badges.push('<span class="badge b-star">⭐ 關注</span>');
       if(p.status==="new") badges.push('<span class="badge b-new">★ 新上架</span>');
       if(p.status==="restock") badges.push('<span class="badge b-restock">↻ 補貨</span>');
-      badges.push(p.in_stock
-        ? '<span class="badge b-instock">有貨</span>'
-        : '<span class="badge b-out">缺貨</span>');
+      badges.push(p.availability_text
+        ? '<span class="badge '+(p.in_stock ? 'b-instock' : 'b-out')+'">'+esc(p.availability_text)+'</span>'
+        : p.in_stock
+          ? '<span class="badge b-instock">有貨</span>'
+          : '<span class="badge b-out">缺貨</span>');
       const link = (p.url && p.url!=="#") ? p.url : null;
       const buy = link
         ? '<a class="buy" href="'+link+'" target="_blank" rel="noopener">前往購買 →</a>'
