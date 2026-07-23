@@ -35,6 +35,7 @@ NTFY_TOPIC = os.environ.get("NTFY_TOPIC") or "toysrus-beyblade-k7m2qz"
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
 DISCORD_USERNAME = os.environ.get("DISCORD_USERNAME", "TheWatcher")
 DISCORD_MENTION = os.environ.get("DISCORD_MENTION", "").strip()
+DISCORD_ROLE_ID = os.environ.get("DISCORD_ROLE_ID", "").strip()
 
 CATEGORY_URL = "https://www.toysrus.com.tw/zh-tw/beyblade/"
 SHOP_BASE = "https://www.toysrus.com.tw"
@@ -429,11 +430,30 @@ def discord_webhook_urls():
     return [url.strip() for url in DISCORD_WEBHOOK_URL.split(",") if url.strip()]
 
 
+def discord_mention_text():
+    if DISCORD_ROLE_ID:
+        role_ids = re.findall(r"\d+", DISCORD_ROLE_ID)
+        return " ".join(f"<@&{role_id}>" for role_id in role_ids)
+    return DISCORD_MENTION
+
+
+def discord_allowed_mentions(mention):
+    parse = []
+    if "@everyone" in mention or "@here" in mention:
+        parse.append("everyone")
+    role_ids = list(dict.fromkeys(re.findall(r"<@&(\d+)>", mention)))
+    allowed = {"parse": parse}
+    if role_ids:
+        allowed["roles"] = role_ids
+    return allowed
+
+
 def discord_publish(title, message, click=None):
     webhook_urls = discord_webhook_urls()
     if not webhook_urls:
         return
-    content = "\n".join(x for x in (DISCORD_MENTION, title, message) if x)
+    mention = discord_mention_text()
+    content = "\n".join(x for x in (mention, title, message) if x)
     if len(content) > 1900:
         content = content[:1897] + "..."
     embed = {
@@ -447,7 +467,7 @@ def discord_publish(title, message, click=None):
         "username": DISCORD_USERNAME,
         "content": content,
         "embeds": [embed],
-        "allowed_mentions": {"parse": ["everyone"] if DISCORD_MENTION else []},
+        "allowed_mentions": discord_allowed_mentions(mention),
     }
     for idx, webhook_url in enumerate(webhook_urls, start=1):
         try:
