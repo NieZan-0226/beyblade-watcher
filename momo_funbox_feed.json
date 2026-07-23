@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T21:44:18.145163+00:00",
+  "updated_at": "2026-07-23T22:39:16.068871+00:00",
   "source": "MOMO Funbox",
   "count": 8,
   "products": [
@@ -11,7 +11,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i4.momoshop.com.tw/1784000361/goodsimg/0015/477/231/15477231_OR_m.webp",
+      "image": "https://i2.momoshop.com.tw/1784000361/goodsimg/0015/477/231/15477231_OR_m.webp",
       "availability_text": "07/27 00:00 開賣"
     },
     {
@@ -22,7 +22,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i1.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
       "availability_text": "7/25 11:00 開賣"
     },
     {
@@ -37,6 +37,17 @@
       "availability_text": "7/26 11:00 開賣"
     },
     {
+      "id": "15162653",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03 魔導神杖",
+      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162653",
+      "price": 295.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-07-23T09:37:28.809760+00:00",
+      "image": "https://i3.momoshop.com.tw/1776414020/goodsimg/0015/162/653/15162653_OR_m.webp",
+      "availability_text": "可訂購時通知我"
+    },
+    {
       "id": "15162656",
       "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-06 雄獅巔峰",
       "url": "https://www.momoshop.com.tw/product/15162656",
@@ -44,7 +55,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i4.momoshop.com.tw/1776414029/goodsimg/0015/162/656/15162656_R_m.webp",
+      "image": "https://i3.momoshop.com.tw/1776414029/goodsimg/0015/162/656/15162656_R_m.webp",
       "availability_text": "7/25 15:00 開賣"
     },
     {
@@ -55,7 +66,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i3.momoshop.com.tw/1776414038/goodsimg/0015/162/659/15162659_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1776414038/goodsimg/0015/162/659/15162659_R_m.webp",
       "availability_text": "7/25 00:00 開賣"
     },
     {
@@ -66,19 +77,8 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i3.momoshop.com.tw/1776414043/goodsimg/0015/162/661/15162661_OR_m.webp",
+      "image": "https://i1.momoshop.com.tw/1776414043/goodsimg/0015/162/661/15162661_OR_m.webp",
       "availability_text": "07/25 18:00 開賣"
-    },
-    {
-      "id": "15162653",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03 魔導神杖",
-      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162653",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i1.momoshop.com.tw/1776414020/goodsimg/0015/162/653/15162653_OR_m.webp",
-      "availability_text": "可訂購時通知我"
     },
     {
       "id": "15358813",
