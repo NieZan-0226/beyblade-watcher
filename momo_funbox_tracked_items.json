@@ -25,18 +25,8 @@
     "url": "https://www.momoshop.com.tw/product/15462754",
     "price": 1995.0,
     "in_stock": false,
-    "image": "https://i3.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
+    "image": "https://i4.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
     "availability_text": "7/26 11:00 開賣",
-    "first_seen": "2026-07-23T09:37:28.809760+00:00"
-  },
-  "15162653": {
-    "key": "15162653",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03 魔導神杖",
-    "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162653",
-    "price": 295.0,
-    "in_stock": false,
-    "image": "https://i1.momoshop.com.tw/1776414020/goodsimg/0015/162/653/15162653_OR_m.webp",
-    "availability_text": "可訂購時通知我",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
   "15162656": {
@@ -55,7 +45,7 @@
     "url": "https://www.momoshop.com.tw/product/15162659",
     "price": 650.0,
     "in_stock": false,
-    "image": "https://i3.momoshop.com.tw/1776414038/goodsimg/0015/162/659/15162659_R_m.webp",
+    "image": "https://i1.momoshop.com.tw/1776414038/goodsimg/0015/162/659/15162659_R_m.webp",
     "availability_text": "7/25 00:00 開賣",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
@@ -65,8 +55,18 @@
     "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162661",
     "price": 550.0,
     "in_stock": false,
-    "image": "https://i2.momoshop.com.tw/1776414043/goodsimg/0015/162/661/15162661_OR_m.webp",
+    "image": "https://i3.momoshop.com.tw/1776414043/goodsimg/0015/162/661/15162661_OR_m.webp",
     "availability_text": "07/25 18:00 開賣",
+    "first_seen": "2026-07-23T09:37:28.809760+00:00"
+  },
+  "15162653": {
+    "key": "15162653",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03 魔導神杖",
+    "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162653",
+    "price": 295.0,
+    "in_stock": false,
+    "image": "https://i3.momoshop.com.tw/1776414020/goodsimg/0015/162/653/15162653_OR_m.webp",
+    "availability_text": "可訂購時通知我",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
   "15358813": {
