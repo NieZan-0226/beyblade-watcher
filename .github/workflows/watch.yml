@@ -62,7 +62,20 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git pull --rebase --autostash origin main || true
-          git add funbox_tracked_items.json toysrus_tracked_items.json eslite_tracked_items.json sensen_tracked_items.json kidplaymate_tracked_items.json momo_tracked_items.json momo_funbox_tracked_items.json funbox_feed.json toysrus_feed.json eslite_feed.json sensen_feed.json kidplaymate_feed.json momo_feed.json momo_funbox_feed.json feed.json funbox_history.jsonl toysrus_history.jsonl eslite_history.jsonl sensen_history.jsonl kidplaymate_history.jsonl momo_history.jsonl momo_funbox_history.jsonl history.jsonl
+
+          state_files=(
+            funbox_tracked_items.json toysrus_tracked_items.json eslite_tracked_items.json sensen_tracked_items.json kidplaymate_tracked_items.json momo_tracked_items.json momo_funbox_tracked_items.json
+            funbox_feed.json toysrus_feed.json eslite_feed.json sensen_feed.json kidplaymate_feed.json momo_feed.json momo_funbox_feed.json feed.json
+            funbox_history.jsonl toysrus_history.jsonl eslite_history.jsonl sensen_history.jsonl kidplaymate_history.jsonl momo_history.jsonl momo_funbox_history.jsonl history.jsonl
+          )
+
+          for file in "${state_files[@]}"; do
+            if [ -e "$file" ]; then
+              git add "$file"
+            else
+              echo "Skip missing state file: $file"
+            fi
+          done
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
