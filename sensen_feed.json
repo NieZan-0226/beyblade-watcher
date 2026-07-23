@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-07-23T09:37:14.753027+00:00",
+  "updated_at": "2026-07-23T11:33:39.051348+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
-      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X UX-15 鮫鯊狂鱗改造組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
-      "price": 716.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-07-23T09:37:14.521992+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NDkwNTA5LzE3NTI2NDY5OTBfZWNkMDRjYThkZGEwZGMxZTBiZmEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1689151cf0ef5fb7"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-07-13T07:55:25.047268+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY5NDU5MDc1LzE3ODM2OTg4MTFfNmEwZGM4ODU1OTc4NjFjZjQ1NGEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=8efdf8f7d3a4c8b6"
+    },
+    {
+      "id": "beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
+      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X UX-15 鮫鯊狂鱗改造組",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
+      "price": 716.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-07-23T09:37:14.521992+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NDkwNTA5LzE3NTI2NDY5OTBfZWNkMDRjYThkZGEwZGMxZTBiZmEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1689151cf0ef5fb7"
     }
   ]
 }
