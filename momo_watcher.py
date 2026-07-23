@@ -7,6 +7,7 @@ import os
 import re
 import time
 from datetime import datetime, timedelta, timezone
+from html import unescape
 from urllib.parse import urljoin
 
 import requests
@@ -43,6 +44,7 @@ STATE_FILE = os.environ.get("STATE_FILE", "momo_tracked_items.json")
 FEED_FILE = os.environ.get("FEED_FILE", "momo_feed.json")
 HISTORY_FILE = os.environ.get("HISTORY_FILE", "momo_history.jsonl")
 WATCHLIST_FILE = os.environ.get("WATCHLIST_FILE", "watchlist.json")
+PRODUCT_IDS_FILE = os.environ.get("MOMO_PRODUCT_IDS_FILE", "").strip()
 DEBUG = os.environ.get("DEBUG", "0") == "1"
 
 RETRY_ATTEMPTS = int(os.environ.get("RETRY_ATTEMPTS", "3"))
@@ -104,8 +106,24 @@ def fetch_products_page(page=1):
 
 
 def fetch_products():
+    if FETCH_MODE in {"product_ids", "product-id", "ids", "direct"}:
+        return fetch_products_from_product_ids()
+
     if FETCH_MODE in {"rendered", "playwright", "page"}:
-        return fetch_products_from_rendered_page()
+        page_error = None
+        page_products = []
+        try:
+            page_products = fetch_products_from_rendered_page()
+        except Exception as exc:
+            page_error = exc
+        products = merge_raw_products(page_products, fetch_products_from_product_ids())
+        if products:
+            if page_error:
+                print(f"{SOURCE_NAME} 分類頁抓取失敗，已改用商品 ID 清單繼續監控：{page_error}")
+            return products
+        if page_error:
+            raise page_error
+        return products
 
     first, products = fetch_products_page(1)
     total_pages = int(first.get("maxPage") or first.get("totalPage") or 1)
@@ -114,7 +132,118 @@ def fetch_products():
         _, page_products = fetch_products_page(page)
         products.extend(page_products)
         time.sleep(0.12)
+    return merge_raw_products(products, fetch_products_from_product_ids())
+
+
+def raw_product_key(raw):
+    if not isinstance(raw, dict):
+        return ""
+    value = str(raw.get("goodsCode") or raw.get("key") or raw.get("id") or "").strip()
+    if value:
+        return value
+    url = str(raw.get("goodsUrl") or raw.get("url") or "").strip()
+    match = re.search(r"(TP\d{13,})", url) or re.search(r"[?&]i_code=(\d+)", url) or re.search(r"/product/(\d+)", url)
+    return match.group(1) if match else ""
+
+
+def merge_raw_products(*groups):
+    merged = {}
+    for group in groups:
+        for raw in group or []:
+            key = raw_product_key(raw)
+            if key:
+                merged[key] = raw
+    return list(merged.values())
+
+
+def load_product_ids():
+    if not PRODUCT_IDS_FILE:
+        return []
+    try:
+        with open(PRODUCT_IDS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        return []
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"無法讀取 MOMO 商品 ID 清單 {PRODUCT_IDS_FILE}：{exc}") from exc
+    if isinstance(data, dict):
+        data = data.get("ids") or data.get("product_ids") or []
+    if not isinstance(data, list):
+        raise RuntimeError(f"MOMO 商品 ID 清單 {PRODUCT_IDS_FILE} 格式需為陣列或含 ids 的物件。")
+    ids = []
+    for item in data:
+        match = re.search(r"(\d{6,})", str(item))
+        if match:
+            ids.append(match.group(1))
+    return list(dict.fromkeys(ids))
+
+
+def fetch_products_from_product_ids():
+    ids = load_product_ids()
+    if not ids:
+        return []
+    products = []
+    for product_id in ids:
+        try:
+            products.append(fetch_product_page(product_id))
+            time.sleep(0.15)
+        except Exception as exc:
+            print(f"MOMO 商品頁 {product_id} 抓取失敗：{exc}")
     return products
+
+
+def fetch_product_page(product_id):
+    url = f"{SHOP_BASE}/product/{product_id}"
+    headers = dict(HEADERS)
+    headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    headers["Referer"] = SHOP_URL
+    resp = requests.get(url, headers=headers, timeout=25, verify=VERIFY_SSL)
+    resp.raise_for_status()
+    html = resp.content.decode("utf-8", errors="replace")
+    return parse_product_page_html(product_id, html, url)
+
+
+def html_meta(html, name):
+    pattern = rf'<meta\s+(?:name|property)=["\']{re.escape(name)}["\']\s+content=["\']([^"\']*)["\']'
+    match = re.search(pattern, html, re.I)
+    return unescape(match.group(1)).strip() if match else ""
+
+
+def html_json_string(html, key):
+    for source in (html, html.replace(r"\"", '"').replace(r"\/", "/")):
+        match = re.search(rf'"{re.escape(key)}"\s*:\s*"((?:\\.|[^"\\])*)"', source)
+        if not match:
+            continue
+        try:
+            return json.loads(f'"{match.group(1)}"')
+        except json.JSONDecodeError:
+            return unescape(match.group(1)).strip()
+    return ""
+
+
+def parse_product_page_html(product_id, html, url):
+    title = html_json_string(html, "goodsName") or html_meta(html, "og:title") or html_meta(html, "twitter:title")
+    title = re.sub(r"\s+-\s*momo購物網.*$", "", title).strip()
+    price = html_meta(html, "product:price:amount")
+    image = html_meta(html, "og:image") or html_meta(html, "twitter:image")
+    stock = html_json_string(html, "goodsStock")
+    payment = html_json_string(html, "goodsPaymentDescription")
+    if not payment:
+        match = re.search(r"\d{1,2}/\d{1,2}\s+\d{1,2}:\d{2}\s*開賣|可訂購時通知我|售完補貨中|補貨中|售完", html)
+        payment = match.group(0).strip() if match else ""
+    can_tip_stock = html_json_string(html, "canTipStock")
+    text = " ".join(x for x in (title, payment, stock, can_tip_stock, html[:8000]) if x)
+    in_stock = bool(stock and stock != "0") and not re.search(r"售完|補貨中|缺貨|熱銷一空|可訂購時通知我|開賣", payment)
+    return {
+        "key": product_id,
+        "title": title,
+        "url": url,
+        "image": image,
+        "priceText": price,
+        "text": text,
+        "availability_text": payment,
+        "in_stock": in_stock,
+    }
 
 
 def fetch_products_from_rendered_page():
@@ -265,7 +394,7 @@ def parse_product(raw):
     url = str(raw.get("goodsUrl") or raw.get("url") or "").strip()
     goods_code = str(raw.get("goodsCode") or raw.get("key") or "").strip()
     if not goods_code and url:
-        match = re.search(r"(TP\d{13,})", url) or re.search(r"[?&]i_code=(\d+)", url)
+        match = re.search(r"(TP\d{13,})", url) or re.search(r"[?&]i_code=(\d+)", url) or re.search(r"/product/(\d+)", url)
         if match:
             goods_code = match.group(1)
     if not goods_code:
@@ -295,7 +424,7 @@ def extract_availability_text(raw):
         or ""
     ).strip()
     patterns = (
-        r"\d{2}/\d{2}\s+\d{2}:\d{2}\s*開賣",
+        r"\d{1,2}/\d{1,2}\s+\d{1,2}:\d{2}\s*開賣",
         r"可訂購時通知我",
         r"售完補貨中",
         r"熱銷一空",
