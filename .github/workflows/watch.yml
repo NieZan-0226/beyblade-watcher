@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -58,8 +60,27 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git pull --rebase --autostash origin main || true
           git add funbox_tracked_items.json toysrus_tracked_items.json eslite_tracked_items.json sensen_tracked_items.json kidplaymate_tracked_items.json momo_tracked_items.json momo_funbox_tracked_items.json funbox_feed.json toysrus_feed.json eslite_feed.json sensen_feed.json kidplaymate_feed.json momo_feed.json momo_funbox_feed.json feed.json funbox_history.jsonl toysrus_history.jsonl eslite_history.jsonl sensen_history.jsonl kidplaymate_history.jsonl momo_history.jsonl momo_funbox_history.jsonl history.jsonl
-          git diff --staged --quiet && echo "No changes to commit" || \
-            git commit -m "chore: update combined state [skip ci]" && \
-            git pull --rebase --autostash origin main && \
-            git push
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: update combined state [skip ci]"
+
+          if git push; then
+            echo "State files pushed"
+            exit 0
+          fi
+
+          echo "Initial push failed; rebasing and retrying once..."
+          if git pull --rebase --autostash origin main && git push; then
+            echo "State files pushed after rebase"
+            exit 0
+          fi
+
+          echo "::warning::Watcher completed, but state files could not be pushed back to the repository."
+          exit 0
