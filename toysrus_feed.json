@@ -1,26 +1,8 @@
 {
-  "updated_at": "2026-07-24T11:19:59.771304+00:00",
+  "updated_at": "2026-07-24T12:49:03.545656+00:00",
   "source": "Toys\"R\"Us Taiwan",
   "count": 6,
   "products": [
-    {
-      "id": "10008185",
-      "title": "Beyblade戰鬥陀螺 BX-15 雄獅獵爪",
-      "url": "https://www.toysrus.com.tw/zh-tw/beyblade%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BA-bx-15-%E9%9B%84%E7%8D%85%E7%8D%B5%E7%88%AA-10008185.html",
-      "price": 389.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-22T06:32:24.270953+00:00"
-    },
-    {
-      "id": "1175417",
-      "title": "Beyblade戰鬥陀螺 Burst#203 究極合體改造組DX",
-      "url": "https://www.toysrus.com.tw/zh-tw/beyblade-b-203-sp-starter-set-1175417.html",
-      "price": 1599.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-06-22T06:32:24.270953+00:00"
-    },
     {
       "id": "10058492",
       "title": "Beyblade戰鬥陀螺 BX-37雙重極限衝擊戰鬥盤-豪華版",
@@ -40,10 +22,28 @@
       "first_seen": "2026-06-22T06:32:24.270953+00:00"
     },
     {
+      "id": "10008185",
+      "title": "Beyblade戰鬥陀螺 BX-15 雄獅獵爪",
+      "url": "https://www.toysrus.com.tw/zh-tw/beyblade%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BA-bx-15-%E9%9B%84%E7%8D%85%E7%8D%B5%E7%88%AA-10008185.html",
+      "price": 389.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-06-22T06:32:24.270953+00:00"
+    },
+    {
       "id": "10008187",
       "title": "Beyblade戰鬥陀螺 BX-16 王蛇鞭尾 隨機強化組",
       "url": "https://www.toysrus.com.tw/zh-tw/beyblade%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BA-bx-16-%E7%8E%8B%E8%9B%87%E9%9E%AD%E5%B0%BE-%E9%9A%A8%E6%A9%9F%E5%BC%B7%E5%8C%96%E7%B5%84-10008187.html",
       "price": 289.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-06-22T06:32:24.270953+00:00"
+    },
+    {
+      "id": "1175417",
+      "title": "Beyblade戰鬥陀螺 Burst#203 究極合體改造組DX",
+      "url": "https://www.toysrus.com.tw/zh-tw/beyblade-b-203-sp-starter-set-1175417.html",
+      "price": 1599.0,
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-06-22T06:32:24.270953+00:00"
