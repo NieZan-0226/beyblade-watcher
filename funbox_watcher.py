@@ -283,12 +283,12 @@ def prune_history(now_ts):
         now_dt = now_dt.replace(tzinfo=timezone.utc)
     cutoff = now_dt - timedelta(hours=HISTORY_RETENTION_HOURS)
 
-    tmp_file = f"{HISTORY_FILE}.tmp"
+    tmp_file = f"{HISTORY_FILE}.{os.getpid()}.tmp"
     kept = 0
     removed = 0
 
     try:
-        with open(HISTORY_FILE, "r", encoding="utf-8") as src, \
+        with open(HISTORY_FILE, "r", encoding="utf-8", errors="replace") as src, \
                 open(tmp_file, "w", encoding="utf-8") as dst:
             for line in src:
                 try:
@@ -312,7 +312,7 @@ def prune_history(now_ts):
         os.replace(tmp_file, HISTORY_FILE)
         if removed:
             print(f"已清理 history：保留 {kept} 筆，移除 {removed} 筆超過 {HISTORY_RETENTION_HOURS} 小時的紀錄。")
-    except OSError as e:
+    except (OSError, UnicodeDecodeError) as e:
         print(f"清理 history 失敗：{e}")
         try:
             if os.path.exists(tmp_file):

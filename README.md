@@ -301,17 +301,17 @@ crontab -e
 每分鐘執行一次，並將 log 依日期分檔：
 
 ```cron
-* * * * * cd /home/USER/beyblade-watcher && NTFY_TOPIC="你的-topic" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
+* * * * * cd /home/USER/beyblade-watcher && flock -n /tmp/beyblade-watcher.lock env NTFY_TOPIC="你的-topic" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
 17 * * * * find /home/USER/beyblade-watcher -name 'watcher-*.log' -mmin +1440 -delete
 ```
 
-crontab 內的 `%` 必須寫成 `\%`，並將 `/home/USER/beyblade-watcher` 改為實際路徑。
+crontab 內的 `%` 必須寫成 `\%`，並將 `/home/USER/beyblade-watcher` 改為實際路徑。`flock -n /tmp/beyblade-watcher.lock` 會避免上一輪還沒跑完時，下一輪又重疊啟動。
 
 如果想讓 MOMO Funbox 分類頁照原本頻率跑，但固定商品 ID 清單低頻率掃描，可以拆成兩條 cron。第一條每分鐘跑整合監控但不掃固定 ID，第二條每 30 分鐘只掃 `momo_funbox_product_ids.json`：
 
 ```cron
-* * * * * cd /home/USER/beyblade-watcher && MOMO_FUNBOX_USE_PRODUCT_IDS=0 NTFY_TOPIC="你的-topic" MOMO_FUNBOX_NTFY_TOPIC="你的-momo-funbox-topic" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
-*/30 * * * * cd /home/USER/beyblade-watcher && MOMO_FETCH_MODE=product_ids NTFY_TOPIC="你的-topic" MOMO_FUNBOX_NTFY_TOPIC="你的-momo-funbox-topic" /usr/bin/python3 momo_funbox_watcher.py >> momo-funbox-product-ids-$(date +\%F).log 2>&1
+* * * * * cd /home/USER/beyblade-watcher && flock -n /tmp/beyblade-watcher.lock env MOMO_FUNBOX_USE_PRODUCT_IDS=0 NTFY_TOPIC="你的-topic" MOMO_FUNBOX_NTFY_TOPIC="你的-momo-funbox-topic" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
+*/30 * * * * cd /home/USER/beyblade-watcher && flock -n /tmp/momo-funbox-product-ids.lock env MOMO_FETCH_MODE=product_ids NTFY_TOPIC="你的-topic" MOMO_FUNBOX_NTFY_TOPIC="你的-momo-funbox-topic" /usr/bin/python3 momo_funbox_watcher.py >> momo-funbox-product-ids-$(date +\%F).log 2>&1
 ```
 
 如果你想更保守，可以把 `*/30` 改成 `0 * * * *`，代表每小時掃一次固定商品 ID。
@@ -335,7 +335,7 @@ sudo yum install -y git python3 python3-pip
 排程設定與 Ubuntu 相同：
 
 ```cron
-* * * * * cd /home/USER/beyblade-watcher && NTFY_TOPIC="你的-topic" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
+* * * * * cd /home/USER/beyblade-watcher && flock -n /tmp/beyblade-watcher.lock env NTFY_TOPIC="你的-topic" /usr/bin/python3 the_watcher.py >> watcher-$(date +\%F).log 2>&1
 17 * * * * find /home/USER/beyblade-watcher -name 'watcher-*.log' -mmin +1440 -delete
 ```
 

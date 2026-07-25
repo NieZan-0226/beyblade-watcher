@@ -213,9 +213,9 @@ def prune_history(now_ts):
         return
     now_dt = parse_history_ts(now_ts) or datetime.now(timezone.utc)
     cutoff = now_dt - timedelta(hours=HISTORY_RETENTION_HOURS)
-    tmp = f"{HISTORY_FILE}.tmp"
+    tmp = f"{HISTORY_FILE}.{os.getpid()}.tmp"
     try:
-        with open(HISTORY_FILE, "r", encoding="utf-8") as src, open(tmp, "w", encoding="utf-8") as dst:
+        with open(HISTORY_FILE, "r", encoding="utf-8", errors="replace") as src, open(tmp, "w", encoding="utf-8") as dst:
             for line in src:
                 try:
                     row = json.loads(line)
@@ -225,7 +225,7 @@ def prune_history(now_ts):
                 if row_ts and row_ts >= cutoff:
                     dst.write(json.dumps(row, ensure_ascii=False) + "\n")
         os.replace(tmp, HISTORY_FILE)
-    except OSError:
+    except (OSError, UnicodeDecodeError):
         if os.path.exists(tmp):
             os.remove(tmp)
 
