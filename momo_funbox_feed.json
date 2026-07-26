@@ -1,8 +1,19 @@
 {
-  "updated_at": "2026-07-25T23:32:41.395752+00:00",
+  "updated_at": "2026-07-26T01:08:40.041002+00:00",
   "source": "MOMO Funbox",
   "count": 8,
   "products": [
+    {
+      "id": "15462753",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-35 隨機強化組Vol.04",
+      "url": "https://www.momoshop.com.tw/product/15462753",
+      "price": 295.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-07-23T09:37:28.809760+00:00",
+      "image": "https://i3.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
+      "availability_text": ""
+    },
     {
       "id": "15477231",
       "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BXG-01 烈焰飛鳳S(男孩 對戰)",
@@ -15,17 +26,6 @@
       "availability_text": "07/27 00:00 開賣"
     },
     {
-      "id": "15462753",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-35 隨機強化組Vol.04",
-      "url": "https://www.momoshop.com.tw/product/15462753",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i4.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
-      "availability_text": ""
-    },
-    {
       "id": "15462754",
       "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-04 極限衝擊對戰組U",
       "url": "https://www.momoshop.com.tw/product/15462754",
@@ -33,7 +33,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i3.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
       "availability_text": ""
     },
     {
@@ -44,7 +44,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i1.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_OR_m.webp",
+      "image": "https://i3.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_OR_m.webp",
       "availability_text": "可訂購時通知我"
     },
     {
@@ -59,15 +59,15 @@
       "availability_text": "可訂購時通知我"
     },
     {
-      "id": "15162661",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-11 衝擊龍神 豪華組",
-      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162661",
-      "price": 550.0,
+      "id": "15162656",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-06 雄獅巔峰",
+      "url": "https://www.momoshop.com.tw/product/15162656",
+      "price": 295.0,
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i4.momoshop.com.tw/1776414043/goodsimg/0015/162/661/15162661_OR_m.webp",
-      "availability_text": "可訂購時通知我"
+      "image": "https://i1.momoshop.com.tw/1776414029/goodsimg/0015/162/656/15162656_R_m.webp",
+      "availability_text": ""
     },
     {
       "id": "15162659",
@@ -77,19 +77,19 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i3.momoshop.com.tw/1776414038/goodsimg/0015/162/659/15162659_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1776414038/goodsimg/0015/162/659/15162659_R_m.webp",
       "availability_text": ""
     },
     {
-      "id": "15162656",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-06 雄獅巔峰",
-      "url": "https://www.momoshop.com.tw/product/15162656",
-      "price": 295.0,
+      "id": "15162661",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-11 衝擊龍神 豪華組",
+      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162661",
+      "price": 550.0,
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i2.momoshop.com.tw/1776414029/goodsimg/0015/162/656/15162656_R_m.webp",
-      "availability_text": ""
+      "image": "https://i3.momoshop.com.tw/1776414043/goodsimg/0015/162/661/15162661_OR_m.webp",
+      "availability_text": "可訂購時通知我"
     }
   ]
 }

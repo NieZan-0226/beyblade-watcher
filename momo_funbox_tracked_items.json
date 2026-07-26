@@ -1,4 +1,14 @@
 {
+  "15462753": {
+    "key": "15462753",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-35 隨機強化組Vol.04",
+    "url": "https://www.momoshop.com.tw/product/15462753",
+    "price": 295.0,
+    "in_stock": false,
+    "image": "https://i3.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
+    "availability_text": "",
+    "first_seen": "2026-07-23T09:37:28.809760+00:00"
+  },
   "15477231": {
     "key": "15477231",
     "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BXG-01 烈焰飛鳳S(男孩 對戰)",
@@ -9,23 +19,13 @@
     "availability_text": "07/27 00:00 開賣",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
-  "15462753": {
-    "key": "15462753",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-35 隨機強化組Vol.04",
-    "url": "https://www.momoshop.com.tw/product/15462753",
-    "price": 295.0,
-    "in_stock": false,
-    "image": "https://i4.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
-    "availability_text": "",
-    "first_seen": "2026-07-23T09:37:28.809760+00:00"
-  },
   "15462754": {
     "key": "15462754",
     "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-04 極限衝擊對戰組U",
     "url": "https://www.momoshop.com.tw/product/15462754",
     "price": 1995.0,
     "in_stock": false,
-    "image": "https://i3.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
+    "image": "https://i2.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
@@ -35,7 +35,7 @@
     "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15358813",
     "price": 250.0,
     "in_stock": false,
-    "image": "https://i1.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_OR_m.webp",
+    "image": "https://i3.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_OR_m.webp",
     "availability_text": "可訂購時通知我",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
@@ -49,14 +49,14 @@
     "availability_text": "可訂購時通知我",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
-  "15162661": {
-    "key": "15162661",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-11 衝擊龍神 豪華組",
-    "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162661",
-    "price": 550.0,
+  "15162656": {
+    "key": "15162656",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-06 雄獅巔峰",
+    "url": "https://www.momoshop.com.tw/product/15162656",
+    "price": 295.0,
     "in_stock": false,
-    "image": "https://i4.momoshop.com.tw/1776414043/goodsimg/0015/162/661/15162661_OR_m.webp",
-    "availability_text": "可訂購時通知我",
+    "image": "https://i1.momoshop.com.tw/1776414029/goodsimg/0015/162/656/15162656_R_m.webp",
+    "availability_text": "",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
   "15162659": {
@@ -65,18 +65,18 @@
     "url": "https://www.momoshop.com.tw/product/15162659",
     "price": 650.0,
     "in_stock": false,
-    "image": "https://i3.momoshop.com.tw/1776414038/goodsimg/0015/162/659/15162659_R_m.webp",
+    "image": "https://i1.momoshop.com.tw/1776414038/goodsimg/0015/162/659/15162659_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
-  "15162656": {
-    "key": "15162656",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-06 雄獅巔峰",
-    "url": "https://www.momoshop.com.tw/product/15162656",
-    "price": 295.0,
+  "15162661": {
+    "key": "15162661",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-11 衝擊龍神 豪華組",
+    "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15162661",
+    "price": 550.0,
     "in_stock": false,
-    "image": "https://i2.momoshop.com.tw/1776414029/goodsimg/0015/162/656/15162656_R_m.webp",
-    "availability_text": "",
+    "image": "https://i3.momoshop.com.tw/1776414043/goodsimg/0015/162/661/15162661_OR_m.webp",
+    "availability_text": "可訂購時通知我",
     "first_seen": "2026-07-23T09:37:28.809760+00:00"
   },
   "__meta__": {
@@ -85,6 +85,6 @@
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 8
+    "source_count": 9
   }
 }
