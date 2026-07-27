@@ -1,8 +1,41 @@
 {
-  "updated_at": "2026-07-27T08:32:43.561870+00:00",
+  "updated_at": "2026-07-27T11:54:42.963445+00:00",
   "source": "MOMO Funbox",
-  "count": 3,
+  "count": 6,
   "products": [
+    {
+      "id": "15477233",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-33 皓戰猛虎(男孩 對戰)",
+      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15477233",
+      "price": 295.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-07-27T11:54:42.098108+00:00",
+      "image": "https://i1.momoshop.com.tw/1784008412/goodsimg/0015/477/233/15477233_OR_m.webp",
+      "availability_text": "07/28 00:00 開賣"
+    },
+    {
+      "id": "15477234",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BXG-04 銀牙烈虎S(男孩 對戰)",
+      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15477234",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-07-27T11:54:42.098108+00:00",
+      "image": "https://i1.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_OR_m.webp",
+      "availability_text": "07/29 00:00 開賣"
+    },
+    {
+      "id": "15462749",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-40 發射器(酒紅)",
+      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15462749",
+      "price": 250.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-07-27T11:54:42.098108+00:00",
+      "image": "https://i3.momoshop.com.tw/1783492698/goodsimg/0015/462/749/15462749_OR_m.webp",
+      "availability_text": "07/28 00:00 開賣"
+    },
     {
       "id": "15462753",
       "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-35 隨機強化組Vol.04",
@@ -11,7 +44,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i2.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
+      "image": "https://i3.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
       "availability_text": ""
     },
     {
@@ -33,7 +66,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i3.momoshop.com.tw/1784000361/goodsimg/0015/477/231/15477231_OR_m.webp",
+      "image": "https://i2.momoshop.com.tw/1784000361/goodsimg/0015/477/231/15477231_OR_m.webp",
       "availability_text": "可訂購時通知我"
     }
   ]
