@@ -1,8 +1,44 @@
 {
-  "updated_at": "2026-07-28T00:56:05.179614+00:00",
+  "updated_at": "2026-07-28T04:14:09.777520+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 40,
+  "count": 36,
   "products": [
+    {
+      "id": "sensen:beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "title": "【9月預購】BEYBLADE X 戰鬥陀螺X CX-13 龍王閃擊 BK1-50I",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "price": 446.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-07-28T04:13:55.468258+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwMzYzOTNfNTQ4NmNmZmFhMzJjMDIyNWY2OTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=e2a3b94207b52069",
+      "source_id": "beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-戰鬥陀螺x-cx-11-帝王威能改造組",
+      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X CX-11 帝王威能改造組",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-cx-11-帝王威能改造組",
+      "price": 896.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-07-28T04:13:55.468258+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNjUwNDY4LzE3NjA1Mjc4NDZfNTM1ZDg3ZDBhN2RiZGMxN2UwOGIucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=687c1741b3a115d3",
+      "source_id": "beyblade-x-戰鬥陀螺x-cx-11-帝王威能改造組",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X UX-19 子彈獅鷲｜UX系列擴張戰刃｜唯一分身戰法：攻擊子彈 × 持久本體",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "price": 495.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-07-28T04:13:55.468258+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NjYyMzU5LzE3NzM2NTk4OTJfYWEyNjVmNGVjMzc0MTQ4MzBjMjEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a93d05424b368725",
+      "source_id": "beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "source": "森森文具玩具"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -116,18 +152,6 @@
       "source": "森森文具玩具"
     },
     {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-bx-44-三角強襲",
-      "title": "BEYBLADE X 戰鬥陀螺X BX-44 三角強襲",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-44-三角強襲",
-      "price": 256.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU2MTkzNzY3LzE3NDg5MjI2NTFfZjFjYTFlNGU5MTY5NmM4ZTVjNTkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=b2e9bea7381b63e4",
-      "source_id": "beyblade-x-戰鬥陀螺x-bx-44-三角強襲",
-      "source": "森森文具玩具"
-    },
-    {
       "id": "sensen:beyblade-x-戰鬥陀螺x-bx-45-武士魂斬",
       "title": "BEYBLADE X 戰鬥陀螺X BX-45 武士魂斬",
       "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-45-武士魂斬",
@@ -188,18 +212,6 @@
       "source": "森森文具玩具"
     },
     {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-bxg-40-暴龍-滄龍",
-      "title": "BEYBLADE X 戰鬥陀螺X BXG-40 暴龍 / 滄龍",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bxg-40-暴龍-滄龍",
-      "price": 349.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3Mjc2MjI3LzE3NTE3MTg4MzRfYmFkMTQzNmJkMzg4Nzc5OGRiMmMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=aa8c0881a34c0426",
-      "source_id": "beyblade-x-戰鬥陀螺x-bxg-40-暴龍-滄龍",
-      "source": "森森文具玩具"
-    },
-    {
       "id": "sensen:beyblade-x-戰鬥陀螺x-bxg-41-棘龍-翼龍",
       "title": "BEYBLADE X 戰鬥陀螺X BXG-41 棘龍 / 翼龍",
       "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bxg-41-棘龍-翼龍",
@@ -233,18 +245,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU4MTI5Njk4LzE3NTQzMTcwMDdfMGRmOGVmZDdlNWVlOTkwNTQzMDUuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=fc7e32638389d5bb",
       "source_id": "beyblade-x-戰鬥陀螺x-cx-00戰神伏特-s4-70v-圖鑑",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-cx-06-極狐九尾-隨機強化組",
-      "title": "BEYBLADE X 戰鬥陀螺X CX-06 極狐九尾 隨機強化組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-cx-06-極狐九尾-隨機強化組",
-      "price": 276.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU1NDMyNTgwLzE3NDY2MTgyNzlfMDViYmQ4OTIyOTVkZmUwMmY4M2EucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=8d3e23843b123d3b",
-      "source_id": "beyblade-x-戰鬥陀螺x-cx-06-極狐九尾-隨機強化組",
       "source": "森森文具玩具"
     },
     {
@@ -410,22 +410,9 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i1.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
       "availability_text": "",
       "source_id": "15462753",
-      "source": "MOMO Funbox"
-    },
-    {
-      "id": "momo_funbox:15477231",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BXG-01 烈焰飛鳳S(男孩 對戰)",
-      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15477231",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i4.momoshop.com.tw/1784000361/goodsimg/0015/477/231/15477231_OR_m.webp",
-      "availability_text": "可訂購時通知我",
-      "source_id": "15477231",
       "source": "MOMO Funbox"
     },
     {
@@ -436,48 +423,9 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i2.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
       "availability_text": "",
       "source_id": "15462754",
-      "source": "MOMO Funbox"
-    },
-    {
-      "id": "momo_funbox:15477233",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-33 皓戰猛虎(男孩 對戰)",
-      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15477233",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-27T11:54:42.098108+00:00",
-      "image": "https://i4.momoshop.com.tw/1784008412/goodsimg/0015/477/233/15477233_OR_m.webp",
-      "availability_text": "可訂購時通知我",
-      "source_id": "15477233",
-      "source": "MOMO Funbox"
-    },
-    {
-      "id": "momo_funbox:15462749",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-40 發射器(酒紅)",
-      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15462749",
-      "price": 250.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-27T11:54:42.098108+00:00",
-      "image": "https://i4.momoshop.com.tw/1783492698/goodsimg/0015/462/749/15462749_OR_m.webp",
-      "availability_text": "可訂購時通知我",
-      "source_id": "15462749",
-      "source": "MOMO Funbox"
-    },
-    {
-      "id": "momo_funbox:15477234",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BXG-04 銀牙烈虎S(男孩 對戰)",
-      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15477234",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-27T11:54:42.098108+00:00",
-      "image": "https://i3.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_OR_m.webp",
-      "availability_text": "07/29 00:00 開賣",
-      "source_id": "15477234",
       "source": "MOMO Funbox"
     }
   ]
