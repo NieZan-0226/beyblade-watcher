@@ -17,6 +17,7 @@ os.environ.setdefault("FEED_FILE", "momo_funbox_feed.json")
 os.environ.setdefault("HISTORY_FILE", "momo_funbox_history.jsonl")
 if os.environ.get("MOMO_FUNBOX_USE_PRODUCT_IDS", "1").strip().lower() not in {"0", "false", "no", "off"}:
     os.environ.setdefault("MOMO_PRODUCT_IDS_FILE", "momo_funbox_product_ids.json")
+    os.environ.setdefault("MOMO_PRODUCT_IDS_AUTO_ADD", "1")
 os.environ.setdefault("NTFY_TOPIC", os.environ.get("MOMO_FUNBOX_NTFY_TOPIC") or "momo-funbox-beyblade-k7m2qz")
 
 

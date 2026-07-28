@@ -61,6 +61,7 @@ MOMO Funbox 監控預設採用混合式：
 1. 先讀取 MOMO Funbox 分類頁上實際顯示的商品。
 2. 再讀取 `momo_funbox_product_ids.json` 裡列出的固定商品頁。
 3. 用商品 ID 去重後一起判斷上架、下架、補貨與「07/25 11:00 開賣」這類狀態文字。
+4. 分類頁若掃到新的 MOMO 數字商品 ID，會自動追加到 `momo_funbox_product_ids.json`，之後就算分類頁暫時不顯示，也能用固定商品頁繼續追。
 
 如果發現某個 BEYBLADE 商品沒有出現在分類頁，但你知道商品連結，可以把 `/product/` 後面的數字加進 `momo_funbox_product_ids.json`：
 
@@ -77,6 +78,12 @@ MOMO Funbox 監控預設採用混合式：
 
 ```bash
 MOMO_FUNBOX_USE_PRODUCT_IDS=0 python3 the_watcher.py
+```
+
+如果只想停用「自動把分類頁新商品寫回 ID 清單」，但仍保留固定商品 ID 監控，可以加上：
+
+```bash
+MOMO_PRODUCT_IDS_AUTO_ADD=0 python3 the_watcher.py
 ```
 
 ## 安裝
@@ -390,6 +397,7 @@ New-Item -ItemType Directory -Force -Path "$PWD\logs"
 - `MOMO_FUNBOX_KEYWORD_RE`：MOMO Funbox 商品標題篩選正規式，預設 `BEYBLADE|戰鬥陀螺`
 - `MOMO_FETCH_MODE`：MOMO 抓取模式，預設 `rendered`，使用 Playwright 讀取頁面上實際顯示的 TAKARA TOMY 商品
 - `MOMO_PRODUCT_IDS_FILE`：MOMO 額外固定商品 ID 清單；MOMO Funbox 預設使用 `momo_funbox_product_ids.json`
+- `MOMO_PRODUCT_IDS_AUTO_ADD`：是否把 MOMO 分類頁掃到的新數字商品 ID 自動寫回 `MOMO_PRODUCT_IDS_FILE`；MOMO Funbox 預設 `1`
 - `MOMO_FUNBOX_USE_PRODUCT_IDS`：是否讓 MOMO Funbox 使用固定商品 ID 清單，預設 `1`；設為 `0` 可停用，方便改用低頻 cron 單獨掃
 - `MOMO_RENDER_TIMEOUT_MS`：MOMO 頁面渲染等待時間，預設 `60000`
 - `MOMO_MAX_PAGES`：MOMO 店鋪分類最多掃描頁數，預設 `30`

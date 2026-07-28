@@ -46,6 +46,7 @@ FEED_FILE = os.environ.get("FEED_FILE", "momo_feed.json")
 HISTORY_FILE = os.environ.get("HISTORY_FILE", "momo_history.jsonl")
 WATCHLIST_FILE = os.environ.get("WATCHLIST_FILE", "watchlist.json")
 PRODUCT_IDS_FILE = os.environ.get("MOMO_PRODUCT_IDS_FILE", "").strip()
+PRODUCT_IDS_AUTO_ADD = os.environ.get("MOMO_PRODUCT_IDS_AUTO_ADD", "0").strip().lower() in {"1", "true", "yes", "on"}
 DEBUG = os.environ.get("DEBUG", "0") == "1"
 
 RETRY_ATTEMPTS = int(os.environ.get("RETRY_ATTEMPTS", "3"))
@@ -179,6 +180,59 @@ def load_product_ids():
     return list(dict.fromkeys(ids))
 
 
+def product_id_from_item(item):
+    if not isinstance(item, dict):
+        return ""
+    values = [
+        item.get("goodsCode"),
+        item.get("key"),
+        item.get("id"),
+        item.get("goodsUrl"),
+        item.get("url"),
+    ]
+    for value in values:
+        text = str(value or "").strip()
+        if not text:
+            continue
+        if re.fullmatch(r"\d{6,}", text):
+            return text
+        match = re.search(r"/product/(\d{6,})", text) or re.search(r"[?&]i_code=(\d{6,})", text)
+        if match:
+            return match.group(1)
+    return ""
+
+
+def save_product_ids(ids):
+    if not PRODUCT_IDS_FILE:
+        return 0
+    existing = load_product_ids()
+    merged = list(existing)
+    seen = set(existing)
+    for product_id in ids:
+        if product_id and product_id not in seen:
+            merged.append(product_id)
+            seen.add(product_id)
+    added_count = len(merged) - len(existing)
+    if added_count <= 0:
+        return 0
+    tmp = f"{PRODUCT_IDS_FILE}.{os.getpid()}.tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(merged, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    os.replace(tmp, PRODUCT_IDS_FILE)
+    return added_count
+
+
+def auto_add_product_ids(products):
+    if not PRODUCT_IDS_AUTO_ADD or not PRODUCT_IDS_FILE:
+        return 0
+    ids = [product_id_from_item(product) for product in products]
+    added_count = save_product_ids(ids)
+    if added_count:
+        print(f"已自動新增 {added_count} 個 MOMO 商品 ID 到 {PRODUCT_IDS_FILE}。")
+    return added_count
+
+
 def fetch_products_from_product_ids():
     ids = load_product_ids()
     if not ids:
@@ -260,7 +314,7 @@ def fetch_products_from_rendered_page():
     js = """
     () => {
       const anchors = Array.from(document.querySelectorAll(
-        '.product-item-goods a[href*="goodsDetail"], a[href*="GoodsDetail.jsp?i_code="], a[href*="/goods/GoodsDetail.jsp"]'
+        '.product-item-goods a[href*="goodsDetail"], .product-item-goods a[href*="/product/"], a[href*="GoodsDetail.jsp?i_code="], a[href*="/goods/GoodsDetail.jsp"], a[href*="/product/"]'
       ));
       const seen = new Set();
       const items = [];
@@ -767,6 +821,7 @@ def main():
         p = parse_product(prod)
         if p:
             current[p["key"]] = p
+    auto_add_product_ids(current.values())
 
     now = datetime.now(timezone.utc).isoformat()
     append_history(current, now)
