@@ -53,6 +53,9 @@ RETRY_ATTEMPTS = int(os.environ.get("RETRY_ATTEMPTS", "3"))      # 總共嘗試�
 RETRY_BASE_DELAY = float(os.environ.get("RETRY_BASE_DELAY", "2"))  # 退避基準秒數（指數成長）
 # 連續失敗達到這個次數才發警告，偶爾一次逾時不吵人。成功一次就歸零。
 FAIL_ALERT_THRESHOLD = int(os.environ.get("FAIL_ALERT_THRESHOLD", "4"))
+# Funbox / Cyberbiz 的分類 JSON 偶爾會回空或只回極少數商品。
+# 若原本已有狀態，解析結果少於此數量時先視為不完整回應，避免誤判大量下架/重新上架造成洗版。
+MIN_VALID_PRODUCTS = int(os.environ.get("MIN_VALID_PRODUCTS", "2"))
 # 狀態檔裡存放監看器自身狀態（連續失敗次數等）的保留鍵，不會和商品鍵衝突。
 META_KEY = "__watcher_meta__"
 
@@ -493,6 +496,17 @@ def main():
         save_state_with_meta(state, meta)
         print("沒解析到任何商品（欄位可能對不上，用 DEBUG=1 檢查）。")
         return
+    print(f"已解析 {len(current)} 個商品。")
+
+    if state and len(current) < MIN_VALID_PRODUCTS:
+        meta["last_short_response_at"] = datetime.now(timezone.utc).isoformat()
+        meta["last_short_response_count"] = len(current)
+        save_state_with_meta(state, meta)
+        print(
+            f"解析結果只有 {len(current)} 筆，低於 MIN_VALID_PRODUCTS={MIN_VALID_PRODUCTS}；"
+            "判定 Funbox 回應不完整，保留舊狀態且不發通知。"
+        )
+        return
 
     now = datetime.now(timezone.utc).isoformat()
 
@@ -529,18 +543,18 @@ def main():
     # 自動偵測下架：state 裡有、但這次 API 完全沒回傳的商品，判定為已下架。
     # （state 已由 split_meta() 去除 META_KEY，所以不會誤判監看器自身狀態）
     delisted = [old for key, old in state.items() if key not in current]
-    notify_delisted(delisted)
 
-    # 只保留這次 API 還看得到的商品（first_seen 已在上面從舊狀態帶過來）。
-    # 下架的商品會自動從狀態移除，之後若重新上架就能正確觸發「新上架」通知。
+    # 先把這次抓到的狀態與 feed 寫入，再發外部通知。
+    # 這樣即使 ntfy / Discord webhook 逾時或失敗，下一輪也不會因為 state 還停在舊資料而重複通知同一批異動。
     save_state_with_meta(current, meta)
-
-    # 輸出給 app 的清單，標記這次的新上架與補貨
     write_feed(
         current,
         new_keys=[p["key"] for p in new_items],
         restock_keys=[p["key"] for p in restocks],
     )
+
+    send_notifications(new_items, restocks, price_drops, load_watchlist())
+    notify_delisted(delisted)
 
     print(f"完成：新上架 {len(new_items)}、補貨 {len(restocks)}、"
           f"降價 {len(price_drops)}、下架 {len(delisted)}。")
