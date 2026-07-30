@@ -1,30 +1,10 @@
 {
-  "15462754": {
-    "key": "15462754",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-04 極限衝擊對戰組U",
-    "url": "https://www.momoshop.com.tw/product/15462754",
-    "price": 1995.0,
-    "in_stock": false,
-    "image": "https://i1.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
-    "availability_text": "",
-    "first_seen": "2026-07-23T09:37:28.809760+00:00"
-  },
-  "15462753": {
-    "key": "15462753",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-35 隨機強化組Vol.04",
-    "url": "https://www.momoshop.com.tw/product/15462753",
-    "price": 295.0,
-    "in_stock": false,
-    "image": "https://i2.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
-    "availability_text": "",
-    "first_seen": "2026-07-23T09:37:28.809760+00:00"
-  },
   "__meta__": {
     "consecutive_failures": 0,
     "initialized": true,
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 6
+    "source_count": 5
   }
 }

@@ -1,29 +1,6 @@
 {
-  "updated_at": "2026-07-30T06:07:39.537000+00:00",
+  "updated_at": "2026-07-30T08:51:19.026964+00:00",
   "source": "MOMO Funbox",
-  "count": 2,
-  "products": [
-    {
-      "id": "15462754",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-04 極限衝擊對戰組U",
-      "url": "https://www.momoshop.com.tw/product/15462754",
-      "price": 1995.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i1.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
-      "availability_text": ""
-    },
-    {
-      "id": "15462753",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-35 隨機強化組Vol.04",
-      "url": "https://www.momoshop.com.tw/product/15462753",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i2.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
-      "availability_text": ""
-    }
-  ]
+  "count": 0,
+  "products": []
 }

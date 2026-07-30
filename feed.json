@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T06:07:39.564515+00:00",
+  "updated_at": "2026-07-30T08:51:19.057688+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 36,
+  "count": 34,
   "products": [
     {
       "id": "funbox:57883050",
@@ -365,32 +365,6 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NDkwNTA5LzE3NTI2NDY5OTBfZWNkMDRjYThkZGEwZGMxZTBiZmEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1689151cf0ef5fb7",
       "source_id": "beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
       "source": "森森文具玩具"
-    },
-    {
-      "id": "momo_funbox:15462753",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-35 隨機強化組Vol.04",
-      "url": "https://www.momoshop.com.tw/product/15462753",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i2.momoshop.com.tw/1783492709/goodsimg/0015/462/753/15462753_R_m.webp",
-      "availability_text": "",
-      "source_id": "15462753",
-      "source": "MOMO Funbox"
-    },
-    {
-      "id": "momo_funbox:15462754",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-04 極限衝擊對戰組U",
-      "url": "https://www.momoshop.com.tw/product/15462754",
-      "price": 1995.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-23T09:37:28.809760+00:00",
-      "image": "https://i1.momoshop.com.tw/1783492711/goodsimg/0015/462/754/15462754_R_m.webp",
-      "availability_text": "",
-      "source_id": "15462754",
-      "source": "MOMO Funbox"
     },
     {
       "id": "sensen:beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
