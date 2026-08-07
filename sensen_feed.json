@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-08-07T10:34:35.485649+00:00",
+  "updated_at": "2026-08-07T11:25:44.459070+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "x-battle-case-blade-magnetic-beyblade-storage-box",
-      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
-      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
-      "price": 799.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-07T10:34:35.249149+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-07-28T04:13:55.468258+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNjUwNDY4LzE3NjA1Mjc4NDZfNTM1ZDg3ZDBhN2RiZGMxN2UwOGIucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=687c1741b3a115d3"
+    },
+    {
+      "id": "x-battle-case-blade-magnetic-beyblade-storage-box",
+      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
+      "price": 799.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-07T10:34:35.249149+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95"
     }
   ]
 }

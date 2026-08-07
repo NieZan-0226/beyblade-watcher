@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-08-07T10:34:48.607971+00:00",
+  "updated_at": "2026-08-07T11:25:55.130562+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
-    {
-      "id": "sensen:x-battle-case-blade-magnetic-beyblade-storage-box",
-      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
-      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
-      "price": 799.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-07T10:34:35.249149+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95",
-      "source_id": "x-battle-case-blade-magnetic-beyblade-storage-box",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -400,6 +388,18 @@
       "first_seen": "2026-07-28T04:13:55.468258+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NjYyMzU5LzE3NzM2NTk4OTJfYWEyNjVmNGVjMzc0MTQ4MzBjMjEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a93d05424b368725",
       "source_id": "beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:x-battle-case-blade-magnetic-beyblade-storage-box",
+      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
+      "price": 799.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-07T10:34:35.249149+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95",
+      "source_id": "x-battle-case-blade-magnetic-beyblade-storage-box",
       "source": "森森文具玩具"
     }
   ]
