@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-07T09:42:55.648108+00:00",
+  "updated_at": "2026-08-07T10:34:35.485649+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
     {
-      "id": "x-hangar-y35-battle-outing-box",
-      "title": "X-HANGAR Y-35 戰鬥外出箱｜陀螺對戰盤與收納展示櫃（6色可選）",
-      "url": "https://www.sen-sen.com.tw/products/x-hangar-y35-battle-outing-box",
-      "price": 3099.0,
+      "id": "x-battle-case-blade-magnetic-beyblade-storage-box",
+      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
+      "price": 799.0,
       "in_stock": true,
-      "status": "restock",
-      "first_seen": "2026-07-13T07:55:25.047268+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY5NDU5MDc1LzE3ODM2OTc5NzRfZTZiMTY3NTk1ZTczODFkNzUwM2YuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=2a0e64593eba6b50"
+      "status": "new",
+      "first_seen": "2026-08-07T10:34:35.249149+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95"
     },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
@@ -194,14 +194,14 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NTYzMTAwLzE3NTI4MzEzNDhfODk4YmNkZTBmMTZjMDc1MjIzNjUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1247dffd9b90c5e5"
     },
     {
-      "id": "beyblade-x-戰鬥陀螺x-bx-45-武士魂斬",
-      "title": "BEYBLADE X 戰鬥陀螺X BX-45 武士魂斬",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-45-武士魂斬",
-      "price": 256.0,
-      "in_stock": false,
+      "id": "x-hangar-y35-battle-outing-box",
+      "title": "X-HANGAR Y-35 戰鬥外出箱｜陀螺對戰盤與收納展示櫃（6色可選）",
+      "url": "https://www.sen-sen.com.tw/products/x-hangar-y35-battle-outing-box",
+      "price": 3099.0,
+      "in_stock": true,
       "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NDkwNDU4LzE3NTI2NDY3NzBfZTNmYjU3NDQ0MGJhN2U2MGMwODkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=deee33b1ac132c73"
+      "first_seen": "2026-07-13T07:55:25.047268+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY5NDU5MDc1LzE3ODM2OTc5NzRfZTZiMTY3NTk1ZTczODFkNzUwM2YuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=2a0e64593eba6b50"
     },
     {
       "id": "beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
