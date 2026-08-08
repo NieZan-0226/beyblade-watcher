@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-08T15:01:01.341925+00:00",
+  "updated_at": "2026-08-08T15:32:32.495825+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
     {
-      "id": "sensen:beyblade-warrior-storage-bag",
-      "title": "陀螺鬥士收納包｜雙層海綿多功能陀螺收納盒｜6格加高海綿｜33×24×10cm",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-warrior-storage-bag",
-      "price": 1480.0,
+      "id": "sensen:beyblade-modular-magnetic-storage-case",
+      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜45×20CM｜9格陀螺＋配件擴充",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-modular-magnetic-storage-case",
+      "price": 2299.0,
       "in_stock": true,
       "status": "new",
-      "first_seen": "2026-08-08T15:00:47.645263+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcyMzkwLzE3ODYyMDA1NTJfYTdiOTBiZTU3NDRjMDI2NjhkZjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3555834b43c29594",
-      "source_id": "beyblade-warrior-storage-bag",
+      "first_seen": "2026-08-08T15:32:20.355051+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDczNzQzLzE3ODYyMDI5MjRfY2RiM2U3MmMwNmY0MGRhOGMxZWQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ecfa6aad56d6c105",
+      "source_id": "beyblade-modular-magnetic-storage-case",
       "source": "森森文具玩具"
     },
     {
@@ -149,18 +149,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NzA3NzEwLzE3NTMyNDIzMjVfOGVhYzU4ODM0ZTQyNTQ5NzQ1ZjkuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=fc61bd4f98efc713",
       "source_id": "beyblade-x-戰鬥陀螺x-bxg-09-蒼芎龍騎士-黑龍ver",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-bxg-10-x發射器改造握把透黑-bbpr94559",
-      "title": "BEYBLADE X 戰鬥陀螺X BXG-10 X發射器改造握把(透黑) BBPR94559 (圖鑑)",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bxg-10-x發射器改造握把透黑-bbpr94559",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NzA2NjM3LzE3NTMyNDEwNjhfNmI1ZmY0MzQzNmI3MDYxZTM2MzguanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=3fc11b07b07cc769",
-      "source_id": "beyblade-x-戰鬥陀螺x-bxg-10-x發射器改造握把透黑-bbpr94559",
       "source": "森森文具玩具"
     },
     {
@@ -400,6 +388,18 @@
       "first_seen": "2026-08-08T14:33:45.247063+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcwOTM1LzE3ODYxOTk0NjdfMjdjMGRmYTg3M2ZhMWQ2MTJhMzMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=670632b029186dc4",
       "source_id": "x-hangar-beyblade-x-check-board",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-warrior-storage-bag",
+      "title": "陀螺鬥士收納包｜雙層海綿多功能陀螺收納盒｜6格加高海綿｜33×24×10cm",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-warrior-storage-bag",
+      "price": 1480.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-08T15:00:47.645263+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcyMzkwLzE3ODYyMDA1NTJfYTdiOTBiZTU3NDRjMDI2NjhkZjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3555834b43c29594",
+      "source_id": "beyblade-warrior-storage-bag",
       "source": "森森文具玩具"
     }
   ]
