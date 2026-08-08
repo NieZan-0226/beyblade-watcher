@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-08-08T15:32:32.495825+00:00",
+  "updated_at": "2026-08-08T15:58:29.996915+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
-    {
-      "id": "sensen:beyblade-modular-magnetic-storage-case",
-      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜45×20CM｜9格陀螺＋配件擴充",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-modular-magnetic-storage-case",
-      "price": 2299.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-08T15:32:20.355051+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDczNzQzLzE3ODYyMDI5MjRfY2RiM2U3MmMwNmY0MGRhOGMxZWQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ecfa6aad56d6c105",
-      "source_id": "beyblade-modular-magnetic-storage-case",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -400,6 +388,18 @@
       "first_seen": "2026-08-08T15:00:47.645263+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcyMzkwLzE3ODYyMDA1NTJfYTdiOTBiZTU3NDRjMDI2NjhkZjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3555834b43c29594",
       "source_id": "beyblade-warrior-storage-bag",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-modular-magnetic-storage-case",
+      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜45×20CM｜9格陀螺＋配件擴充",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-modular-magnetic-storage-case",
+      "price": 2299.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-08T15:32:20.355051+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDczNzQzLzE3ODYyMDI5MjRfY2RiM2U3MmMwNmY0MGRhOGMxZWQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ecfa6aad56d6c105",
+      "source_id": "beyblade-modular-magnetic-storage-case",
       "source": "森森文具玩具"
     }
   ]

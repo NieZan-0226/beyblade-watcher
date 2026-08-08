@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-08-08T15:32:20.551410+00:00",
+  "updated_at": "2026-08-08T15:58:18.651134+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "beyblade-modular-magnetic-storage-case",
-      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜45×20CM｜9格陀螺＋配件擴充",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-modular-magnetic-storage-case",
-      "price": 2299.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-08T15:32:20.355051+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDczNzQzLzE3ODYyMDI5MjRfY2RiM2U3MmMwNmY0MGRhOGMxZWQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ecfa6aad56d6c105"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-08-08T15:00:47.645263+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcyMzkwLzE3ODYyMDA1NTJfYTdiOTBiZTU3NDRjMDI2NjhkZjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3555834b43c29594"
+    },
+    {
+      "id": "beyblade-modular-magnetic-storage-case",
+      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜45×20CM｜9格陀螺＋配件擴充",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-modular-magnetic-storage-case",
+      "price": 2299.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-08T15:32:20.355051+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDczNzQzLzE3ODYyMDI5MjRfY2RiM2U3MmMwNmY0MGRhOGMxZWQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ecfa6aad56d6c105"
     }
   ]
 }
