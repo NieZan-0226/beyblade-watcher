@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-08T14:33:58.277690+00:00",
+  "updated_at": "2026-08-08T15:01:01.341925+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
     {
-      "id": "sensen:x-hangar-beyblade-x-check-board",
-      "title": "X-HANGAR 戰鬥陀螺X 檢查板｜6格陀螺檢查盤｜比賽檢查／收納展示板｜3色可選",
-      "url": "https://www.sen-sen.com.tw/products/x-hangar-beyblade-x-check-board",
-      "price": 380.0,
+      "id": "sensen:beyblade-warrior-storage-bag",
+      "title": "陀螺鬥士收納包｜雙層海綿多功能陀螺收納盒｜6格加高海綿｜33×24×10cm",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-warrior-storage-bag",
+      "price": 1480.0,
       "in_stock": true,
       "status": "new",
-      "first_seen": "2026-08-08T14:33:45.247063+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcwOTM1LzE3ODYxOTk0NjdfMjdjMGRmYTg3M2ZhMWQ2MTJhMzMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=670632b029186dc4",
-      "source_id": "x-hangar-beyblade-x-check-board",
+      "first_seen": "2026-08-08T15:00:47.645263+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcyMzkwLzE3ODYyMDA1NTJfYTdiOTBiZTU3NDRjMDI2NjhkZjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3555834b43c29594",
+      "source_id": "beyblade-warrior-storage-bag",
       "source": "森森文具玩具"
     },
     {
@@ -173,18 +173,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNTIxNjA3LzE3NjAyNjk1OTBfYzIxNWQ4Njk0ZjRiYzgwNTY4MmMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=a1bd284e5574149f",
       "source_id": "beyblade-x-戰鬥陀螺x-bxg-15烈焰飛鳳s-闇黑ver",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-bxg-41-棘龍-翼龍",
-      "title": "BEYBLADE X 戰鬥陀螺X BXG-41 棘龍 / 翼龍",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bxg-41-棘龍-翼龍",
-      "price": 698.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NTYzMTAwLzE3NTI4MzEzNDhfODk4YmNkZTBmMTZjMDc1MjIzNjUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1247dffd9b90c5e5",
-      "source_id": "beyblade-x-戰鬥陀螺x-bxg-41-棘龍-翼龍",
       "source": "森森文具玩具"
     },
     {
@@ -400,6 +388,18 @@
       "first_seen": "2026-08-07T10:34:35.249149+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95",
       "source_id": "x-battle-case-blade-magnetic-beyblade-storage-box",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:x-hangar-beyblade-x-check-board",
+      "title": "X-HANGAR 戰鬥陀螺X 檢查板｜6格陀螺檢查盤｜比賽檢查／收納展示板｜3色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-hangar-beyblade-x-check-board",
+      "price": 380.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-08T14:33:45.247063+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcwOTM1LzE3ODYxOTk0NjdfMjdjMGRmYTg3M2ZhMWQ2MTJhMzMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=670632b029186dc4",
+      "source_id": "x-hangar-beyblade-x-check-board",
       "source": "森森文具玩具"
     }
   ]
