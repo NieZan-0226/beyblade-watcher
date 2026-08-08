@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-08-08T13:53:00.667744+00:00",
+  "updated_at": "2026-08-08T14:33:58.277690+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
+    {
+      "id": "sensen:x-hangar-beyblade-x-check-board",
+      "title": "X-HANGAR 戰鬥陀螺X 檢查板｜6格陀螺檢查盤｜比賽檢查／收納展示板｜3色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-hangar-beyblade-x-check-board",
+      "price": 380.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-08-08T14:33:45.247063+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcwOTM1LzE3ODYxOTk0NjdfMjdjMGRmYTg3M2ZhMWQ2MTJhMzMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=670632b029186dc4",
+      "source_id": "x-hangar-beyblade-x-check-board",
+      "source": "森森文具玩具"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -340,18 +352,6 @@
       "first_seen": "2026-07-13T07:55:25.047268+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY5NDU5MDc1LzE3ODM2OTc5NzRfZTZiMTY3NTk1ZTczODFkNzUwM2YuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=2a0e64593eba6b50",
       "source_id": "x-hangar-y35-battle-outing-box",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
-      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X UX-15 鮫鯊狂鱗改造組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
-      "price": 716.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-23T09:37:14.521992+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NDkwNTA5LzE3NTI2NDY5OTBfZWNkMDRjYThkZGEwZGMxZTBiZmEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1689151cf0ef5fb7",
-      "source_id": "beyblade-x-戰鬥陀螺x-ux-15-鮫鯊狂鱗改造組",
       "source": "森森文具玩具"
     },
     {
