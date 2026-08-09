@@ -1,32 +1,8 @@
 {
-  "updated_at": "2026-08-09T15:48:00.370957+00:00",
+  "updated_at": "2026-08-09T16:13:56.158520+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
-    {
-      "id": "sensen:beyblade-x-bx-00-storm-pegasus-3-70ra",
-      "title": "BEYBLADE X 戰鬥陀螺X BX-00 暴風天馬3-70RA",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-00-storm-pegasus-3-70ra",
-      "price": 595.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-08-09T15:47:48.158986+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNzU0LzE3ODYyODg4OTNfMjI3NDI0MDMyYjE0ODhiMmZlZGUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=46486855c6fd8f3a",
-      "source_id": "beyblade-x-bx-00-storm-pegasus-3-70ra",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-ux-20-glory-valkyrie-lf",
-      "title": "BEYBLADE X 戰鬥陀螺X UX-20 榮耀武神 LF",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-20-glory-valkyrie-lf",
-      "price": 595.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-08-09T15:47:48.158986+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAxMDYxLzE3ODYyODk2OTJfMzliYTliYTNmOTI5ZGU1M2QyYzYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=906397eceadcad89",
-      "source_id": "beyblade-x-ux-20-glory-valkyrie-lf",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -400,6 +376,30 @@
       "first_seen": "2026-08-09T15:13:28.740688+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNjgzLzE3ODYyODc0OTJfZWQzZThhOTQ2OWQ1YjY1NGMyMzcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164a8c11ca86a237",
       "source_id": "beyblade-x-bx-50-random-booster",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-bx-00-storm-pegasus-3-70ra",
+      "title": "BEYBLADE X 戰鬥陀螺X BX-00 暴風天馬3-70RA",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-00-storm-pegasus-3-70ra",
+      "price": 595.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-09T15:47:48.158986+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNzU0LzE3ODYyODg4OTNfMjI3NDI0MDMyYjE0ODhiMmZlZGUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=46486855c6fd8f3a",
+      "source_id": "beyblade-x-bx-00-storm-pegasus-3-70ra",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-ux-20-glory-valkyrie-lf",
+      "title": "BEYBLADE X 戰鬥陀螺X UX-20 榮耀武神 LF",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-20-glory-valkyrie-lf",
+      "price": 595.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-09T15:47:48.158986+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAxMDYxLzE3ODYyODk2OTJfMzliYTliYTNmOTI5ZGU1M2QyYzYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=906397eceadcad89",
+      "source_id": "beyblade-x-ux-20-glory-valkyrie-lf",
       "source": "森森文具玩具"
     }
   ]
