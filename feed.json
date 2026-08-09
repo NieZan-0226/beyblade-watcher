@@ -1,18 +1,30 @@
 {
-  "updated_at": "2026-08-09T15:13:41.166675+00:00",
+  "updated_at": "2026-08-09T15:48:00.370957+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
     {
-      "id": "sensen:beyblade-x-bx-50-random-booster",
-      "title": "戰鬥陀螺X BX-50 隨機強化組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-50-random-booster",
-      "price": 350.0,
+      "id": "sensen:beyblade-x-bx-00-storm-pegasus-3-70ra",
+      "title": "BEYBLADE X 戰鬥陀螺X BX-00 暴風天馬3-70RA",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-00-storm-pegasus-3-70ra",
+      "price": 595.0,
       "in_stock": false,
       "status": "new",
-      "first_seen": "2026-08-09T15:13:28.740688+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNjgzLzE3ODYyODc0OTJfZWQzZThhOTQ2OWQ1YjY1NGMyMzcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164a8c11ca86a237",
-      "source_id": "beyblade-x-bx-50-random-booster",
+      "first_seen": "2026-08-09T15:47:48.158986+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNzU0LzE3ODYyODg4OTNfMjI3NDI0MDMyYjE0ODhiMmZlZGUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=46486855c6fd8f3a",
+      "source_id": "beyblade-x-bx-00-storm-pegasus-3-70ra",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-ux-20-glory-valkyrie-lf",
+      "title": "BEYBLADE X 戰鬥陀螺X UX-20 榮耀武神 LF",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-20-glory-valkyrie-lf",
+      "price": 595.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-08-09T15:47:48.158986+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAxMDYxLzE3ODYyODk2OTJfMzliYTliYTNmOTI5ZGU1M2QyYzYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=906397eceadcad89",
+      "source_id": "beyblade-x-ux-20-glory-valkyrie-lf",
       "source": "森森文具玩具"
     },
     {
@@ -152,18 +164,6 @@
       "source": "森森文具玩具"
     },
     {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-bxg-45-天馬爆擊-焰紅版-圖鑑",
-      "title": "BEYBLADE X 戰鬥陀螺X BXG-45 天馬爆擊 焰紅版 (圖鑑)",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bxg-45-天馬爆擊-焰紅版-圖鑑",
-      "price": 99999.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU4MTI2MTIzLzE3NTQzMTU0NjZfMzhiMjVkNzE4OTY1MDJjZTM1NzMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=97714e3235d5032a",
-      "source_id": "beyblade-x-戰鬥陀螺x-bxg-45-天馬爆擊-焰紅版-圖鑑",
-      "source": "森森文具玩具"
-    },
-    {
       "id": "sensen:beyblade-x-戰鬥陀螺x-cx-00戰神伏特-s4-70v-圖鑑",
       "title": "BEYBLADE X 戰鬥陀螺X CX-00戰神伏特 S4-70V  (圖鑑)",
       "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-cx-00戰神伏特-s4-70v-圖鑑",
@@ -173,18 +173,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU4MTI5Njk4LzE3NTQzMTcwMDdfMGRmOGVmZDdlNWVlOTkwNTQzMDUuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=fc7e32638389d5bb",
       "source_id": "beyblade-x-戰鬥陀螺x-cx-00戰神伏特-s4-70v-圖鑑",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-騎士圓甲-3-85bs-金屬塗層-夜藍-圖鑑",
-      "title": "BEYBLADE X 戰鬥陀螺X 騎士圓甲 3-85BS 金屬塗層-夜藍  (圖鑑)",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-騎士圓甲-3-85bs-金屬塗層-夜藍-圖鑑",
-      "price": 680.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU4MTI4MTA0LzE3NTQzMTYxOTlfMWVkZGY3Yjg1Y2I2Nzk0YzMzYzMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=493ec048b7c06001",
-      "source_id": "beyblade-x-戰鬥陀螺x-騎士圓甲-3-85bs-金屬塗層-夜藍-圖鑑",
       "source": "森森文具玩具"
     },
     {
@@ -400,6 +388,18 @@
       "first_seen": "2026-08-08T15:32:20.355051+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDczNzQzLzE3ODYyMDI5MjRfY2RiM2U3MmMwNmY0MGRhOGMxZWQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ecfa6aad56d6c105",
       "source_id": "beyblade-modular-magnetic-storage-case",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-bx-50-random-booster",
+      "title": "戰鬥陀螺X BX-50 隨機強化組",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-50-random-booster",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-09T15:13:28.740688+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNjgzLzE3ODYyODc0OTJfZWQzZThhOTQ2OWQ1YjY1NGMyMzcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164a8c11ca86a237",
+      "source_id": "beyblade-x-bx-50-random-booster",
       "source": "森森文具玩具"
     }
   ]
