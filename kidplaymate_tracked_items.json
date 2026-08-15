@@ -1,6 +1,8 @@
 {
   "__meta__": {
-    "consecutive_failures": 0,
-    "initialized": true
+    "consecutive_failures": 1,
+    "initialized": true,
+    "last_failure_at": "2026-08-15T20:53:21.224012+00:00",
+    "last_error": "HTTPSConnectionPool(host='www.kidplaymate.com', port=443): Max retries exceeded with url: /collections/%E6%88%B0%E9%AC%A5%E9%99%80%E8%9E%BA/search_products.json?page=1&per=24&sort_by=default_sort&product_filters=%5B%5D&tags=&not_a_search=true (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kidplaymate.com', port=443) at 0x7f2dde98ffb0>, 'Connection to www.kidplaymate.com timed out. (connect timeout=25)'))"
   }
 }
