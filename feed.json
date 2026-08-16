@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-08-16T16:00:35.269872+00:00",
+  "updated_at": "2026-08-16T16:27:56.513707+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
-    {
-      "id": "sensen:beyblade-magnetic-modular-storage-case-50x20",
-      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜50×20CM｜12格陀螺＋配件擴充",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-magnetic-modular-storage-case-50x20",
-      "price": 2580.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-16T16:00:23.700519+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjM4NjAxLzE3ODY4OTUzMzdfZjlmNTM3MjRkMTUxZjA1MjZlYjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=2f895d300331afbe",
-      "source_id": "beyblade-magnetic-modular-storage-case-50x20",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -400,6 +388,18 @@
       "first_seen": "2026-08-09T15:47:48.158986+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAxMDYxLzE3ODYyODk2OTJfMzliYTliYTNmOTI5ZGU1M2QyYzYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=906397eceadcad89",
       "source_id": "beyblade-x-ux-20-glory-valkyrie-lf",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-magnetic-modular-storage-case-50x20",
+      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜50×20CM｜12格陀螺＋配件擴充",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-magnetic-modular-storage-case-50x20",
+      "price": 2580.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-16T16:00:23.700519+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjM4NjAxLzE3ODY4OTUzMzdfZjlmNTM3MjRkMTUxZjA1MjZlYjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=2f895d300331afbe",
+      "source_id": "beyblade-magnetic-modular-storage-case-50x20",
       "source": "森森文具玩具"
     }
   ]
