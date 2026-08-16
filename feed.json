@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-08-16T15:48:36.175033+00:00",
+  "updated_at": "2026-08-16T16:00:35.269872+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
+    {
+      "id": "sensen:beyblade-magnetic-modular-storage-case-50x20",
+      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜50×20CM｜12格陀螺＋配件擴充",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-magnetic-modular-storage-case-50x20",
+      "price": 2580.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-08-16T16:00:23.700519+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjM4NjAxLzE3ODY4OTUzMzdfZjlmNTM3MjRkMTUxZjA1MjZlYjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=2f895d300331afbe",
+      "source_id": "beyblade-magnetic-modular-storage-case-50x20",
+      "source": "森森文具玩具"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -137,18 +149,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNTIxNjA3LzE3NjAyNjk1OTBfYzIxNWQ4Njk0ZjRiYzgwNTY4MmMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=a1bd284e5574149f",
       "source_id": "beyblade-x-戰鬥陀螺x-bxg-15烈焰飛鳳s-闇黑ver",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-cx-00戰神伏特-s4-70v-圖鑑",
-      "title": "BEYBLADE X 戰鬥陀螺X CX-00戰神伏特 S4-70V  (圖鑑)",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-cx-00戰神伏特-s4-70v-圖鑑",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU4MTI5Njk4LzE3NTQzMTcwMDdfMGRmOGVmZDdlNWVlOTkwNTQzMDUuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=fc7e32638389d5bb",
-      "source_id": "beyblade-x-戰鬥陀螺x-cx-00戰神伏特-s4-70v-圖鑑",
       "source": "森森文具玩具"
     },
     {
