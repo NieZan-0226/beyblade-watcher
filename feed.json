@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-08-18T13:32:31.101051+00:00",
+  "updated_at": "2026-08-18T14:08:13.272068+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
+    {
+      "id": "sensen:beyblade-x-bx-57-3v3-storage-box",
+      "title": "【BEYBLADE X】戰鬥陀螺X BX-57 3V3對戰收納盒 (新款)｜專業對戰配置｜",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-57-3v3-storage-box",
+      "price": 200.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-08-18T14:08:02.208957+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzMyNjQ5LzE3ODcwNjA3OTJfZWUxN2E2MDMwYWI4OWIyNWZlMDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164d5520ea901c09",
+      "source_id": "beyblade-x-bx-57-3v3-storage-box",
+      "source": "森森文具玩具"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -149,18 +161,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY3MDkyMzgxLzE3NzcwNDIzMjlfY2RjMmM3YzA1MTRlMzUyMGE1YTIuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=939348df314b9910",
       "source_id": "xtreme-battle-stadium-x2-g1-official-spec",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-3v3-battle-deck-case-new-2026-august",
-      "title": "【BEYBLADE X】3V3對戰收納盒 (新款)｜專業對戰配置｜2026年8月預購｜樣式待定",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-3v3-battle-deck-case-new-2026-august",
-      "price": 200.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzMyNjQ5LzE3NzM4OTg5NzJfMjJiMzJiOGNiM2U0MjlkMGQxMzAucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ac39655c9cbcb4b5",
-      "source_id": "beyblade-x-3v3-battle-deck-case-new-2026-august",
       "source": "森森文具玩具"
     },
     {

@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-08-18T13:32:18.948614+00:00",
+  "updated_at": "2026-08-18T14:08:02.589205+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
+    {
+      "id": "beyblade-x-bx-57-3v3-storage-box",
+      "title": "【BEYBLADE X】戰鬥陀螺X BX-57 3V3對戰收納盒 (新款)｜專業對戰配置｜",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-57-3v3-storage-box",
+      "price": 200.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-08-18T14:08:02.208957+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzMyNjQ5LzE3ODcwNjA3OTJfZWUxN2E2MDMwYWI4OWIyNWZlMDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164d5520ea901c09"
+    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -62,16 +72,6 @@
       "status": "normal",
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzgxMDEzLzE3NzQyNzc1NzdfNGU4NTZmZjM0ZjIwNDNhZjJhNjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=8a33a762f63bc962"
-    },
-    {
-      "id": "beyblade-x-3v3-battle-deck-case-new-2026-august",
-      "title": "【BEYBLADE X】3V3對戰收納盒 (新款)｜專業對戰配置｜2026年8月預購｜樣式待定",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-3v3-battle-deck-case-new-2026-august",
-      "price": 200.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzMyNjQ5LzE3NzM4OTg5NzJfMjJiMzJiOGNiM2U0MjlkMGQxMzAucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ac39655c9cbcb4b5"
     },
     {
       "id": "beyblade-x-bxg-70-special-collaboration-limited-edition",
