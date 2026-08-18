@@ -1,17 +1,27 @@
 {
-  "updated_at": "2026-08-18T14:08:02.589205+00:00",
+  "updated_at": "2026-08-18T14:53:37.727501+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
     {
-      "id": "beyblade-x-bx-57-3v3-storage-box",
-      "title": "【BEYBLADE X】戰鬥陀螺X BX-57 3V3對戰收納盒 (新款)｜專業對戰配置｜",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-57-3v3-storage-box",
-      "price": 200.0,
+      "id": "beyblade-x-cx-19-random-booster",
+      "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-19-random-booster",
+      "price": 350.0,
       "in_stock": false,
       "status": "new",
-      "first_seen": "2026-08-18T14:08:02.208957+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzMyNjQ5LzE3ODcwNjA3OTJfZWUxN2E2MDMwYWI4OWIyNWZlMDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164d5520ea901c09"
+      "first_seen": "2026-08-18T14:53:37.450223+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c"
+    },
+    {
+      "id": "beyblade-x-ux-21-hells-nether-deck-set",
+      "title": "【BEYBLADE X】戰鬥陀螺X UX-21 地獄幽冥套裝",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-21-hells-nether-deck-set",
+      "price": 88888.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-08-18T14:53:37.450223+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3"
     },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
@@ -102,26 +112,6 @@
       "status": "normal",
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwNjA3NjRfMGRiYmUwM2IyN2ZhOGI3ZjFjM2YucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=0511a1ef4095f804"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-bxg-15烈焰飛鳳s-闇黑ver",
-      "title": "BEYBLADE X 戰鬥陀螺X BXG-15烈焰飛鳳S 闇黑Ver.",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bxg-15烈焰飛鳳s-闇黑ver",
-      "price": 280.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNTIxNjA3LzE3NjAyNjk1OTBfYzIxNWQ4Njk0ZjRiYzgwNTY4MmMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=a1bd284e5574149f"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-bx-47-左迴旋風發射器-紅",
-      "title": "BEYBLADE X 戰鬥陀螺X BX-47 左迴旋風發射器 【紅】",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-47-左迴旋風發射器-紅",
-      "price": 200.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU5MDIyOTE2LzE3NTc5MTg4MjFfY2EzNWU3ODE2ODQyZjg1NjM5ZGYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=2b038138f45aa2b8"
     },
     {
       "id": "x-hangar-y35-battle-outing-box",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-08-16T16:00:23.700519+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjM4NjAxLzE3ODY4OTUzMzdfZjlmNTM3MjRkMTUxZjA1MjZlYjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=2f895d300331afbe"
+    },
+    {
+      "id": "beyblade-x-bx-57-3v3-storage-box",
+      "title": "【BEYBLADE X】戰鬥陀螺X BX-57 3V3對戰收納盒 (新款)｜專業對戰配置｜",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-57-3v3-storage-box",
+      "price": 200.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-18T14:08:02.208957+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzMyNjQ5LzE3ODcwNjA3OTJfZWUxN2E2MDMwYWI4OWIyNWZlMDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164d5520ea901c09"
     }
   ]
 }

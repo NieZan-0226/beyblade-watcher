@@ -1,4 +1,22 @@
 {
+  "beyblade-x-cx-19-random-booster": {
+    "key": "beyblade-x-cx-19-random-booster",
+    "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
+    "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-19-random-booster",
+    "price": 350.0,
+    "in_stock": false,
+    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c",
+    "first_seen": "2026-08-18T14:53:37.450223+00:00"
+  },
+  "beyblade-x-ux-21-hells-nether-deck-set": {
+    "key": "beyblade-x-ux-21-hells-nether-deck-set",
+    "title": "【BEYBLADE X】戰鬥陀螺X UX-21 地獄幽冥套裝",
+    "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-21-hells-nether-deck-set",
+    "price": 88888.0,
+    "in_stock": false,
+    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3",
+    "first_seen": "2026-08-18T14:53:37.450223+00:00"
+  },
   "beyblade-magnetic-modular-storage-case-50x20": {
     "key": "beyblade-magnetic-modular-storage-case-50x20",
     "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜50×20CM｜12格陀螺＋配件擴充",
@@ -196,24 +214,6 @@
     "in_stock": false,
     "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNjUwNDY4LzE3NjA1Mjc4NDZfNTM1ZDg3ZDBhN2RiZGMxN2UwOGIucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=687c1741b3a115d3",
     "first_seen": "2026-07-28T04:13:55.468258+00:00"
-  },
-  "beyblade-x-戰鬥陀螺x-bxg-15烈焰飛鳳s-闇黑ver": {
-    "key": "beyblade-x-戰鬥陀螺x-bxg-15烈焰飛鳳s-闇黑ver",
-    "title": "BEYBLADE X 戰鬥陀螺X BXG-15烈焰飛鳳S 闇黑Ver.",
-    "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bxg-15烈焰飛鳳s-闇黑ver",
-    "price": 280.0,
-    "in_stock": false,
-    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNTIxNjA3LzE3NjAyNjk1OTBfYzIxNWQ4Njk0ZjRiYzgwNTY4MmMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=a1bd284e5574149f",
-    "first_seen": "2026-07-08T12:09:03.137995+00:00"
-  },
-  "beyblade-x-戰鬥陀螺x-bx-47-左迴旋風發射器-紅": {
-    "key": "beyblade-x-戰鬥陀螺x-bx-47-左迴旋風發射器-紅",
-    "title": "BEYBLADE X 戰鬥陀螺X BX-47 左迴旋風發射器 【紅】",
-    "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-47-左迴旋風發射器-紅",
-    "price": 200.0,
-    "in_stock": false,
-    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU5MDIyOTE2LzE3NTc5MTg4MjFfY2EzNWU3ODE2ODQyZjg1NjM5ZGYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=2b038138f45aa2b8",
-    "first_seen": "2026-07-08T12:09:03.137995+00:00"
   },
   "__meta__": {
     "consecutive_failures": 0
