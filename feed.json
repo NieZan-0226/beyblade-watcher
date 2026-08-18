@@ -1,32 +1,8 @@
 {
-  "updated_at": "2026-08-18T14:53:49.771761+00:00",
+  "updated_at": "2026-08-18T15:34:21.153260+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
-    {
-      "id": "sensen:beyblade-x-cx-19-random-booster",
-      "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-19-random-booster",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-08-18T14:53:37.450223+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c",
-      "source_id": "beyblade-x-cx-19-random-booster",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-ux-21-hells-nether-deck-set",
-      "title": "【BEYBLADE X】戰鬥陀螺X UX-21 地獄幽冥套裝",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-21-hells-nether-deck-set",
-      "price": 88888.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-08-18T14:53:37.450223+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3",
-      "source_id": "beyblade-x-ux-21-hells-nether-deck-set",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -400,6 +376,30 @@
       "first_seen": "2026-08-18T14:08:02.208957+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzMyNjQ5LzE3ODcwNjA3OTJfZWUxN2E2MDMwYWI4OWIyNWZlMDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164d5520ea901c09",
       "source_id": "beyblade-x-bx-57-3v3-storage-box",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-cx-19-random-booster",
+      "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-19-random-booster",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-18T14:53:37.450223+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c",
+      "source_id": "beyblade-x-cx-19-random-booster",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-ux-21-hells-nether-deck-set",
+      "title": "【BEYBLADE X】戰鬥陀螺X UX-21 地獄幽冥套裝",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-21-hells-nether-deck-set",
+      "price": 88888.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-18T14:53:37.450223+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3",
+      "source_id": "beyblade-x-ux-21-hells-nether-deck-set",
       "source": "森森文具玩具"
     }
   ]
