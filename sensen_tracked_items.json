@@ -1,4 +1,13 @@
 {
+  "s30-beyblade-battle-table": {
+    "key": "s30-beyblade-battle-table",
+    "title": "預購送BX-51【森森文具玩具】隨身陀螺戰鬥桌｜S-30 極速戰鬥桌｜極限防護罩｜戰鬥陀螺競技桌",
+    "url": "https://www.sen-sen.com.tw/products/s30-beyblade-battle-table",
+    "price": 2099.0,
+    "in_stock": true,
+    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjkzMjg4LzE3ODcxMTc2MTlfZTMxZjFjNTViNmY2NDRkNzFmNDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=88ae2a7b7933265a",
+    "first_seen": "2026-08-19T05:58:44.262281+00:00"
+  },
   "battle-storage-cart-c30": {
     "key": "battle-storage-cart-c30",
     "title": "【森森文具玩具】陀螺戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
@@ -205,15 +214,6 @@
     "in_stock": false,
     "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwMzYzOTNfNTQ4NmNmZmFhMzJjMDIyNWY2OTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=e2a3b94207b52069",
     "first_seen": "2026-07-28T04:13:55.468258+00:00"
-  },
-  "beyblade-x-bx-48": {
-    "key": "beyblade-x-bx-48",
-    "title": "【九月預購】BEYBLADE X 戰鬥陀螺X BX-48 隨機強化組",
-    "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-48",
-    "price": 280.0,
-    "in_stock": false,
-    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwNjA3NjRfMGRiYmUwM2IyN2ZhOGI3ZjFjM2YucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=0511a1ef4095f804",
-    "first_seen": "2026-07-08T12:09:03.137995+00:00"
   },
   "__meta__": {
     "consecutive_failures": 0
