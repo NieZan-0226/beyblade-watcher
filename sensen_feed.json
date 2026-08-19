@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-08-19T01:23:38.386721+00:00",
+  "updated_at": "2026-08-19T02:40:42.006190+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "battle-storage-cart-c30",
-      "title": "【森森文具玩具】戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
-      "url": "https://www.sen-sen.com.tw/products/battle-storage-cart-c30",
-      "price": 4999.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-19T01:23:37.853548+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMDIwNDhfZmVmNGIzOWVmNGEyMWFmNDdhZDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=dc4eef351946fd5e"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-08-18T14:53:37.450223+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3"
+    },
+    {
+      "id": "battle-storage-cart-c30",
+      "title": "【森森文具玩具】戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
+      "url": "https://www.sen-sen.com.tw/products/battle-storage-cart-c30",
+      "price": 4999.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-19T01:23:37.853548+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMDIwNDhfZmVmNGIzOWVmNGEyMWFmNDdhZDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=dc4eef351946fd5e"
     }
   ]
 }

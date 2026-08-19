@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-08-19T01:23:50.409185+00:00",
+  "updated_at": "2026-08-19T02:40:52.642898+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
-    {
-      "id": "sensen:battle-storage-cart-c30",
-      "title": "【森森文具玩具】戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
-      "url": "https://www.sen-sen.com.tw/products/battle-storage-cart-c30",
-      "price": 4999.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-19T01:23:37.853548+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMDIwNDhfZmVmNGIzOWVmNGEyMWFmNDdhZDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=dc4eef351946fd5e",
-      "source_id": "battle-storage-cart-c30",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -400,6 +388,18 @@
       "first_seen": "2026-08-18T14:53:37.450223+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3",
       "source_id": "beyblade-x-ux-21-hells-nether-deck-set",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:battle-storage-cart-c30",
+      "title": "【森森文具玩具】戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
+      "url": "https://www.sen-sen.com.tw/products/battle-storage-cart-c30",
+      "price": 4999.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-19T01:23:37.853548+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMDIwNDhfZmVmNGIzOWVmNGEyMWFmNDdhZDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=dc4eef351946fd5e",
+      "source_id": "battle-storage-cart-c30",
       "source": "森森文具玩具"
     }
   ]
