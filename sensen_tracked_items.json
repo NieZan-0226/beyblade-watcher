@@ -1,4 +1,13 @@
 {
+  "battle-storage-cart-c30": {
+    "key": "battle-storage-cart-c30",
+    "title": "【森森文具玩具】戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
+    "url": "https://www.sen-sen.com.tw/products/battle-storage-cart-c30",
+    "price": 4999.0,
+    "in_stock": true,
+    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMDIwNDhfZmVmNGIzOWVmNGEyMWFmNDdhZDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=dc4eef351946fd5e",
+    "first_seen": "2026-08-19T01:23:37.853548+00:00"
+  },
   "beyblade-x-cx-19-random-booster": {
     "key": "beyblade-x-cx-19-random-booster",
     "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
@@ -205,15 +214,6 @@
     "in_stock": false,
     "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwNjA3NjRfMGRiYmUwM2IyN2ZhOGI3ZjFjM2YucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=0511a1ef4095f804",
     "first_seen": "2026-07-08T12:09:03.137995+00:00"
-  },
-  "beyblade-x-戰鬥陀螺x-cx-11-帝王威能改造組": {
-    "key": "beyblade-x-戰鬥陀螺x-cx-11-帝王威能改造組",
-    "title": "【九月預購】BEYBLADE X 戰鬥陀螺X CX-11 帝王威能改造組",
-    "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-cx-11-帝王威能改造組",
-    "price": 896.0,
-    "in_stock": false,
-    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzYwNjUwNDY4LzE3NjA1Mjc4NDZfNTM1ZDg3ZDBhN2RiZGMxN2UwOGIucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=687c1741b3a115d3",
-    "first_seen": "2026-07-28T04:13:55.468258+00:00"
   },
   "__meta__": {
     "consecutive_failures": 0
