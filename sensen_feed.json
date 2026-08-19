@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-08-19T05:58:44.370332+00:00",
+  "updated_at": "2026-08-19T08:06:41.659631+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "s30-beyblade-battle-table",
-      "title": "預購送BX-51【森森文具玩具】隨身陀螺戰鬥桌｜S-30 極速戰鬥桌｜極限防護罩｜戰鬥陀螺競技桌",
-      "url": "https://www.sen-sen.com.tw/products/s30-beyblade-battle-table",
-      "price": 2099.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-19T05:58:44.262281+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjkzMjg4LzE3ODcxMTc2MTlfZTMxZjFjNTViNmY2NDRkNzFmNDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=88ae2a7b7933265a"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-08-19T01:23:37.853548+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMTE3ODJfMzgzYTZmNGMxMjQxYjAxZjdiYWYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3f78a516f33dd9a3"
+    },
+    {
+      "id": "s30-beyblade-battle-table",
+      "title": "預購送BX-51【森森文具玩具】隨身陀螺戰鬥桌｜S-30 極速戰鬥桌｜極限防護罩｜戰鬥陀螺競技桌",
+      "url": "https://www.sen-sen.com.tw/products/s30-beyblade-battle-table",
+      "price": 2099.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-19T05:58:44.262281+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjkzMjg4LzE3ODcxMTc2MTlfZTMxZjFjNTViNmY2NDRkNzFmNDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=88ae2a7b7933265a"
     }
   ]
 }

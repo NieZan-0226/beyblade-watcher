@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-08-19T05:58:56.530495+00:00",
+  "updated_at": "2026-08-19T08:06:53.438235+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
-    {
-      "id": "sensen:s30-beyblade-battle-table",
-      "title": "預購送BX-51【森森文具玩具】隨身陀螺戰鬥桌｜S-30 極速戰鬥桌｜極限防護罩｜戰鬥陀螺競技桌",
-      "url": "https://www.sen-sen.com.tw/products/s30-beyblade-battle-table",
-      "price": 2099.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-19T05:58:44.262281+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjkzMjg4LzE3ODcxMTc2MTlfZTMxZjFjNTViNmY2NDRkNzFmNDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=88ae2a7b7933265a",
-      "source_id": "s30-beyblade-battle-table",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -400,6 +388,18 @@
       "first_seen": "2026-08-19T01:23:37.853548+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMTE3ODJfMzgzYTZmNGMxMjQxYjAxZjdiYWYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3f78a516f33dd9a3",
       "source_id": "battle-storage-cart-c30",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:s30-beyblade-battle-table",
+      "title": "預購送BX-51【森森文具玩具】隨身陀螺戰鬥桌｜S-30 極速戰鬥桌｜極限防護罩｜戰鬥陀螺競技桌",
+      "url": "https://www.sen-sen.com.tw/products/s30-beyblade-battle-table",
+      "price": 2099.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-19T05:58:44.262281+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjkzMjg4LzE3ODcxMTc2MTlfZTMxZjFjNTViNmY2NDRkNzFmNDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=88ae2a7b7933265a",
+      "source_id": "s30-beyblade-battle-table",
       "source": "森森文具玩具"
     }
   ]
