@@ -1,8 +1,34 @@
 {
-  "updated_at": "2026-08-20T03:31:09.671438+00:00",
+  "updated_at": "2026-08-20T04:09:06.501648+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 34,
+  "count": 36,
   "products": [
+    {
+      "id": "momo:TP00024510018175",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺-BXG系列/BX系列/BX旋風發射器",
+      "url": "https://www.momoshop.com.tw/TP/TP0002451/goodsDetail/TP00024510018175",
+      "price": 250.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-08-20T04:09:00.842693+00:00",
+      "image": "https://i7.momoshop.com.tw/1787217775/goodsimg/TP000/2451/0018/175/TP00024510018175_O_m.webp",
+      "availability_text": "售完補貨中",
+      "source_id": "TP00024510018175",
+      "source": "MOMO 墊腳石"
+    },
+    {
+      "id": "momo:TP00024510017974",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺-CX系列/BX系列/UX系列/BXG系列",
+      "url": "https://www.momoshop.com.tw/TP/TP0002451/goodsDetail/TP00024510017974",
+      "price": 150.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-08-20T04:09:00.842693+00:00",
+      "image": "https://i5.momoshop.com.tw/1782818077/goodsimg/TP000/2451/0017/974/TP00024510017974_O.webp",
+      "availability_text": "售完補貨中",
+      "source_id": "TP00024510017974",
+      "source": "MOMO 墊腳石"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
