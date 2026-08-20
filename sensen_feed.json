@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-08-20T08:06:22.387138+00:00",
+  "updated_at": "2026-08-20T08:57:18.555978+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
+    {
+      "id": "penrote-z401-touchscreen-work-gloves",
+      "title": "PENROTE 觸控防滑手套 Z401｜NBR丁腈橡膠｜陀螺活動／工作適用｜韓國製",
+      "url": "https://www.sen-sen.com.tw/products/penrote-z401-touchscreen-work-gloves",
+      "price": 79.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-08-20T08:57:18.100313+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxNDIxNDY0LzE3ODcyMTQ1NTFfYTFlNjU4MjU5MDEzYTY5NmMxNjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=70923bd8cc68bf75"
+    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -102,16 +112,6 @@
       "status": "normal",
       "first_seen": "2026-07-28T04:13:55.468258+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NjYyMzU5LzE3NzM2NTk4OTJfYWEyNjVmNGVjMzc0MTQ4MzBjMjEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a93d05424b368725"
-    },
-    {
-      "id": "beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
-      "title": "【9月預購】BEYBLADE X 戰鬥陀螺X CX-13 龍王閃擊 BK1-50I",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
-      "price": 446.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-28T04:13:55.468258+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwMzYzOTNfNTQ4NmNmZmFhMzJjMDIyNWY2OTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=e2a3b94207b52069"
     },
     {
       "id": "x-battle-case-blade-magnetic-beyblade-storage-box",
