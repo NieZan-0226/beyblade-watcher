@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-08-20T08:57:18.555978+00:00",
+  "updated_at": "2026-08-20T09:37:01.417296+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "penrote-z401-touchscreen-work-gloves",
-      "title": "PENROTE 觸控防滑手套 Z401｜NBR丁腈橡膠｜陀螺活動／工作適用｜韓國製",
-      "url": "https://www.sen-sen.com.tw/products/penrote-z401-touchscreen-work-gloves",
-      "price": 79.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-08-20T08:57:18.100313+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxNDIxNDY0LzE3ODcyMTQ1NTFfYTFlNjU4MjU5MDEzYTY5NmMxNjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=70923bd8cc68bf75"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-08-19T05:58:44.262281+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjkzMjg4LzE3ODcxMTc2MTlfZTMxZjFjNTViNmY2NDRkNzFmNDAuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=88ae2a7b7933265a"
+    },
+    {
+      "id": "penrote-z401-touchscreen-work-gloves",
+      "title": "PENROTE 觸控防滑手套 Z401｜NBR丁腈橡膠｜陀螺活動／工作適用｜韓國製",
+      "url": "https://www.sen-sen.com.tw/products/penrote-z401-touchscreen-work-gloves",
+      "price": 79.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-08-20T08:57:18.100313+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxNDIxNDY0LzE3ODcyMTQ1NTFfYTFlNjU4MjU5MDEzYTY5NmMxNjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=70923bd8cc68bf75"
     }
   ]
 }
