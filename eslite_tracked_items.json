@@ -9,8 +9,8 @@
     "first_seen": "2026-07-08T06:16:49.177491+00:00"
   },
   "__meta__": {
-    "consecutive_failures": 534,
-    "last_failure_at": "2026-08-22T18:33:34.939592+00:00",
+    "consecutive_failures": 535,
+    "last_failure_at": "2026-08-22T19:00:25.216847+00:00",
     "last_error": "誠品策展頁沒有找到商品連結，可能版型改變或被導向。"
   }
 }
