@@ -24,9 +24,10 @@
     "first_seen": "2026-06-05T10:36:58.529447+00:00"
   },
   "__watcher_meta__": {
-    "consecutive_failures": 0,
-    "last_failure_at": "2026-08-20T20:48:08.808858+00:00",
+    "consecutive_failures": 1,
+    "last_failure_at": "2026-08-25T03:32:57.882120+00:00",
     "last_short_response_at": "2026-08-08T15:57:52.275976+00:00",
-    "last_short_response_count": 1
+    "last_short_response_count": 1,
+    "last_error": "HTTPSConnectionPool(host='shop.funbox.com.tw', port=443): Max retries exceeded with url: /category_products/takaratomy/beyblade.json?limit=50&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='shop.funbox.com.tw', port=443) at 0x7fccc1c36090>, 'Connection to shop.funbox.com.tw timed out. (connect timeout=15)'))"
   }
 }
