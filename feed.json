@@ -1,34 +1,8 @@
 {
-  "updated_at": "2026-08-26T09:58:30.309993+00:00",
+  "updated_at": "2026-08-26T10:37:35.907285+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 36,
   "products": [
-    {
-      "id": "momo_funbox:15358813",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-51 旋風發射器 黑綠",
-      "url": "https://www.momoshop.com.tw/product/15358813",
-      "price": 250.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-08-26T09:58:30.162222+00:00",
-      "image": "https://i3.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_OR_m.webp",
-      "availability_text": "可訂購時通知我",
-      "source_id": "15358813",
-      "source": "MOMO Funbox"
-    },
-    {
-      "id": "momo_funbox:15477234",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BXG-04 銀牙烈虎S(男孩 對戰)",
-      "url": "https://www.momoshop.com.tw/product/15477234",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-08-26T09:58:30.162222+00:00",
-      "image": "https://i2.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_OR_m.webp",
-      "availability_text": "可訂購時通知我",
-      "source_id": "15477234",
-      "source": "MOMO Funbox"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -427,6 +401,32 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxNTQwMTgwLzE3ODc1NTU0NzBfNmE4NTgwZjBmYTcxODNiNzIzYzIuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=85ce26311e0c596b",
       "source_id": "預購2026828-早上10點-截止戰鬥陀螺x一番賞-第三彈",
       "source": "森森文具玩具"
+    },
+    {
+      "id": "momo_funbox:15358813",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-51 旋風發射器 黑綠",
+      "url": "https://www.momoshop.com.tw/product/15358813",
+      "price": 250.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-26T09:58:30.162222+00:00",
+      "image": "https://i4.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_R_m.webp",
+      "availability_text": "",
+      "source_id": "15358813",
+      "source": "MOMO Funbox"
+    },
+    {
+      "id": "momo_funbox:15477234",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BXG-04 銀牙烈虎S(男孩 對戰)",
+      "url": "https://www.momoshop.com.tw/product/15477234",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-26T09:58:30.162222+00:00",
+      "image": "https://i3.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_R_m.webp",
+      "availability_text": "",
+      "source_id": "15477234",
+      "source": "MOMO Funbox"
     }
   ]
 }
