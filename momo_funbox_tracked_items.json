@@ -5,7 +5,7 @@
     "url": "https://www.momoshop.com.tw/product/15477234",
     "price": 350.0,
     "in_stock": false,
-    "image": "https://i2.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_R_m.webp",
+    "image": "https://i3.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-08-26T09:58:30.162222+00:00"
   },
@@ -25,6 +25,6 @@
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 10
+    "source_count": 9
   }
 }
