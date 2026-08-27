@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-08-27T04:22:59.221935+00:00",
+  "updated_at": "2026-08-27T15:25:20.679805+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 36,
   "products": [
-    {
-      "id": "sensen:beyblade-x-ux-19-bullet-griffin-split-battle-system",
-      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X UX-19 子彈獅鷲｜UX系列擴張戰刃｜唯一分身戰法：攻擊子彈 × 持久本體",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-19-bullet-griffin-split-battle-system",
-      "price": 495.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-08-27T04:22:46.746579+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NjYyMzU5LzE3NzM2NTk4OTJfYWEyNjVmNGVjMzc0MTQ4MzBjMjEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a93d05424b368725",
-      "source_id": "beyblade-x-ux-19-bullet-griffin-split-battle-system",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -410,7 +398,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-08-26T09:58:30.162222+00:00",
-      "image": "https://i2.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_R_m.webp",
       "availability_text": "",
       "source_id": "15358813",
       "source": "MOMO Funbox"
@@ -427,6 +415,18 @@
       "availability_text": "",
       "source_id": "15477234",
       "source": "MOMO Funbox"
+    },
+    {
+      "id": "sensen:beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X UX-19 子彈獅鷲｜UX系列擴張戰刃｜唯一分身戰法：攻擊子彈 × 持久本體",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "price": 495.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-27T04:22:46.746579+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NjYyMzU5LzE3NzM2NTk4OTJfYWEyNjVmNGVjMzc0MTQ4MzBjMjEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a93d05424b368725",
+      "source_id": "beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "source": "森森文具玩具"
     }
   ]
 }
