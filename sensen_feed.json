@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-08-28T11:41:17.808085+00:00",
+  "updated_at": "2026-08-28T21:32:18.863735+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
-      "title": "【9月預購】BEYBLADE X 戰鬥陀螺X CX-13 龍王閃擊 BK1-50I",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
-      "price": 446.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-08-28T11:41:17.635977+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwMzYzOTNfNTQ4NmNmZmFhMzJjMDIyNWY2OTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=e2a3b94207b52069"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-08-27T04:22:46.746579+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NjYyMzU5LzE3NzM2NTk4OTJfYWEyNjVmNGVjMzc0MTQ4MzBjMjEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a93d05424b368725"
+    },
+    {
+      "id": "beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "title": "【9月預購】BEYBLADE X 戰鬥陀螺X CX-13 龍王閃擊 BK1-50I",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "price": 446.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-08-28T11:41:17.635977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwMzYzOTNfNTQ4NmNmZmFhMzJjMDIyNWY2OTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=e2a3b94207b52069"
     }
   ]
 }

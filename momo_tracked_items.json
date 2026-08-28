@@ -1,10 +1,20 @@
 {
+  "TP00024510018175": {
+    "key": "TP00024510018175",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺-BXG系列/BX系列/BX旋風發射器",
+    "url": "https://www.momoshop.com.tw/TP/TP0002451/goodsDetail/TP00024510018175",
+    "price": 250.0,
+    "in_stock": false,
+    "image": "https://i5.momoshop.com.tw/1787217775/goodsimg/TP000/2451/0018/175/TP00024510018175_O.webp",
+    "availability_text": "售完補貨中",
+    "first_seen": "2026-08-28T21:32:26.583565+00:00"
+  },
   "__meta__": {
     "consecutive_failures": 0,
     "initialized": true,
     "max_pages": 30,
     "keyword_re": "BEYBLADE",
     "fetch_mode": "rendered",
-    "source_count": 2
+    "source_count": 3
   }
 }
