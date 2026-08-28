@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-08-28T00:31:41.378527+00:00",
+  "updated_at": "2026-08-28T11:41:31.637880+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 36,
   "products": [
+    {
+      "id": "sensen:beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "title": "【9月預購】BEYBLADE X 戰鬥陀螺X CX-13 龍王閃擊 BK1-50I",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "price": 446.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-08-28T11:41:17.635977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwMzYzOTNfNTQ4NmNmZmFhMzJjMDIyNWY2OTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=e2a3b94207b52069",
+      "source_id": "beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "source": "森森文具玩具"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -379,18 +391,6 @@
       "source": "森森文具玩具"
     },
     {
-      "id": "sensen:預購2026828-早上10點-截止戰鬥陀螺x一番賞-第三彈",
-      "title": "【預購至2026/8/28 早上10點 截止】戰鬥陀螺X一番賞 第三彈",
-      "url": "https://www.sen-sen.com.tw/products/預購2026828-早上10點-截止戰鬥陀螺x一番賞-第三彈",
-      "price": 19000.0,
-      "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-08-24T08:00:18.945332+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxNTQwMTgwLzE3ODc1NTU0NzBfNmE4NTgwZjBmYTcxODNiNzIzYzIuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=85ce26311e0c596b",
-      "source_id": "預購2026828-早上10點-截止戰鬥陀螺x一番賞-第三彈",
-      "source": "森森文具玩具"
-    },
-    {
       "id": "momo_funbox:15358813",
       "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-51 旋風發射器 黑綠",
       "url": "https://www.momoshop.com.tw/product/15358813",
@@ -398,7 +398,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-08-26T09:58:30.162222+00:00",
-      "image": "https://i1.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_R_m.webp",
       "availability_text": "",
       "source_id": "15358813",
       "source": "MOMO Funbox"
@@ -411,7 +411,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-08-26T09:58:30.162222+00:00",
-      "image": "https://i4.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_R_m.webp",
       "availability_text": "",
       "source_id": "15477234",
       "source": "MOMO Funbox"
