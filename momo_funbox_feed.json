@@ -1,29 +1,6 @@
 {
-  "updated_at": "2026-08-31T05:37:53.601831+00:00",
+  "updated_at": "2026-08-31T11:52:06.141099+00:00",
   "source": "MOMO Funbox",
-  "count": 2,
-  "products": [
-    {
-      "id": "15477234",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BXG-04 銀牙烈虎S(男孩 對戰)",
-      "url": "https://www.momoshop.com.tw/product/15477234",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-08-26T09:58:30.162222+00:00",
-      "image": "https://i3.momoshop.com.tw/1784008414/goodsimg/0015/477/234/15477234_R_m.webp",
-      "availability_text": ""
-    },
-    {
-      "id": "15358813",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-51 旋風發射器 黑綠",
-      "url": "https://www.momoshop.com.tw/product/15358813",
-      "price": 250.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-08-26T09:58:30.162222+00:00",
-      "image": "https://i2.momoshop.com.tw/1781084397/goodsimg/0015/358/813/15358813_R_m.webp",
-      "availability_text": ""
-    }
-  ]
+  "count": 0,
+  "products": []
 }
