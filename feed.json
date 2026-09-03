@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-09-03T16:43:28.120836+00:00",
+  "updated_at": "2026-09-03T19:28:31.740941+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 34,
   "products": [
-    {
-      "id": "sensen:beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
-      "title": "【9月預購】BEYBLADE X 戰鬥陀螺X CX-13 龍王閃擊 BK1-50I",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
-      "price": 446.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-09-03T16:43:15.023176+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwMzYzOTNfNTQ4NmNmZmFhMzJjMDIyNWY2OTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=e2a3b94207b52069",
-      "source_id": "beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -400,6 +388,18 @@
       "first_seen": "2026-09-01T12:05:18.125411+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxNTQwMTgwLzE3ODc1NTU0NzBfNmE4NTgwZjBmYTcxODNiNzIzYzIuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=85ce26311e0c596b",
       "source_id": "預購2026828-早上10點-截止戰鬥陀螺x一番賞-第三彈",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "title": "【9月預購】BEYBLADE X 戰鬥陀螺X CX-13 龍王閃擊 BK1-50I",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
+      "price": 446.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-09-03T16:43:15.023176+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY0OTM4MDM4LzE3NzIwMzYzOTNfNTQ4NmNmZmFhMzJjMDIyNWY2OTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=e2a3b94207b52069",
+      "source_id": "beyblade-x-cx-13-bahamut-blitz-bk-1-50i",
       "source": "森森文具玩具"
     }
   ]
