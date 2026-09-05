@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-09-05T00:08:20.117905+00:00",
+  "updated_at": "2026-09-05T04:31:53.086216+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
+    {
+      "id": "beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X UX-19 子彈獅鷲｜UX系列擴張戰刃｜唯一分身戰法：攻擊子彈 × 持久本體",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "price": 495.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-09-05T04:31:52.616209+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NjYyMzU5LzE3NzM2NTk4OTJfYWEyNjVmNGVjMzc0MTQ4MzBjMjEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a93d05424b368725"
+    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -222,16 +232,6 @@
       "status": "normal",
       "first_seen": "2026-09-01T12:05:18.125411+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxNTQwMTgwLzE3ODc1NTU0NzBfNmE4NTgwZjBmYTcxODNiNzIzYzIuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=85ce26311e0c596b"
-    },
-    {
-      "id": "beyblade-x-bx-00v2",
-      "title": "【BEYBLADE X】戰鬥陀螺XBX-00 蒼龍神劍 V2 限定升級版",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-00v2",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-09-03T23:36:18.554610+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxNzE0NTcwLzE3ODg0NDgyNDVfNjc2OGEyYTY5OThhNWRjYTc3YmEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=8fc49fcdf11a84d0"
     },
     {
       "id": "beyblade-x-ux-21-hells-nether-deck-set",
