@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-09-05T14:47:46.813800+00:00",
+  "updated_at": "2026-09-05T16:57:54.994612+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "xtreme-battle-table-3-0",
-      "title": "【2026 G1 賽前必備】極限戰鬥台X 3.0《陀螺對戰台》- 3秒快速收摺",
-      "url": "https://www.sen-sen.com.tw/products/xtreme-battle-table-3-0",
-      "price": 683.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-09-05T14:47:46.479135+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxODMyNzI5LzE3ODg2MDU2MDdfMTJlZmQwYjU5OWU5Y2UzNTVhNDkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=9ae88a005a67e6f4"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-09-03T23:36:18.554610+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3"
+    },
+    {
+      "id": "xtreme-battle-table-3-0",
+      "title": "【2026 G1 賽前必備】極限戰鬥台X 3.0《陀螺對戰台》- 3秒快速收摺",
+      "url": "https://www.sen-sen.com.tw/products/xtreme-battle-table-3-0",
+      "price": 683.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-09-05T14:47:46.479135+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxODMyNzI5LzE3ODg2MDU2MDdfMTJlZmQwYjU5OWU5Y2UzNTVhNDkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=9ae88a005a67e6f4"
     }
   ]
 }
