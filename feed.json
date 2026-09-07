@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-09-07T05:54:05.712325+00:00",
+  "updated_at": "2026-09-07T11:52:52.434830+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 34,
+  "count": 35,
   "products": [
+    {
+      "id": "momo_funbox:15670779",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-18+UX-02",
+      "url": "https://www.momoshop.com.tw/product/15670779",
+      "price": 745.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-09-07T11:52:52.098626+00:00",
+      "image": "https://i3.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_OR_m.webp",
+      "availability_text": "09/09 00:00 開賣",
+      "source_id": "15670779",
+      "source": "MOMO Funbox"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
