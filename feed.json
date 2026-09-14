@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-09-14T01:32:44.208429+00:00",
+  "updated_at": "2026-09-14T06:53:43.218130+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 38,
   "products": [
+    {
+      "id": "sensen:beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "title": "【九月預購】BEYBLADE X 戰鬥陀螺X UX-19 子彈獅鷲｜UX系列擴張戰刃｜唯一分身戰法：攻擊子彈 × 持久本體",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "price": 495.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-09-14T06:53:30.187146+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NjYyMzU5LzE3NzM2NTk4OTJfYWEyNjVmNGVjMzc0MTQ4MzBjMjEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a93d05424b368725",
+      "source_id": "beyblade-x-ux-19-bullet-griffin-split-battle-system",
+      "source": "森森文具玩具"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -137,18 +149,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2Njk5MDg3LzE3NzM3NTE0NzFfYWZkMTgwNmEwODQ4M2U0NTk5YzUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=5d5229378604a10e",
       "source_id": "beyblade-x-bxg-70-special-collaboration-limited-edition",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:cx-17",
-      "title": "【九月預購】戰鬥陀螺 X  CX-17 隨機強化組｜獨角獸三角",
-      "url": "https://www.sen-sen.com.tw/products/cx-17",
-      "price": 315.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2ODM0ODYxLzE3NzYyMzQ1MzJfYzBlYmUwZmIxNmFkNDU2MzhiZWUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=5de3395c7c513244",
-      "source_id": "cx-17",
       "source": "森森文具玩具"
     },
     {
@@ -410,7 +410,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-09T06:01:18.312963+00:00",
-      "image": "https://i3.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
       "availability_text": "",
       "source_id": "15670779",
       "source": "MOMO Funbox"
@@ -423,7 +423,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-09T10:55:59.716658+00:00",
-      "image": "https://i5.momoshop.com.tw/1788961408/goodsimg/TP000/2451/0018/190/TP00024510018190_O_m.webp",
+      "image": "https://i8.momoshop.com.tw/1788961408/goodsimg/TP000/2451/0018/190/TP00024510018190_O.webp",
       "availability_text": "售完補貨中",
       "source_id": "TP00024510018190",
       "source": "MOMO 墊腳石"
@@ -436,7 +436,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-09T10:55:59.716658+00:00",
-      "image": "https://i8.momoshop.com.tw/1788962233/goodsimg/TP000/2451/0018/641/TP00024510018641_O.webp",
+      "image": "https://i6.momoshop.com.tw/1788962233/goodsimg/TP000/2451/0018/641/TP00024510018641_O.webp",
       "availability_text": "售完補貨中",
       "source_id": "TP00024510018641",
       "source": "MOMO 墊腳石"
@@ -449,7 +449,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-11T14:09:20.359580+00:00",
-      "image": "https://i6.momoshop.com.tw/1789146696/goodsimg/TP000/2451/0018/175/TP00024510018175_O_m.webp",
+      "image": "https://i5.momoshop.com.tw/1789146696/goodsimg/TP000/2451/0018/175/TP00024510018175_O.webp",
       "availability_text": "售完補貨中",
       "source_id": "TP00024510018175",
       "source": "MOMO 墊腳石"
