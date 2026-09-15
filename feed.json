@@ -1,30 +1,18 @@
 {
-  "updated_at": "2026-09-15T15:04:56.966100+00:00",
+  "updated_at": "2026-09-15T18:54:14.253248+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 35,
   "products": [
     {
-      "id": "sensen:beyblade-x-bx-52-luster-dragoon-6-60lc",
-      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-52 光耀龍騎 6-60LC 左旋強攻啟動組（暫譯）",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-52-luster-dragoon-6-60lc",
+      "id": "sensen:beyblade-x-bx-56-string-launcher-l-white-purple",
+      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-56 線發射器 L｜白色×紫色｜左迴旋",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-56-string-launcher-l-white-purple",
       "price": 0.0,
       "in_stock": false,
       "status": "new",
-      "first_seen": "2026-09-15T15:04:41.668721+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjU5MzM0LzE3ODk0ODMxMDJfOTZlM2I3MzY2NGM1NzkyMzU5MmEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=6612b52ce2bf2d64",
-      "source_id": "beyblade-x-bx-52-luster-dragoon-6-60lc",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-bx-53-all-in-one-set",
-      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-53 全方位套裝（暫譯）",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-53-all-in-one-set",
-      "price": 0.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-09-15T15:04:41.668721+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjU5ODgyLzE3ODk0ODQyODJfNTFlZDQ2NWNlZjc0ZTllMGEyMDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=0810a4af16115690",
-      "source_id": "beyblade-x-bx-53-all-in-one-set",
+      "first_seen": "2026-09-15T18:53:58.661962+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjYxNjU3LzE3ODk0ODQ5NzZfM2Q1YmM0MmNlZjgwMDFlMTNmNDcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=192f1cf1cc8c68c8",
+      "source_id": "beyblade-x-bx-56-string-launcher-l-white-purple",
       "source": "森森文具玩具"
     },
     {
@@ -149,18 +137,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY3MDkyMzgxLzE3NzcwNDIzMjlfY2RjMmM3YzA1MTRlMzUyMGE1YTIuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=939348df314b9910",
       "source_id": "xtreme-battle-stadium-x2-g1-official-spec",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-bxg-70-special-collaboration-limited-edition",
-      "title": "【BEYBLADE X】BXG-70 聯名款陀螺｜亞洲知名神秘 IP 跨界聯動｜全新限定機型｜單入附發射器",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bxg-70-special-collaboration-limited-edition",
-      "price": 476.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2Njk5MDg3LzE3NzM3NTE0NzFfYWZkMTgwNmEwODQ4M2U0NTk5YzUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=5d5229378604a10e",
-      "source_id": "beyblade-x-bxg-70-special-collaboration-limited-edition",
       "source": "森森文具玩具"
     },
     {
@@ -414,6 +390,30 @@
       "availability_text": "",
       "source_id": "15670779",
       "source": "MOMO Funbox"
+    },
+    {
+      "id": "sensen:beyblade-x-bx-52-luster-dragoon-6-60lc",
+      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-52 光耀龍騎 6-60LC 左旋強攻啟動組（暫譯）",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-52-luster-dragoon-6-60lc",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-09-15T15:04:41.668721+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjU5MzM0LzE3ODk0ODMxMDJfOTZlM2I3MzY2NGM1NzkyMzU5MmEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=6612b52ce2bf2d64",
+      "source_id": "beyblade-x-bx-52-luster-dragoon-6-60lc",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-bx-53-all-in-one-set",
+      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-53 全方位套裝（暫譯）",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-53-all-in-one-set",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-09-15T15:04:41.668721+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjU5ODgyLzE3ODk0ODQyODJfNTFlZDQ2NWNlZjc0ZTllMGEyMDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=0810a4af16115690",
+      "source_id": "beyblade-x-bx-53-all-in-one-set",
+      "source": "森森文具玩具"
     }
   ]
 }
