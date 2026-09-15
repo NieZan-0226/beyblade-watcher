@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-09-15T18:53:59.098465+00:00",
+  "updated_at": "2026-09-15T21:57:38.092041+00:00",
   "source": "森森文具玩具",
   "count": 24,
   "products": [
-    {
-      "id": "beyblade-x-bx-56-string-launcher-l-white-purple",
-      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-56 線發射器 L｜白色×紫色｜左迴旋",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-56-string-launcher-l-white-purple",
-      "price": 0.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-09-15T18:53:58.661962+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjYxNjU3LzE3ODk0ODQ5NzZfM2Q1YmM0MmNlZjgwMDFlMTNmNDcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=192f1cf1cc8c68c8"
-    },
     {
       "id": "cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
@@ -242,6 +232,16 @@
       "status": "normal",
       "first_seen": "2026-09-15T15:04:41.668721+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjU5MzM0LzE3ODk0ODMxMDJfOTZlM2I3MzY2NGM1NzkyMzU5MmEucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=6612b52ce2bf2d64"
+    },
+    {
+      "id": "beyblade-x-bx-56-string-launcher-l-white-purple",
+      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-56 線發射器 L｜白色×紫色｜左迴旋",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-56-string-launcher-l-white-purple",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-09-15T18:53:58.661962+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjYxNjU3LzE3ODk0ODQ5NzZfM2Q1YmM0MmNlZjgwMDFlMTNmNDcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=192f1cf1cc8c68c8"
     }
   ]
 }

@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-09-15T18:54:14.253248+00:00",
+  "updated_at": "2026-09-15T21:57:51.068392+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 35,
   "products": [
-    {
-      "id": "sensen:beyblade-x-bx-56-string-launcher-l-white-purple",
-      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-56 線發射器 L｜白色×紫色｜左迴旋",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-56-string-launcher-l-white-purple",
-      "price": 0.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-09-15T18:53:58.661962+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjYxNjU3LzE3ODk0ODQ5NzZfM2Q1YmM0MmNlZjgwMDFlMTNmNDcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=192f1cf1cc8c68c8",
-      "source_id": "beyblade-x-bx-56-string-launcher-l-white-purple",
-      "source": "森森文具玩具"
-    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -386,7 +374,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-09T06:01:18.312963+00:00",
-      "image": "https://i1.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
       "availability_text": "",
       "source_id": "15670779",
       "source": "MOMO Funbox"
@@ -413,6 +401,18 @@
       "first_seen": "2026-09-15T15:04:41.668721+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjU5ODgyLzE3ODk0ODQyODJfNTFlZDQ2NWNlZjc0ZTllMGEyMDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=0810a4af16115690",
       "source_id": "beyblade-x-bx-53-all-in-one-set",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-bx-56-string-launcher-l-white-purple",
+      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-56 線發射器 L｜白色×紫色｜左迴旋",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-56-string-launcher-l-white-purple",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-09-15T18:53:58.661962+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMjYxNjU3LzE3ODk0ODQ5NzZfM2Q1YmM0MmNlZjgwMDFlMTNmNDcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=192f1cf1cc8c68c8",
+      "source_id": "beyblade-x-bx-56-string-launcher-l-white-purple",
       "source": "森森文具玩具"
     }
   ]
