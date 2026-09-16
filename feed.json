@@ -1,8 +1,58 @@
 {
-  "updated_at": "2026-09-16T09:26:29.715443+00:00",
+  "updated_at": "2026-09-16T14:18:21.216997+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 35,
+  "count": 37,
   "products": [
+    {
+      "id": "sensen:30-beyblade-storage-travel-case",
+      "title": "【森森文具玩具】陀螺鬥士 30陀螺收納外出箱｜雙層分區 大容量硬殼陀螺收納箱",
+      "url": "https://www.sen-sen.com.tw/products/30-beyblade-storage-travel-case",
+      "price": 2100.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-09-16T14:18:06.310975+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMzA5ODU2LzE3ODk1NTg3NDhfYWQzYTY1MzM3NGJmMWNmYzMwNjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=750b2bc75bc766ed",
+      "source_id": "30-beyblade-storage-travel-case",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-large-storage-case-with-battle-box",
+      "title": "【森森文具玩具】陀螺鬥士 大容量硬殼收納箱｜分層配件收納・附三格對戰盒",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-large-storage-case-with-battle-box",
+      "price": 2900.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-09-16T14:18:06.310975+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMzA5NjkzLzE3ODk1NTc0MDlfM2I2ZTgxY2Y3MTk5MjUwZDc0YTMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=716740d09186de88",
+      "source_id": "beyblade-large-storage-case-with-battle-box",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "momo:TP00024510018641",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺-CX-13龍王閃擊/UX-21惡魔冥界改造組/BX-00蒼龍神劍3-60F V2",
+      "url": "https://www.momoshop.com.tw/TP/TP0002451/goodsDetail/TP00024510018641",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-09-16T14:18:14.087359+00:00",
+      "image": "https://i5.momoshop.com.tw/1788962233/goodsimg/TP000/2451/0018/641/TP00024510018641_O.webp",
+      "availability_text": "售完補貨中",
+      "source_id": "TP00024510018641",
+      "source": "MOMO 墊腳石"
+    },
+    {
+      "id": "momo:TP00024510018109",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺-CX隨機強化組/UX系列/BX極限衝擊戰鬥盤",
+      "url": "https://www.momoshop.com.tw/TP/TP0002451/goodsDetail/TP00024510018109",
+      "price": 295.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-09-16T14:18:14.087359+00:00",
+      "image": "https://i7.momoshop.com.tw/1789577558/goodsimg/TP000/2451/0018/109/TP00024510018109_O.webp",
+      "availability_text": "售完補貨中",
+      "source_id": "TP00024510018109",
+      "source": "MOMO 墊腳石"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -128,18 +178,6 @@
       "source": "森森文具玩具"
     },
     {
-      "id": "sensen:beyblade-x-evangelion-collaboration-unit-01-00-02-deluxe-set",
-      "title": "【預購】戰鬥陀螺 X  新世紀福音戰士 EVA 聯名款陀螺｜初號機限定配色｜全新限定機型",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-evangelion-collaboration-unit-01-00-02-deluxe-set",
-      "price": 1149.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2ODA1NTQwLzE3NzQ0NDYyMDJfNDU4ZDI2NDdkMGRmNWFmNTMzOTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=36f76bbeae2c4100",
-      "source_id": "beyblade-x-evangelion-collaboration-unit-01-00-02-deluxe-set",
-      "source": "森森文具玩具"
-    },
-    {
       "id": "sensen:cx-18-brachiowhip-ow5-70nr",
       "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
       "url": "https://www.sen-sen.com.tw/products/cx-18-brachiowhip-ow5-70nr",
@@ -149,18 +187,6 @@
       "first_seen": "2026-07-08T12:09:03.137995+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc2MzM3LzE3ODEzMjU5MDZfYTA2NGRhOWExNTE1ODk3OTE2MzkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=75558cb4123d22de",
       "source_id": "cx-18-brachiowhip-ow5-70nr",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-bxg-21-storm-spriggan-2-70m-kurenai-shu",
-      "title": "戰鬥陀螺 X  BXG-21 暴風巨神 2-70M｜X-Over Project｜傳奇復刻系列",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bxg-21-storm-spriggan-2-70m-kurenai-shu",
-      "price": 396.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2NzgxMDEzLzE3NzQyNzc1NzdfNGU4NTZmZjM0ZjIwNDNhZjJhNjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=8a33a762f63bc962",
-      "source_id": "beyblade-x-bxg-21-storm-spriggan-2-70m-kurenai-shu",
       "source": "森森文具玩具"
     },
     {
@@ -374,7 +400,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-09T06:01:18.312963+00:00",
-      "image": "https://i2.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
+      "image": "https://i3.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
       "availability_text": "",
       "source_id": "15670779",
       "source": "MOMO Funbox"
