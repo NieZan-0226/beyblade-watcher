@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T10:00:09.968155+00:00",
+  "updated_at": "2026-09-20T14:00:44.894053+00:00",
   "source": "MOMO Funbox",
   "count": 2,
   "products": [
@@ -9,9 +9,9 @@
       "url": "https://www.momoshop.com.tw/product/15714217",
       "price": 2249.0,
       "in_stock": true,
-      "status": "new",
+      "status": "normal",
       "first_seen": "2026-09-20T10:00:09.874306+00:00",
-      "image": "https://i2.momoshop.com.tw/1789710953/goodsimg/0015/714/217/15714217_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1789710953/goodsimg/0015/714/217/15714217_R_m.webp",
       "availability_text": ""
     },
     {
@@ -20,7 +20,7 @@
       "url": "https://www.momoshop.com.tw/product/15670779",
       "price": 745.0,
       "in_stock": false,
-      "status": "new",
+      "status": "normal",
       "first_seen": "2026-09-20T10:00:09.874306+00:00",
       "image": "https://i1.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
       "availability_text": ""
