@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-20T05:28:40.444989+00:00",
+  "updated_at": "2026-09-20T10:00:09.968155+00:00",
   "source": "MOMO Funbox",
-  "count": 0,
-  "products": []
+  "count": 2,
+  "products": [
+    {
+      "id": "15714217",
+      "title": "【TAKARA TOMY】新!寶可夢抓抓機+ 戰鬥陀螺X CX-18",
+      "url": "https://www.momoshop.com.tw/product/15714217",
+      "price": 2249.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-09-20T10:00:09.874306+00:00",
+      "image": "https://i2.momoshop.com.tw/1789710953/goodsimg/0015/714/217/15714217_R_m.webp",
+      "availability_text": ""
+    },
+    {
+      "id": "15670779",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-18+UX-02",
+      "url": "https://www.momoshop.com.tw/product/15670779",
+      "price": 745.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-09-20T10:00:09.874306+00:00",
+      "image": "https://i1.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
+      "availability_text": ""
+    }
+  ]
 }
