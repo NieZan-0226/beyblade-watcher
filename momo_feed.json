@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T01:31:27.447647+00:00",
+  "updated_at": "2026-09-21T06:53:11.266470+00:00",
   "source": "MOMO 墊腳石",
   "count": 5,
   "products": [
@@ -11,7 +11,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-20T10:00:01.549682+00:00",
-      "image": "https://i6.momoshop.com.tw/1789146696/goodsimg/TP000/2451/0018/175/TP00024510018175_O_m.webp",
+      "image": "https://i5.momoshop.com.tw/1789146696/goodsimg/TP000/2451/0018/175/TP00024510018175_O.webp",
       "availability_text": "售完補貨中"
     },
     {
@@ -55,7 +55,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-20T10:00:01.549682+00:00",
-      "image": "https://i7.momoshop.com.tw/1782818077/goodsimg/TP000/2451/0017/974/TP00024510017974_O_m.jpg",
+      "image": "https://i7.momoshop.com.tw/1782818077/goodsimg/TP000/2451/0017/974/TP00024510017974_O.webp",
       "availability_text": "售完補貨中"
     }
   ]
