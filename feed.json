@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-09-22T06:00:19.352917+00:00",
+  "updated_at": "2026-09-22T11:10:21.621225+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 35,
+  "count": 36,
   "products": [
+    {
+      "id": "momo_funbox:15714217",
+      "title": "【TAKARA TOMY】新!寶可夢抓抓機+ 戰鬥陀螺X CX-18",
+      "url": "https://www.momoshop.com.tw/product/15714217",
+      "price": 2249.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-09-22T11:10:21.338137+00:00",
+      "image": "https://i4.momoshop.com.tw/1789710953/goodsimg/0015/714/217/15714217_R_m.webp",
+      "availability_text": "",
+      "source_id": "15714217",
+      "source": "MOMO Funbox"
+    },
     {
       "id": "funbox:57883050",
       "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
@@ -398,7 +411,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-20T10:00:01.549682+00:00",
-      "image": "https://i8.momoshop.com.tw/1782818077/goodsimg/TP000/2451/0017/974/TP00024510017974_O.webp",
+      "image": "https://i6.momoshop.com.tw/1782818077/goodsimg/TP000/2451/0017/974/TP00024510017974_O.webp",
       "availability_text": "售完補貨中",
       "source_id": "TP00024510017974",
       "source": "MOMO 墊腳石"
