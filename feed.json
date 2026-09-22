@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22T01:03:06.655205+00:00",
+  "updated_at": "2026-09-22T06:00:19.352917+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 36,
+  "count": 35,
   "products": [
     {
       "id": "funbox:57883050",
@@ -411,22 +411,9 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-20T10:00:09.874306+00:00",
-      "image": "https://i2.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
       "availability_text": "",
       "source_id": "15670779",
-      "source": "MOMO Funbox"
-    },
-    {
-      "id": "momo_funbox:15714217",
-      "title": "【TAKARA TOMY】新!寶可夢抓抓機+ 戰鬥陀螺X CX-18",
-      "url": "https://www.momoshop.com.tw/product/15714217",
-      "price": 2249.0,
-      "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-09-20T10:00:09.874306+00:00",
-      "image": "https://i1.momoshop.com.tw/1789710953/goodsimg/0015/714/217/15714217_R_m.webp",
-      "availability_text": "",
-      "source_id": "15714217",
       "source": "MOMO Funbox"
     }
   ]
