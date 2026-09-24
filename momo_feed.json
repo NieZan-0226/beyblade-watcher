@@ -1,29 +1,6 @@
 {
-  "updated_at": "2026-09-24T03:42:36.428904+00:00",
+  "updated_at": "2026-09-24T08:46:41.926290+00:00",
   "source": "MOMO 墊腳石",
-  "count": 2,
-  "products": [
-    {
-      "id": "TP00024510018641",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺-CX-13龍王閃擊/UX-21惡魔冥界改造組/BX-00蒼龍神劍3-60F V2",
-      "url": "https://www.momoshop.com.tw/TP/TP0002451/goodsDetail/TP00024510018641",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-09-24T03:42:36.282618+00:00",
-      "image": "https://i5.momoshop.com.tw/1790249960/goodsimg/TP000/2451/0018/641/TP00024510018641_O_m.jpg",
-      "availability_text": "售完補貨中"
-    },
-    {
-      "id": "TP00024510017974",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺-CX系列/BX系列/UX系列/BXG系列",
-      "url": "https://www.momoshop.com.tw/TP/TP0002451/goodsDetail/TP00024510017974",
-      "price": 150.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-09-20T10:00:01.549682+00:00",
-      "image": "https://i8.momoshop.com.tw/1782818077/goodsimg/TP000/2451/0017/974/TP00024510017974_O_m.webp",
-      "availability_text": "售完補貨中"
-    }
-  ]
+  "count": 0,
+  "products": []
 }
