@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-09-29T06:56:47.628971+00:00",
+  "updated_at": "2026-09-29T13:51:07.047889+00:00",
   "source": "MOMO Funbox",
   "count": 2,
   "products": [
     {
-      "id": "15670779",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-18+UX-02",
-      "url": "https://www.momoshop.com.tw/product/15670779",
-      "price": 745.0,
+      "id": "15687164",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
+      "url": "https://www.momoshop.com.tw/product/15687164",
+      "price": 1395.0,
       "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-09-24T03:42:45.387210+00:00",
-      "image": "https://i4.momoshop.com.tw/1788767015/goodsimg/0015/670/779/15670779_R_m.webp",
-      "availability_text": ""
+      "status": "new",
+      "first_seen": "2026-09-29T13:51:06.029018+00:00",
+      "image": "https://i3.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_OR_m.webp",
+      "availability_text": "10/01 00:00 開賣"
     },
     {
-      "id": "15735469",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-10極限衝擊戰鬥盤+CX-18腕龍鞭打",
-      "url": "https://www.momoshop.com.tw/product/15735469",
-      "price": 1200.0,
+      "id": "15434508",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-10 極限衝擊戰鬥盤(男孩 對戰)",
+      "url": "https://www.momoshop.com.tw/product/15434508",
+      "price": 850.0,
       "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-09-24T08:46:49.399873+00:00",
-      "image": "https://i2.momoshop.com.tw/1790218118/goodsimg/0015/735/469/15735469_R_m.webp",
-      "availability_text": ""
+      "status": "new",
+      "first_seen": "2026-09-29T13:51:06.029018+00:00",
+      "image": "https://i3.momoshop.com.tw/1782886426/goodsimg/0015/434/508/15434508_OR_m.webp",
+      "availability_text": "可訂購時通知我"
     }
   ]
 }
