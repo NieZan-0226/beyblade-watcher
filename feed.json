@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-01T02:20:16.024095+00:00",
+  "updated_at": "2026-10-01T09:04:07.980204+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 34,
+  "count": 33,
   "products": [
     {
-      "id": "funbox:57883050",
-      "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
-      "url": "https://shop.funbox.com.tw/products/bbpr95431",
-      "price": 999999.0,
-      "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-06-05T10:36:58.529447+00:00",
-      "source_id": "57883050",
+      "id": "funbox:66047423",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
+      "url": "https://shop.funbox.com.tw/products/bb09728",
+      "price": 1995.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-01T09:03:24.914558+00:00",
+      "source_id": "66047423",
       "source": "Funbox"
     },
     {
-      "id": "funbox:50580835",
-      "title": "【預購截止日7/13 PM 1:00】APP兌換 戰鬥陀螺 BXG-17 限定軸心組 黑金版",
-      "url": "https://shop.funbox.com.tw/products/bbpr94986",
+      "id": "funbox:69274378",
+      "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
+      "url": "https://shop.funbox.com.tw/products/bbpr08914",
       "price": 999999.0,
       "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-06-05T10:36:58.529447+00:00",
-      "source_id": "50580835",
+      "status": "new",
+      "first_seen": "2026-10-01T09:03:24.914558+00:00",
+      "source_id": "69274378",
       "source": "Funbox"
     },
     {
@@ -114,17 +114,6 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc2MzM3LzE3ODEzMjU5MDZfYTA2NGRhOWExNTE1ODk3OTE2MzkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=75558cb4123d22de",
       "source_id": "cx-18-brachiowhip-ow5-70nr",
       "source": "森森文具玩具"
-    },
-    {
-      "id": "funbox:68051695",
-      "title": "【預購截止日7/13 PM 1:00】APP序號兌換 戰鬥陀螺 UX-00 空力天馬 3-70A 紅色版",
-      "url": "https://shop.funbox.com.tw/products/bbpr09652",
-      "price": 999999.0,
-      "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-07-09T05:11:01.861587+00:00",
-      "source_id": "68051695",
-      "source": "Funbox"
     },
     {
       "id": "sensen:x-hangar-y35-battle-outing-box",
@@ -386,7 +375,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-29T13:51:06.029018+00:00",
-      "image": "https://i3.momoshop.com.tw/1782886426/goodsimg/0015/434/508/15434508_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1782886426/goodsimg/0015/434/508/15434508_R_m.webp",
       "availability_text": "",
       "source_id": "15434508",
       "source": "MOMO Funbox"

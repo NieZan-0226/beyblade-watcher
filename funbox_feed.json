@@ -1,34 +1,25 @@
 {
-  "updated_at": "2026-07-13T04:38:03.223788+00:00",
+  "updated_at": "2026-10-01T09:03:25.318042+00:00",
   "source": "Funbox",
-  "count": 3,
+  "count": 2,
   "products": [
     {
-      "id": "57883050",
-      "title": "【預購截止日7/13 PM 1:00】APP兌換 BXH-14 戰神伏特S4-70V 燦金版",
-      "url": "https://shop.funbox.com.tw/products/bbpr95431",
+      "id": "69274378",
+      "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
+      "url": "https://shop.funbox.com.tw/products/bbpr08914",
       "price": 999999.0,
       "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-06-05T10:36:58.529447+00:00"
+      "status": "new",
+      "first_seen": "2026-10-01T09:03:24.914558+00:00"
     },
     {
-      "id": "50580835",
-      "title": "【預購截止日7/13 PM 1:00】APP兌換 戰鬥陀螺 BXG-17 限定軸心組 黑金版",
-      "url": "https://shop.funbox.com.tw/products/bbpr94986",
-      "price": 999999.0,
-      "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-06-05T10:36:58.529447+00:00"
-    },
-    {
-      "id": "68051695",
-      "title": "【預購截止日7/13 PM 1:00】APP序號兌換 戰鬥陀螺 UX-00 空力天馬 3-70A 紅色版",
-      "url": "https://shop.funbox.com.tw/products/bbpr09652",
-      "price": 999999.0,
-      "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-07-09T05:11:01.861587+00:00"
+      "id": "66047423",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
+      "url": "https://shop.funbox.com.tw/products/bb09728",
+      "price": 1995.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-01T09:03:24.914558+00:00"
     }
   ]
 }
