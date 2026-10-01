@@ -1,30 +1,10 @@
 {
-  "15434508": {
-    "key": "15434508",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-10 極限衝擊戰鬥盤(男孩 對戰)",
-    "url": "https://www.momoshop.com.tw/product/15434508",
-    "price": 697.0,
-    "in_stock": false,
-    "image": "https://i4.momoshop.com.tw/1782886426/goodsimg/0015/434/508/15434508_R_m.webp",
-    "availability_text": "",
-    "first_seen": "2026-09-29T13:51:06.029018+00:00"
-  },
-  "15687164": {
-    "key": "15687164",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
-    "url": "https://www.momoshop.com.tw/product/15687164",
-    "price": 1227.0,
-    "in_stock": false,
-    "image": "https://i3.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
-    "availability_text": "",
-    "first_seen": "2026-09-29T13:51:06.029018+00:00"
-  },
   "__meta__": {
     "consecutive_failures": 0,
     "initialized": true,
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 15
+    "source_count": 14
   }
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-01T09:04:07.980204+00:00",
+  "updated_at": "2026-10-01T16:18:32.757890+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 33,
+  "count": 31,
   "products": [
     {
       "id": "funbox:66047423",
@@ -366,32 +366,6 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyMzA5NjkzLzE3ODk1NTc0MDlfM2I2ZTgxY2Y3MTk5MjUwZDc0YTMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=716740d09186de88",
       "source_id": "beyblade-large-storage-case-with-battle-box",
       "source": "森森文具玩具"
-    },
-    {
-      "id": "momo_funbox:15434508",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X BX-10 極限衝擊戰鬥盤(男孩 對戰)",
-      "url": "https://www.momoshop.com.tw/product/15434508",
-      "price": 697.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-09-29T13:51:06.029018+00:00",
-      "image": "https://i4.momoshop.com.tw/1782886426/goodsimg/0015/434/508/15434508_R_m.webp",
-      "availability_text": "",
-      "source_id": "15434508",
-      "source": "MOMO Funbox"
-    },
-    {
-      "id": "momo_funbox:15687164",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
-      "url": "https://www.momoshop.com.tw/product/15687164",
-      "price": 1227.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-09-29T13:51:06.029018+00:00",
-      "image": "https://i3.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
-      "availability_text": "",
-      "source_id": "15687164",
-      "source": "MOMO Funbox"
     }
   ]
 }
