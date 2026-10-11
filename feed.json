@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T23:52:47.423522+00:00",
+  "updated_at": "2026-10-11T04:40:19.141524+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 31,
   "products": [
@@ -24,6 +24,18 @@
       "first_seen": "2026-10-01T09:03:24.914558+00:00",
       "source_id": "69274378",
       "source": "Funbox"
+    },
+    {
+      "id": "sensen:x-battle-case-blade-magnetic-beyblade-storage-box-20261011103215",
+      "title": "【森森文具玩具】客製化戰鬥盒｜戰鬥陀螺X三格收納盒｜磁吸式設計｜BX UX CX系列適用｜專屬圖案印刷",
+      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box-20261011103215",
+      "price": 650.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-11T04:40:02.856210+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyNzkyMjU4LzE3OTE2OTI3MTZfN2Y2ZWU1YjJhMmVhYWYxOTRiYjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1edf86cf0e145b06",
+      "source_id": "x-battle-case-blade-magnetic-beyblade-storage-box-20261011103215",
+      "source": "森森文具玩具"
     },
     {
       "id": "toysrus:1202166",
@@ -102,18 +114,6 @@
       "image": "https://s2.eslite.com/unsafe/s.eslite.com/b2b/newItem/2026/04/24/1940_114736419_603_mainCoverImage1.jpg",
       "source_id": "10042014802683132117006",
       "source": "誠品線上"
-    },
-    {
-      "id": "sensen:cx-18-brachiowhip-ow5-70nr",
-      "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
-      "url": "https://www.sen-sen.com.tw/products/cx-18-brachiowhip-ow5-70nr",
-      "price": 319.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-07-08T12:09:03.137995+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc2MzM3LzE3ODEzMjU5MDZfYTA2NGRhOWExNTE1ODk3OTE2MzkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=75558cb4123d22de",
-      "source_id": "cx-18-brachiowhip-ow5-70nr",
-      "source": "森森文具玩具"
     },
     {
       "id": "sensen:x-hangar-y35-battle-outing-box",
