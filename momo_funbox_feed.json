@@ -1,29 +1,6 @@
 {
-  "updated_at": "2026-10-13T02:44:09.157980+00:00",
+  "updated_at": "2026-10-13T09:46:11.594658+00:00",
   "source": "MOMO Funbox",
-  "count": 2,
-  "products": [
-    {
-      "id": "15785514",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-19子彈獅鷲H+BX-41 X發射器改造型握把",
-      "url": "https://www.momoshop.com.tw/product/15785514",
-      "price": 800.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-12T12:52:11.257376+00:00",
-      "image": "https://i2.momoshop.com.tw/1791784559/goodsimg/0015/785/514/15785514_R_m.webp",
-      "availability_text": ""
-    },
-    {
-      "id": "15785495",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-14 騎士堡壘+UX-13 魔像奇岩",
-      "url": "https://www.momoshop.com.tw/product/15785495",
-      "price": 790.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-12T12:52:11.257376+00:00",
-      "image": "https://i1.momoshop.com.tw/1791777515/goodsimg/0015/785/495/15785495_R_m.webp",
-      "availability_text": ""
-    }
-  ]
+  "count": 0,
+  "products": []
 }
