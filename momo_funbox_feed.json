@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-13T09:46:11.594658+00:00",
+  "updated_at": "2026-10-13T17:09:29.611743+00:00",
   "source": "MOMO Funbox",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "15790379",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-19鱷魚裂甲+ CX-13 龍王閃擊",
+      "url": "https://www.momoshop.com.tw/product/15790379",
+      "price": 845.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-13T17:09:29.327348+00:00",
+      "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_OR_m.webp",
+      "availability_text": "可訂購時通知我"
+    }
+  ]
 }
