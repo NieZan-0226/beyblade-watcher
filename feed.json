@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T17:09:29.642922+00:00",
+  "updated_at": "2026-10-13T21:51:59.334341+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 32,
   "products": [
@@ -24,19 +24,6 @@
       "first_seen": "2026-10-01T09:03:24.914558+00:00",
       "source_id": "69274378",
       "source": "Funbox"
-    },
-    {
-      "id": "momo_funbox:15790379",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-19鱷魚裂甲+ CX-13 龍王閃擊",
-      "url": "https://www.momoshop.com.tw/product/15790379",
-      "price": 845.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-13T17:09:29.327348+00:00",
-      "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_OR_m.webp",
-      "availability_text": "可訂購時通知我",
-      "source_id": "15790379",
-      "source": "MOMO Funbox"
     },
     {
       "id": "toysrus:1202166",
@@ -379,6 +366,19 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyNzkyMjU4LzE3OTE2OTI3MTZfN2Y2ZWU1YjJhMmVhYWYxOTRiYjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1edf86cf0e145b06",
       "source_id": "x-battle-case-blade-magnetic-beyblade-storage-box-20261011103215",
       "source": "森森文具玩具"
+    },
+    {
+      "id": "momo_funbox:15790379",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-19鱷魚裂甲+ CX-13 龍王閃擊",
+      "url": "https://www.momoshop.com.tw/product/15790379",
+      "price": 845.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-13T17:09:29.327348+00:00",
+      "image": "https://i3.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "availability_text": "",
+      "source_id": "15790379",
+      "source": "MOMO Funbox"
     }
   ]
 }
