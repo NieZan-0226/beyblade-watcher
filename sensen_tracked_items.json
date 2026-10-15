@@ -35,15 +35,6 @@
     "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3",
     "first_seen": "2026-10-15T06:16:16.767574+00:00"
   },
-  "beyblade-x-cx-19-random-booster-20261014114239": {
-    "key": "beyblade-x-cx-19-random-booster-20261014114239",
-    "title": "【快閃】戰鬥陀螺X CX-19 隨機強化組",
-    "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-19-random-booster-20261014114239",
-    "price": 350.0,
-    "in_stock": false,
-    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c",
-    "first_seen": "2026-10-15T06:16:16.767574+00:00"
-  },
   "beyblade-x-bx-50-random-booster-20261014114119": {
     "key": "beyblade-x-bx-50-random-booster-20261014114119",
     "title": "【快閃】戰鬥陀螺X BX-50 隨機強化組",
@@ -196,6 +187,15 @@
     "in_stock": false,
     "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAxMDYxLzE3ODYyODk2OTJfMzliYTliYTNmOTI5ZGU1M2QyYzYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=906397eceadcad89",
     "first_seen": "2026-08-09T15:47:48.158986+00:00"
+  },
+  "beyblade-x-bx-00-storm-pegasus-3-70ra": {
+    "key": "beyblade-x-bx-00-storm-pegasus-3-70ra",
+    "title": "BEYBLADE X 戰鬥陀螺X BX-00 暴風天馬3-70RA",
+    "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-00-storm-pegasus-3-70ra",
+    "price": 595.0,
+    "in_stock": false,
+    "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNzU0LzE3ODYyODg4OTNfMjI3NDI0MDMyYjE0ODhiMmZlZGUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=46486855c6fd8f3a",
+    "first_seen": "2026-10-15T11:31:48.052799+00:00"
   },
   "__meta__": {
     "consecutive_failures": 0
