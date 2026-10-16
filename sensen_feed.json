@@ -1,98 +1,8 @@
 {
-  "updated_at": "2026-10-16T05:05:01.223544+00:00",
+  "updated_at": "2026-10-16T09:39:53.393129+00:00",
   "source": "森森文具玩具",
   "count": 22,
   "products": [
-    {
-      "id": "bx-51-string-launcher-black-green-20261016114450",
-      "title": "【快閃】戰鬥陀螺X BX-51 旋風發射器 (黑綠)",
-      "url": "https://www.sen-sen.com.tw/products/bx-51-string-launcher-black-green-20261016114450",
-      "price": 229.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc5NDQ3LzE3ODEzNDA4OTFfMTdlZTg5MGJjNTc3MGM5MDAxMjAucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=d05e9123b9539617"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-bx-45-武士魂斬-20261016113018",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-45 武士魂斬",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-45-武士魂斬-20261016113018",
-      "price": 325.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NDkwNDU4LzE3NTI2NDY3NzBfZTNmYjU3NDQ0MGJhN2U2MGMwODkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=deee33b1ac132c73"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺-bx-25-戰鬥陀螺x專業收納包-20261016112438",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺 BX-25 戰鬥陀螺X專業收納包",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺-bx-25-戰鬥陀螺x專業收納包-20261016112438",
-      "price": 850.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzQ3NzcyNjA5LzE3MjI3NzI4MThfNzdmZTdhMjIwZWE5NWFlNTM1NjQuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=81b7472300b020a9"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-ux-13-魔像奇岩",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺X UX-13 魔像奇岩",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-ux-13-魔像奇岩",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzUzMTk3OTgwLzE3MzcyNTUxMTlfMmVkM2RhMzE2YjMyZWQ0N2IxODcuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=fc98ab2ce15e7ec7"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-bx-42-x發射器改造型握把藍透明-20261016111856",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-42 X發射器改造型握把(藍/透明)",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-42-x發射器改造型握把藍透明-20261016111856",
-      "price": 250.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU0MDE5NjI1LzE3NDA1NDA4NDJfMzRhNzM3MjkzN2ZhMzNmMWUxODMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=03b8af221b79fe74"
-    },
-    {
-      "id": "cx-00-dika-fury-ft-3-60t-b4-20261016111503",
-      "title": "【快閃】 戰鬥陀螺X CX-00 迪卡狂怒 FT 3-60T",
-      "url": "https://www.sen-sen.com.tw/products/cx-00-dika-fury-ft-3-60t-b4-20261016111503",
-      "price": 595.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2Njk5MDg3LzE3ODk2MzQ3MzBfNDRjNTUyMTE0MTM2NjQxYWJmZjQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=c15a2643cc6c69dd"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-bx-46-無限衝擊對戰組-20261016111053",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-46 無限衝擊對戰組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-46-無限衝擊對戰組-20261016111053",
-      "price": 2500.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU4NjQxODU3LzE3NTczMjAzNzJfMzZkZmRiYjc1MzcxMTY3YzBjMzQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed743f1b8c3d3c23"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺-bx-32-寬型極限衝擊戰鬥盤-20261016110913",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺 BX-32 寬型極限衝擊戰鬥盤",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺-bx-32-寬型極限衝擊戰鬥盤-20261016110913",
-      "price": 1250.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzQ3NzcyNTcxLzE3MjI3NzE2MzdfYzNmZjIxNWUxODFhMzc0N2FjOWEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=2469c6e4a4ef5233"
-    },
-    {
-      "id": "beyblade-x-cx-19-random-booster-20261014114239",
-      "title": "【快閃】戰鬥陀螺X CX-19 隨機強化組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-19-random-booster-20261014114239",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c"
-    },
     {
       "id": "beyblade-x-cx-19-random-booster",
       "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
@@ -222,6 +132,96 @@
       "status": "normal",
       "first_seen": "2026-10-15T06:16:16.767574+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2ODA1NTQwLzE3NzQ0NDYyMDJfNDU4ZDI2NDdkMGRmNWFmNTMzOTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=36f76bbeae2c4100"
+    },
+    {
+      "id": "bx-51-string-launcher-black-green-20261016114450",
+      "title": "【快閃】戰鬥陀螺X BX-51 旋風發射器 (黑綠)",
+      "url": "https://www.sen-sen.com.tw/products/bx-51-string-launcher-black-green-20261016114450",
+      "price": 229.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc5NDQ3LzE3ODEzNDA4OTFfMTdlZTg5MGJjNTc3MGM5MDAxMjAucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=d05e9123b9539617"
+    },
+    {
+      "id": "beyblade-x-戰鬥陀螺x-bx-45-武士魂斬-20261016113018",
+      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-45 武士魂斬",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-45-武士魂斬-20261016113018",
+      "price": 325.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NDkwNDU4LzE3NTI2NDY3NzBfZTNmYjU3NDQ0MGJhN2U2MGMwODkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=deee33b1ac132c73"
+    },
+    {
+      "id": "beyblade-x-戰鬥陀螺-bx-25-戰鬥陀螺x專業收納包-20261016112438",
+      "title": "【快閃】BEYBLADE X 戰鬥陀螺 BX-25 戰鬥陀螺X專業收納包",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺-bx-25-戰鬥陀螺x專業收納包-20261016112438",
+      "price": 850.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzQ3NzcyNjA5LzE3MjI3NzI4MThfNzdmZTdhMjIwZWE5NWFlNTM1NjQuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=81b7472300b020a9"
+    },
+    {
+      "id": "beyblade-x-戰鬥陀螺x-ux-13-魔像奇岩",
+      "title": "【快閃】BEYBLADE X 戰鬥陀螺X UX-13 魔像奇岩",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-ux-13-魔像奇岩",
+      "price": 295.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzUzMTk3OTgwLzE3MzcyNTUxMTlfMmVkM2RhMzE2YjMyZWQ0N2IxODcuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=fc98ab2ce15e7ec7"
+    },
+    {
+      "id": "beyblade-x-戰鬥陀螺x-bx-42-x發射器改造型握把藍透明-20261016111856",
+      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-42 X發射器改造型握把(藍/透明)",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-42-x發射器改造型握把藍透明-20261016111856",
+      "price": 250.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU0MDE5NjI1LzE3NDA1NDA4NDJfMzRhNzM3MjkzN2ZhMzNmMWUxODMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=03b8af221b79fe74"
+    },
+    {
+      "id": "cx-00-dika-fury-ft-3-60t-b4-20261016111503",
+      "title": "【快閃】 戰鬥陀螺X CX-00 迪卡狂怒 FT 3-60T",
+      "url": "https://www.sen-sen.com.tw/products/cx-00-dika-fury-ft-3-60t-b4-20261016111503",
+      "price": 595.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2Njk5MDg3LzE3ODk2MzQ3MzBfNDRjNTUyMTE0MTM2NjQxYWJmZjQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=c15a2643cc6c69dd"
+    },
+    {
+      "id": "beyblade-x-戰鬥陀螺x-bx-46-無限衝擊對戰組-20261016111053",
+      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-46 無限衝擊對戰組",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-46-無限衝擊對戰組-20261016111053",
+      "price": 2500.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU4NjQxODU3LzE3NTczMjAzNzJfMzZkZmRiYjc1MzcxMTY3YzBjMzQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed743f1b8c3d3c23"
+    },
+    {
+      "id": "beyblade-x-戰鬥陀螺-bx-32-寬型極限衝擊戰鬥盤-20261016110913",
+      "title": "【快閃】BEYBLADE X 戰鬥陀螺 BX-32 寬型極限衝擊戰鬥盤",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺-bx-32-寬型極限衝擊戰鬥盤-20261016110913",
+      "price": 1250.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzQ3NzcyNTcxLzE3MjI3NzE2MzdfYzNmZjIxNWUxODFhMzc0N2FjOWEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=2469c6e4a4ef5233"
+    },
+    {
+      "id": "beyblade-x-cx-19-random-booster-20261014114239",
+      "title": "【快閃】戰鬥陀螺X CX-19 隨機強化組",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-19-random-booster-20261014114239",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T05:05:00.713793+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c"
     }
   ]
 }
