@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T09:40:10.640177+00:00",
+  "updated_at": "2026-10-16T14:18:12.580187+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 34,
+  "count": 35,
   "products": [
     {
       "id": "funbox:66047423",
@@ -26,16 +26,16 @@
       "source": "Funbox"
     },
     {
-      "id": "momo_funbox:15687164",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
-      "url": "https://www.momoshop.com.tw/product/15687164",
-      "price": 1395.0,
+      "id": "momo_funbox:15800241",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
+      "url": "https://www.momoshop.com.tw/product/15800241",
+      "price": 790.0,
       "in_stock": false,
       "status": "new",
-      "first_seen": "2026-10-16T09:40:10.161559+00:00",
-      "image": "https://i1.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
-      "availability_text": "10/20 00:00 開賣",
-      "source_id": "15687164",
+      "first_seen": "2026-10-16T14:18:12.379489+00:00",
+      "image": "https://i1.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+      "availability_text": "",
+      "source_id": "15800241",
       "source": "MOMO Funbox"
     },
     {
@@ -405,6 +405,19 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c",
       "source_id": "beyblade-x-cx-19-random-booster-20261014114239",
       "source": "森森文具玩具"
+    },
+    {
+      "id": "momo_funbox:15687164",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
+      "url": "https://www.momoshop.com.tw/product/15687164",
+      "price": 1395.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-16T09:40:10.161559+00:00",
+      "image": "https://i3.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
+      "availability_text": "10/20 00:00 開賣",
+      "source_id": "15687164",
+      "source": "MOMO Funbox"
     }
   ]
 }
