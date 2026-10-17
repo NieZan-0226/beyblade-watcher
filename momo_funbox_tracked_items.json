@@ -1,4 +1,14 @@
 {
+  "15687164": {
+    "key": "15687164",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
+    "url": "https://www.momoshop.com.tw/product/15687164",
+    "price": 1395.0,
+    "in_stock": false,
+    "image": "https://i3.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
+    "availability_text": "10/20 00:00 開賣",
+    "first_seen": "2026-10-17T23:20:02.607963+00:00"
+  },
   "15800241": {
     "key": "15800241",
     "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
@@ -35,6 +45,6 @@
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 18
+    "source_count": 19
   }
 }
