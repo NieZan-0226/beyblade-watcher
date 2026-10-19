@@ -3,9 +3,9 @@
     "key": "15687164",
     "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
     "url": "https://www.momoshop.com.tw/product/15687164",
-    "price": 1227.0,
+    "price": 1395.0,
     "in_stock": false,
-    "image": "https://i2.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
+    "image": "https://i4.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
     "availability_text": "10/20 00:00 開賣",
     "first_seen": "2026-10-17T23:20:02.607963+00:00"
   },
@@ -15,7 +15,7 @@
     "url": "https://www.momoshop.com.tw/product/15800241",
     "price": 790.0,
     "in_stock": false,
-    "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+    "image": "https://i4.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-10-18T10:34:46.509043+00:00"
   },
@@ -35,7 +35,7 @@
     "url": "https://www.momoshop.com.tw/product/15790379",
     "price": 845.0,
     "in_stock": false,
-    "image": "https://i4.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+    "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-10-18T19:34:14.526564+00:00"
   },
@@ -45,6 +45,6 @@
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 18
+    "source_count": 16
   }
 }
