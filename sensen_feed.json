@@ -1,8 +1,108 @@
 {
-  "updated_at": "2026-10-18T23:42:29.798310+00:00",
+  "updated_at": "2026-10-19T01:45:40.461060+00:00",
   "source": "森森文具玩具",
   "count": 22,
   "products": [
+    {
+      "id": "beyblade-x-ux-21-hells-nether-deck-set",
+      "title": "【BEYBLADE X】戰鬥陀螺X UX-21 地獄幽冥套裝",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-21-hells-nether-deck-set",
+      "price": 895.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcxNzc4LzE3ODcwNjI4MTdfMjliZWQ3NWMwM2Q4OTgxZDVhZDgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed7017828a4216a3"
+    },
+    {
+      "id": "beyblade-magnetic-modular-storage-case-50x20",
+      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜50×20CM｜12格陀螺＋配件擴充",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-magnetic-modular-storage-case-50x20",
+      "price": 2580.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjM4NjAxLzE3ODY4OTUzMzdfZjlmNTM3MjRkMTUxZjA1MjZlYjYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=2f895d300331afbe"
+    },
+    {
+      "id": "beyblade-x-ux-20-glory-valkyrie-lf",
+      "title": "BEYBLADE X 戰鬥陀螺X UX-20 榮耀武神 LF",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-20-glory-valkyrie-lf",
+      "price": 595.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAxMDYxLzE3ODYyODk2OTJfMzliYTliYTNmOTI5ZGU1M2QyYzYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=906397eceadcad89"
+    },
+    {
+      "id": "beyblade-x-bx-00-storm-pegasus-3-70ra",
+      "title": "BEYBLADE X 戰鬥陀螺X BX-00 暴風天馬3-70RA",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-00-storm-pegasus-3-70ra",
+      "price": 595.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNzU0LzE3ODYyODg4OTNfMjI3NDI0MDMyYjE0ODhiMmZlZGUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=46486855c6fd8f3a"
+    },
+    {
+      "id": "beyblade-x-bx-50-random-booster",
+      "title": "戰鬥陀螺X BX-50 隨機強化組",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-50-random-booster",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMTAwNjgzLzE3ODYyODc0OTJfZWQzZThhOTQ2OWQ1YjY1NGMyMzcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=164a8c11ca86a237"
+    },
+    {
+      "id": "beyblade-modular-magnetic-storage-case",
+      "title": "戰鬥陀螺收納箱｜磁吸模組化收納｜45×20CM｜9格陀螺＋配件擴充",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-modular-magnetic-storage-case",
+      "price": 2480.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDczNzQzLzE3ODY4OTE0MjVfYzVkZjExYmZmOWQ2NjUxOTZjYzMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=d5bddfd02015a8c8"
+    },
+    {
+      "id": "beyblade-warrior-storage-bag",
+      "title": "陀螺鬥士收納包｜雙層海綿多功能陀螺收納盒｜6格加高海綿｜33×24×10cm",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-warrior-storage-bag",
+      "price": 1499.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcyMzkwLzE3ODYyMDA1NTJfYTdiOTBiZTU3NDRjMDI2NjhkZjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3555834b43c29594"
+    },
+    {
+      "id": "x-hangar-beyblade-x-check-board",
+      "title": "X-HANGAR 戰鬥陀螺X 檢查板｜6格陀螺檢查盤｜比賽檢查／收納展示板｜3色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-hangar-beyblade-x-check-board",
+      "price": 380.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcwOTM1LzE3ODYxOTk0NjdfMjdjMGRmYTg3M2ZhMWQ2MTJhMzMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=670632b029186dc4"
+    },
+    {
+      "id": "x-battle-case-blade-magnetic-beyblade-storage-box",
+      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
+      "price": 780.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95"
+    },
+    {
+      "id": "x-hangar-y35-battle-outing-box",
+      "title": "X-HANGAR Y-35 戰鬥外出箱｜陀螺對戰盤與收納展示櫃（6色可選）",
+      "url": "https://www.sen-sen.com.tw/products/x-hangar-y35-battle-outing-box",
+      "price": 3099.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-19T01:45:39.985977+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY5NDU5MDc1LzE3ODM2OTc5NzRfZTZiMTY3NTk1ZTczODFkNzUwM2YuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=2a0e64593eba6b50"
+    },
     {
       "id": "beyblade-x-cx-19-random-booster",
       "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
@@ -122,106 +222,6 @@
       "status": "normal",
       "first_seen": "2026-10-11T04:40:02.856210+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcyNzkyMjU4LzE3OTE2OTI3MTZfN2Y2ZWU1YjJhMmVhYWYxOTRiYjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=1edf86cf0e145b06"
-    },
-    {
-      "id": "beyblade-x-evangelion-collaboration-unit-01-00-02-deluxe-set-20261015064322",
-      "title": "【快閃】戰鬥陀螺 X  新世紀福音戰士 EVA 聯名款陀螺｜初號機限定配色｜全新限定機型",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-evangelion-collaboration-unit-01-00-02-deluxe-set-20261015064322",
-      "price": 1395.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-15T06:16:16.767574+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2ODA1NTQwLzE3NzQ0NDYyMDJfNDU4ZDI2NDdkMGRmNWFmNTMzOTcucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=36f76bbeae2c4100"
-    },
-    {
-      "id": "bx-51-string-launcher-black-green-20261016114450",
-      "title": "【快閃】戰鬥陀螺X BX-51 旋風發射器 (黑綠)",
-      "url": "https://www.sen-sen.com.tw/products/bx-51-string-launcher-black-green-20261016114450",
-      "price": 229.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc5NDQ3LzE3ODEzNDA4OTFfMTdlZTg5MGJjNTc3MGM5MDAxMjAucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=d05e9123b9539617"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-bx-45-武士魂斬-20261016113018",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-45 武士魂斬",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-45-武士魂斬-20261016113018",
-      "price": 325.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU3NDkwNDU4LzE3NTI2NDY3NzBfZTNmYjU3NDQ0MGJhN2U2MGMwODkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=deee33b1ac132c73"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺-bx-25-戰鬥陀螺x專業收納包-20261016112438",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺 BX-25 戰鬥陀螺X專業收納包",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺-bx-25-戰鬥陀螺x專業收納包-20261016112438",
-      "price": 850.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzQ3NzcyNjA5LzE3MjI3NzI4MThfNzdmZTdhMjIwZWE5NWFlNTM1NjQuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=81b7472300b020a9"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-ux-13-魔像奇岩",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺X UX-13 魔像奇岩",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-ux-13-魔像奇岩",
-      "price": 295.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzUzMTk3OTgwLzE3MzcyNTUxMTlfMmVkM2RhMzE2YjMyZWQ0N2IxODcuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=fc98ab2ce15e7ec7"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-bx-42-x發射器改造型握把藍透明-20261016111856",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-42 X發射器改造型握把(藍/透明)",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-42-x發射器改造型握把藍透明-20261016111856",
-      "price": 250.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU0MDE5NjI1LzE3NDA1NDA4NDJfMzRhNzM3MjkzN2ZhMzNmMWUxODMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=03b8af221b79fe74"
-    },
-    {
-      "id": "cx-00-dika-fury-ft-3-60t-b4-20261016111503",
-      "title": "【快閃】 戰鬥陀螺X CX-00 迪卡狂怒 FT 3-60T",
-      "url": "https://www.sen-sen.com.tw/products/cx-00-dika-fury-ft-3-60t-b4-20261016111503",
-      "price": 595.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2Njk5MDg3LzE3ODk2MzQ3MzBfNDRjNTUyMTE0MTM2NjQxYWJmZjQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=c15a2643cc6c69dd"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺x-bx-46-無限衝擊對戰組-20261016111053",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺X BX-46 無限衝擊對戰組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-46-無限衝擊對戰組-20261016111053",
-      "price": 2500.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzU4NjQxODU3LzE3NTczMjAzNzJfMzZkZmRiYjc1MzcxMTY3YzBjMzQucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=ed743f1b8c3d3c23"
-    },
-    {
-      "id": "beyblade-x-戰鬥陀螺-bx-32-寬型極限衝擊戰鬥盤-20261016110913",
-      "title": "【快閃】BEYBLADE X 戰鬥陀螺 BX-32 寬型極限衝擊戰鬥盤",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺-bx-32-寬型極限衝擊戰鬥盤-20261016110913",
-      "price": 1250.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzQ3NzcyNTcxLzE3MjI3NzE2MzdfYzNmZjIxNWUxODFhMzc0N2FjOWEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=2469c6e4a4ef5233"
-    },
-    {
-      "id": "beyblade-x-cx-19-random-booster-20261014114239",
-      "title": "【快閃】戰鬥陀螺X CX-19 隨機強化組",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-19-random-booster-20261014114239",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-16T05:05:00.713793+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjcyOTY2LzE3ODcwNjQwNDBfNGZmN2VhYzM4NWU4N2EzMDM4NGMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dcd8098ae38d8a2c"
     }
   ]
 }
