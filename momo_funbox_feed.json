@@ -1,8 +1,19 @@
 {
-  "updated_at": "2026-10-20T13:02:13.490159+00:00",
+  "updated_at": "2026-10-20T17:51:39.276718+00:00",
   "source": "MOMO Funbox",
-  "count": 3,
+  "count": 4,
   "products": [
+    {
+      "id": "15800241",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
+      "url": "https://www.momoshop.com.tw/product/15800241",
+      "price": 790.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-20T17:51:39.025565+00:00",
+      "image": "https://i4.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+      "availability_text": ""
+    },
     {
       "id": "15116369",
       "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-16 極限衝擊對戰組C(男孩 對戰)",
@@ -22,7 +33,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-18T19:34:14.526564+00:00",
-      "image": "https://i3.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
       "availability_text": ""
     },
     {
@@ -33,7 +44,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-20T02:07:40.192918+00:00",
-      "image": "https://i3.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
       "availability_text": ""
     }
   ]
