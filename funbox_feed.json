@@ -1,44 +1,8 @@
 {
-  "updated_at": "2026-10-21T04:28:28.080039+00:00",
+  "updated_at": "2026-10-21T09:30:02.960674+00:00",
   "source": "Funbox",
   "count": 5,
   "products": [
-    {
-      "id": "69274377",
-      "title": "【APP兌換】購買票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I",
-      "url": "https://shop.funbox.com.tw/products/bbpr07739",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-21T04:28:27.657777+00:00"
-    },
-    {
-      "id": "69274376",
-      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 雄鹿戰角B2-60D 金屬塗裝：橘",
-      "url": "https://shop.funbox.com.tw/products/bbpr07736",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-21T04:28:27.657777+00:00"
-    },
-    {
-      "id": "69274375",
-      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 海怪扭擺S3-70O 金屬塗裝：藍",
-      "url": "https://shop.funbox.com.tw/products/bbpr07733",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-21T04:28:27.657777+00:00"
-    },
-    {
-      "id": "69274374",
-      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 黃蜂要塞R7-60T 金屬塗裝：黃",
-      "url": "https://shop.funbox.com.tw/products/bbpr07730",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-21T04:28:27.657777+00:00"
-    },
     {
       "id": "69274378",
       "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
@@ -47,6 +11,42 @@
       "in_stock": true,
       "status": "normal",
       "first_seen": "2026-10-01T09:03:24.914558+00:00"
+    },
+    {
+      "id": "69274377",
+      "title": "【APP兌換】購買票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I",
+      "url": "https://shop.funbox.com.tw/products/bbpr07739",
+      "price": 999999.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T04:28:27.657777+00:00"
+    },
+    {
+      "id": "69274376",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 雄鹿戰角B2-60D 金屬塗裝：橘",
+      "url": "https://shop.funbox.com.tw/products/bbpr07736",
+      "price": 999999.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T04:28:27.657777+00:00"
+    },
+    {
+      "id": "69274375",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 海怪扭擺S3-70O 金屬塗裝：藍",
+      "url": "https://shop.funbox.com.tw/products/bbpr07733",
+      "price": 999999.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T04:28:27.657777+00:00"
+    },
+    {
+      "id": "69274374",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 黃蜂要塞R7-60T 金屬塗裝：黃",
+      "url": "https://shop.funbox.com.tw/products/bbpr07730",
+      "price": 999999.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T04:28:27.657777+00:00"
     }
   ]
 }
