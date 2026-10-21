@@ -1,42 +1,51 @@
 {
-  "updated_at": "2026-10-21T00:03:40.190313+00:00",
+  "updated_at": "2026-10-21T04:29:15.574188+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 35,
+  "count": 38,
   "products": [
     {
-      "id": "funbox:66047423",
-      "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
-      "url": "https://shop.funbox.com.tw/products/bb09728",
-      "price": 1995.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-01T09:03:24.914558+00:00",
-      "source_id": "66047423",
-      "source": "Funbox"
-    },
-    {
-      "id": "funbox:69274378",
-      "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
-      "url": "https://shop.funbox.com.tw/products/bbpr08914",
+      "id": "funbox:69274375",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 海怪扭擺S3-70O 金屬塗裝：藍",
+      "url": "https://shop.funbox.com.tw/products/bbpr07733",
       "price": 999999.0,
-      "in_stock": true,
+      "in_stock": false,
       "status": "new",
-      "first_seen": "2026-10-01T09:03:24.914558+00:00",
-      "source_id": "69274378",
+      "first_seen": "2026-10-21T04:28:27.657777+00:00",
+      "source_id": "69274375",
       "source": "Funbox"
     },
     {
-      "id": "momo_funbox:15687164",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
-      "url": "https://www.momoshop.com.tw/product/15687164",
-      "price": 1395.0,
+      "id": "funbox:69274376",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 雄鹿戰角B2-60D 金屬塗裝：橘",
+      "url": "https://shop.funbox.com.tw/products/bbpr07736",
+      "price": 999999.0,
       "in_stock": false,
       "status": "new",
-      "first_seen": "2026-10-21T00:03:39.942441+00:00",
-      "image": "https://i1.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
-      "availability_text": "",
-      "source_id": "15687164",
-      "source": "MOMO Funbox"
+      "first_seen": "2026-10-21T04:28:27.657777+00:00",
+      "source_id": "69274376",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:69274374",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 黃蜂要塞R7-60T 金屬塗裝：黃",
+      "url": "https://shop.funbox.com.tw/products/bbpr07730",
+      "price": 999999.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-21T04:28:27.657777+00:00",
+      "source_id": "69274374",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:69274377",
+      "title": "【APP兌換】購買票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I",
+      "url": "https://shop.funbox.com.tw/products/bbpr07739",
+      "price": 999999.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-21T04:28:27.657777+00:00",
+      "source_id": "69274377",
+      "source": "Funbox"
     },
     {
       "id": "toysrus:1202166",
@@ -249,6 +258,17 @@
       "source": "森森文具玩具"
     },
     {
+      "id": "funbox:69274378",
+      "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
+      "url": "https://shop.funbox.com.tw/products/bbpr08914",
+      "price": 999999.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-10-01T09:03:24.914558+00:00",
+      "source_id": "69274378",
+      "source": "Funbox"
+    },
+    {
       "id": "sensen:x-battle-case-blade-magnetic-beyblade-storage-box-20261011103215",
       "title": "【訂製款】客製化戰鬥盒｜戰鬥陀螺X三格收納盒｜磁吸式設計｜BX UX CX系列適用｜專屬圖案印刷",
       "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box-20261011103215",
@@ -268,7 +288,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-15T06:16:36.535248+00:00",
-      "image": "https://i1.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
+      "image": "https://i3.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
       "availability_text": "",
       "source_id": "15116369",
       "source": "MOMO Funbox"
@@ -281,7 +301,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-18T19:34:14.526564+00:00",
-      "image": "https://i2.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
       "availability_text": "",
       "source_id": "15790379",
       "source": "MOMO Funbox"
@@ -417,6 +437,19 @@
       "image": "https://i3.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": "",
       "source_id": "15800241",
+      "source": "MOMO Funbox"
+    },
+    {
+      "id": "momo_funbox:15687164",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
+      "url": "https://www.momoshop.com.tw/product/15687164",
+      "price": 1395.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T00:03:39.942441+00:00",
+      "image": "https://i2.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
+      "availability_text": "",
+      "source_id": "15687164",
       "source": "MOMO Funbox"
     }
   ]
