@@ -1,56 +1,8 @@
 {
-  "updated_at": "2026-10-21T14:35:53.066827+00:00",
+  "updated_at": "2026-10-21T18:52:14.262315+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 38,
   "products": [
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
-      "title": "BEYBLADE X 戰鬥陀螺X BX-00 美國隊長 紅浩克",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
-      "price": 750.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-21T14:35:32.661072+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY3MjgzMjEzLzE3Nzc1NDk4MDdfZTc1NDQzYjQ3OTcwM2FmNTk3MWQuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=6421501377530d9d",
-      "source_id": "beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:xtreme-battle-stadium-x2-g1-official-spec",
-      "title": "【2026 G1 賽前必備】極限戰鬥台X 2.0《陀螺對戰台》- 官方同高規格 / 可手提運輸箱",
-      "url": "https://www.sen-sen.com.tw/products/xtreme-battle-stadium-x2-g1-official-spec",
-      "price": 888.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-21T14:35:32.661072+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY3MDkyMzgxLzE3NzcwNDIzMjlfY2RjMmM3YzA1MTRlMzUyMGE1YTIuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=939348df314b9910",
-      "source_id": "xtreme-battle-stadium-x2-g1-official-spec",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:cx-17",
-      "title": "【九月預購】戰鬥陀螺 X  CX-17 隨機強化組｜獨角獸三角",
-      "url": "https://www.sen-sen.com.tw/products/cx-17",
-      "price": 315.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-21T14:35:32.661072+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2ODM0ODYxLzE3NzYyMzQ1MzJfYzBlYmUwZmIxNmFkNDU2MzhiZWUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=5de3395c7c513244",
-      "source_id": "cx-17",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:cx-18-brachiowhip-ow5-70nr",
-      "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
-      "url": "https://www.sen-sen.com.tw/products/cx-18-brachiowhip-ow5-70nr",
-      "price": 319.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-21T14:35:32.661072+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc2MzM3LzE3ODEzMjU5MDZfYTA2NGRhOWExNTE1ODk3OTE2MzkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=75558cb4123d22de",
-      "source_id": "cx-18-brachiowhip-ow5-70nr",
-      "source": "森森文具玩具"
-    },
     {
       "id": "toysrus:1202166",
       "title": "Beyblade戰鬥陀螺 BX-07 極限激戰初始組",
@@ -268,7 +220,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-15T06:16:36.535248+00:00",
-      "image": "https://i1.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
       "availability_text": "",
       "source_id": "15116369",
       "source": "MOMO Funbox"
@@ -281,7 +233,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-18T19:34:14.526564+00:00",
-      "image": "https://i2.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
       "availability_text": "",
       "source_id": "15790379",
       "source": "MOMO Funbox"
@@ -390,7 +342,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-20T17:51:39.025565+00:00",
-      "image": "https://i4.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": "",
       "source_id": "15800241",
       "source": "MOMO Funbox"
@@ -403,7 +355,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-21T00:03:39.942441+00:00",
-      "image": "https://i3.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
       "availability_text": "",
       "source_id": "15687164",
       "source": "MOMO Funbox"
@@ -451,6 +403,54 @@
       "first_seen": "2026-10-21T04:28:27.657777+00:00",
       "source_id": "69274377",
       "source": "Funbox"
+    },
+    {
+      "id": "sensen:beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
+      "title": "BEYBLADE X 戰鬥陀螺X BX-00 美國隊長 紅浩克",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
+      "price": 750.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T14:35:32.661072+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY3MjgzMjEzLzE3Nzc1NDk4MDdfZTc1NDQzYjQ3OTcwM2FmNTk3MWQuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=6421501377530d9d",
+      "source_id": "beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:xtreme-battle-stadium-x2-g1-official-spec",
+      "title": "【2026 G1 賽前必備】極限戰鬥台X 2.0《陀螺對戰台》- 官方同高規格 / 可手提運輸箱",
+      "url": "https://www.sen-sen.com.tw/products/xtreme-battle-stadium-x2-g1-official-spec",
+      "price": 888.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T14:35:32.661072+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY3MDkyMzgxLzE3NzcwNDIzMjlfY2RjMmM3YzA1MTRlMzUyMGE1YTIuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=939348df314b9910",
+      "source_id": "xtreme-battle-stadium-x2-g1-official-spec",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:cx-17",
+      "title": "【九月預購】戰鬥陀螺 X  CX-17 隨機強化組｜獨角獸三角",
+      "url": "https://www.sen-sen.com.tw/products/cx-17",
+      "price": 315.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T14:35:32.661072+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY2ODM0ODYxLzE3NzYyMzQ1MzJfYzBlYmUwZmIxNmFkNDU2MzhiZWUucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=5de3395c7c513244",
+      "source_id": "cx-17",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:cx-18-brachiowhip-ow5-70nr",
+      "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
+      "url": "https://www.sen-sen.com.tw/products/cx-18-brachiowhip-ow5-70nr",
+      "price": 319.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-21T14:35:32.661072+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc2MzM3LzE3ODEzMjU5MDZfYTA2NGRhOWExNTE1ODk3OTE2MzkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=75558cb4123d22de",
+      "source_id": "cx-18-brachiowhip-ow5-70nr",
+      "source": "森森文具玩具"
     }
   ]
 }
