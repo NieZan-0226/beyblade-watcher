@@ -1,8 +1,52 @@
 {
-  "updated_at": "2026-10-22T05:25:13.237383+00:00",
+  "updated_at": "2026-10-22T10:28:44.274278+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 38,
+  "count": 42,
   "products": [
+    {
+      "id": "funbox:50951590",
+      "title": "BEYBLADE X 戰鬥陀螺 BX-37 雙重極限衝擊戰鬥盤 豪華組",
+      "url": "https://shop.funbox.com.tw/products/bb93948",
+      "price": 2750.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00",
+      "source_id": "50951590",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:71618748",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-00 新世紀福音戰士改造組",
+      "url": "https://shop.funbox.com.tw/products/bb08568",
+      "price": 1395.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00",
+      "source_id": "71618748",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:66047423",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
+      "url": "https://shop.funbox.com.tw/products/bb09728",
+      "price": 1995.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00",
+      "source_id": "66047423",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:72336042",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-19 鱷魚裂甲 隨機強化組",
+      "url": "https://shop.funbox.com.tw/products/bb08062",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00",
+      "source_id": "72336042",
+      "source": "Funbox"
+    },
     {
       "id": "toysrus:1202166",
       "title": "Beyblade戰鬥陀螺 BX-07 極限激戰初始組",
@@ -220,7 +264,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-15T06:16:36.535248+00:00",
-      "image": "https://i1.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
       "availability_text": "",
       "source_id": "15116369",
       "source": "MOMO Funbox"
@@ -342,7 +386,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-20T17:51:39.025565+00:00",
-      "image": "https://i1.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": "",
       "source_id": "15800241",
       "source": "MOMO Funbox"
