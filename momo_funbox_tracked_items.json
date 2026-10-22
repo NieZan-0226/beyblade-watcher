@@ -1,14 +1,4 @@
 {
-  "15800241": {
-    "key": "15800241",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
-    "url": "https://www.momoshop.com.tw/product/15800241",
-    "price": 790.0,
-    "in_stock": false,
-    "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
-    "availability_text": "",
-    "first_seen": "2026-10-20T17:51:39.025565+00:00"
-  },
   "15116369": {
     "key": "15116369",
     "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-16 極限衝擊對戰組C(男孩 對戰)",
@@ -18,6 +8,16 @@
     "image": "https://i2.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-10-15T06:16:36.535248+00:00"
+  },
+  "15800241": {
+    "key": "15800241",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
+    "url": "https://www.momoshop.com.tw/product/15800241",
+    "price": 790.0,
+    "in_stock": false,
+    "image": "https://i4.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+    "availability_text": "",
+    "first_seen": "2026-10-20T17:51:39.025565+00:00"
   },
   "15687164": {
     "key": "15687164",
@@ -45,6 +45,6 @@
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 20
+    "source_count": 16
   }
 }

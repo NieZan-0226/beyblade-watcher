@@ -1,44 +1,8 @@
 {
-  "updated_at": "2026-10-22T10:27:58.472070+00:00",
+  "updated_at": "2026-10-22T15:29:46.510118+00:00",
   "source": "Funbox",
   "count": 9,
   "products": [
-    {
-      "id": "72336042",
-      "title": "BEYBLADE X 戰鬥陀螺 CX-19 鱷魚裂甲 隨機強化組",
-      "url": "https://shop.funbox.com.tw/products/bb08062",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-22T10:27:58.142281+00:00"
-    },
-    {
-      "id": "71618748",
-      "title": "BEYBLADE X 戰鬥陀螺 CX-00 新世紀福音戰士改造組",
-      "url": "https://shop.funbox.com.tw/products/bb08568",
-      "price": 1395.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-10-22T10:27:58.142281+00:00"
-    },
-    {
-      "id": "66047423",
-      "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
-      "url": "https://shop.funbox.com.tw/products/bb09728",
-      "price": 1995.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-10-22T10:27:58.142281+00:00"
-    },
-    {
-      "id": "50951590",
-      "title": "BEYBLADE X 戰鬥陀螺 BX-37 雙重極限衝擊戰鬥盤 豪華組",
-      "url": "https://shop.funbox.com.tw/products/bb93948",
-      "price": 2750.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-10-22T10:27:58.142281+00:00"
-    },
     {
       "id": "69274378",
       "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
@@ -83,6 +47,42 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-21T04:28:27.657777+00:00"
+    },
+    {
+      "id": "72336042",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-19 鱷魚裂甲 隨機強化組",
+      "url": "https://shop.funbox.com.tw/products/bb08062",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00"
+    },
+    {
+      "id": "71618748",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-00 新世紀福音戰士改造組",
+      "url": "https://shop.funbox.com.tw/products/bb08568",
+      "price": 1395.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00"
+    },
+    {
+      "id": "66047423",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
+      "url": "https://shop.funbox.com.tw/products/bb09728",
+      "price": 1995.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00"
+    },
+    {
+      "id": "50951590",
+      "title": "BEYBLADE X 戰鬥陀螺 BX-37 雙重極限衝擊戰鬥盤 豪華組",
+      "url": "https://shop.funbox.com.tw/products/bb93948",
+      "price": 2750.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00"
     }
   ]
 }
