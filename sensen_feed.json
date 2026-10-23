@@ -1,28 +1,8 @@
 {
-  "updated_at": "2026-10-23T05:49:14.894304+00:00",
+  "updated_at": "2026-10-23T10:33:38.321517+00:00",
   "source": "森森文具玩具",
   "count": 22,
   "products": [
-    {
-      "id": "beyblade-x-bx-54-siegsuperion-0-70lp",
-      "title": "11月新品【BEYBLADE X】戰鬥陀螺X BX-54 增強包 平衡型（暫譯）",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-54-siegsuperion-0-70lp",
-      "price": 0.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-23T05:49:14.385257+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MTQ2LzE3OTI3Mjk2MzdfMTFkMDcxNDEzY2ZlOThlY2NhNWMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a8eaea1b6ab4df93"
-    },
-    {
-      "id": "beyblade-x-cx-20-customize-set-c-phoenix-force",
-      "title": "11月新品【BEYBLADE X】戰鬥陀螺X CX-20 客製化套組C 鳳凰武力  改造零件組 （暫譯）",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-20-customize-set-c-phoenix-force",
-      "price": 0.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-23T05:49:14.385257+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MDcyLzE3OTI3MjczMTBfMTlmZmY0MjI2NDdjMjM1NjI1YTgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dfc0ba80d028814c"
-    },
     {
       "id": "beyblade-x-cx-19-random-booster",
       "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
@@ -222,6 +202,26 @@
       "status": "normal",
       "first_seen": "2026-10-21T14:35:32.661072+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY3MjgzMjEzLzE3Nzc1NDk4MDdfZTc1NDQzYjQ3OTcwM2FmNTk3MWQuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=6421501377530d9d"
+    },
+    {
+      "id": "beyblade-x-bx-54-siegsuperion-0-70lp",
+      "title": "11月新品【BEYBLADE X】戰鬥陀螺X BX-54 增強包 平衡型（暫譯）",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-54-siegsuperion-0-70lp",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-23T05:49:14.385257+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MTQ2LzE3OTI3Mjk2MzdfMTFkMDcxNDEzY2ZlOThlY2NhNWMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a8eaea1b6ab4df93"
+    },
+    {
+      "id": "beyblade-x-cx-20-customize-set-c-phoenix-force",
+      "title": "11月新品【BEYBLADE X】戰鬥陀螺X CX-20 客製化套組C 鳳凰武力  改造零件組 （暫譯）",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-20-customize-set-c-phoenix-force",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-23T05:49:14.385257+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MDcyLzE3OTI3MjczMTBfMTlmZmY0MjI2NDdjMjM1NjI1YTgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dfc0ba80d028814c"
     }
   ]
 }

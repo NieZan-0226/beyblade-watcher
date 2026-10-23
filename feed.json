@@ -1,45 +1,8 @@
 {
-  "updated_at": "2026-10-23T05:49:34.505124+00:00",
+  "updated_at": "2026-10-23T10:33:58.671343+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 42,
+  "count": 41,
   "products": [
-    {
-      "id": "sensen:beyblade-x-bx-54-siegsuperion-0-70lp",
-      "title": "11月新品【BEYBLADE X】戰鬥陀螺X BX-54 增強包 平衡型（暫譯）",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-54-siegsuperion-0-70lp",
-      "price": 0.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-23T05:49:14.385257+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MTQ2LzE3OTI3Mjk2MzdfMTFkMDcxNDEzY2ZlOThlY2NhNWMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a8eaea1b6ab4df93",
-      "source_id": "beyblade-x-bx-54-siegsuperion-0-70lp",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-cx-20-customize-set-c-phoenix-force",
-      "title": "11月新品【BEYBLADE X】戰鬥陀螺X CX-20 客製化套組C 鳳凰武力  改造零件組 （暫譯）",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-20-customize-set-c-phoenix-force",
-      "price": 0.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-23T05:49:14.385257+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MDcyLzE3OTI3MjczMTBfMTlmZmY0MjI2NDdjMjM1NjI1YTgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dfc0ba80d028814c",
-      "source_id": "beyblade-x-cx-20-customize-set-c-phoenix-force",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "momo_funbox:15800241",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
-      "url": "https://www.momoshop.com.tw/product/15800241",
-      "price": 790.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-23T05:49:34.312449+00:00",
-      "image": "https://i4.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
-      "availability_text": "",
-      "source_id": "15800241",
-      "source": "MOMO Funbox"
-    },
     {
       "id": "toysrus:1202166",
       "title": "Beyblade戰鬥陀螺 BX-07 極限激戰初始組",
@@ -257,7 +220,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-18T19:34:14.526564+00:00",
-      "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
       "availability_text": "",
       "source_id": "15790379",
       "source": "MOMO Funbox"
@@ -366,7 +329,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-21T00:03:39.942441+00:00",
-      "image": "https://i3.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
       "availability_text": "",
       "source_id": "15687164",
       "source": "MOMO Funbox"
@@ -484,16 +447,40 @@
       "source": "Funbox"
     },
     {
-      "id": "momo_funbox:15116369",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-16 極限衝擊對戰組C(男孩 對戰)",
-      "url": "https://www.momoshop.com.tw/product/15116369",
-      "price": 1995.0,
+      "id": "sensen:beyblade-x-bx-54-siegsuperion-0-70lp",
+      "title": "11月新品【BEYBLADE X】戰鬥陀螺X BX-54 增強包 平衡型（暫譯）",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-54-siegsuperion-0-70lp",
+      "price": 0.0,
       "in_stock": false,
       "status": "normal",
-      "first_seen": "2026-10-23T00:59:20.099646+00:00",
-      "image": "https://i3.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
+      "first_seen": "2026-10-23T05:49:14.385257+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MTQ2LzE3OTI3Mjk2MzdfMTFkMDcxNDEzY2ZlOThlY2NhNWMucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=a8eaea1b6ab4df93",
+      "source_id": "beyblade-x-bx-54-siegsuperion-0-70lp",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-cx-20-customize-set-c-phoenix-force",
+      "title": "11月新品【BEYBLADE X】戰鬥陀螺X CX-20 客製化套組C 鳳凰武力  改造零件組 （暫譯）",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-20-customize-set-c-phoenix-force",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-23T05:49:14.385257+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MDcyLzE3OTI3MjczMTBfMTlmZmY0MjI2NDdjMjM1NjI1YTgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dfc0ba80d028814c",
+      "source_id": "beyblade-x-cx-20-customize-set-c-phoenix-force",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "momo_funbox:15800241",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
+      "url": "https://www.momoshop.com.tw/product/15800241",
+      "price": 790.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-23T05:49:34.312449+00:00",
+      "image": "https://i3.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": "",
-      "source_id": "15116369",
+      "source_id": "15800241",
       "source": "MOMO Funbox"
     }
   ]
