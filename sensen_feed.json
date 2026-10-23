@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-10-23T15:25:01.353832+00:00",
+  "updated_at": "2026-10-23T19:28:57.188788+00:00",
   "source": "森森文具玩具",
   "count": 23,
   "products": [
-    {
-      "id": "beyblade-x-cx-00-valkyrievolt-s4-70v-gunmetal",
-      "title": "11月新品【BEYBLADE X】戰鬥陀螺X App・活動限定-戰神伏特 ValkyrieVolt S4-70V 槍灰色版（圖鑑）",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-00-valkyrievolt-s4-70v-gunmetal",
-      "price": 0.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-23T15:25:01.175077+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MTQ5LzE3OTI3NjMzNTBfMjZmOGVmZDgxYWE2YzhjNzM4N2UucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=8f2c5827ef3b4343"
-    },
     {
       "id": "beyblade-x-cx-19-random-booster",
       "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
@@ -232,6 +222,16 @@
       "status": "normal",
       "first_seen": "2026-10-23T05:49:14.385257+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MDcyLzE3OTI3MjczMTBfMTlmZmY0MjI2NDdjMjM1NjI1YTgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=dfc0ba80d028814c"
+    },
+    {
+      "id": "beyblade-x-cx-00-valkyrievolt-s4-70v-gunmetal",
+      "title": "11月新品【BEYBLADE X】戰鬥陀螺X App・活動限定-戰神伏特 ValkyrieVolt S4-70V 槍灰色版（圖鑑）",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-00-valkyrievolt-s4-70v-gunmetal",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-23T15:25:01.175077+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczMTk5MTQ5LzE3OTI3NjMzNTBfMjZmOGVmZDgxYWE2YzhjNzM4N2UucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=8f2c5827ef3b4343"
     }
   ]
 }
