@@ -1,19 +1,8 @@
 {
-  "updated_at": "2026-10-23T22:31:45.249597+00:00",
+  "updated_at": "2026-10-24T00:58:16.535398+00:00",
   "source": "MOMO Funbox",
-  "count": 4,
+  "count": 3,
   "products": [
-    {
-      "id": "15687164",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
-      "url": "https://www.momoshop.com.tw/product/15687164",
-      "price": 1227.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-23T22:31:45.117852+00:00",
-      "image": "https://i2.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
-      "availability_text": ""
-    },
     {
       "id": "15790379",
       "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-19鱷魚裂甲+ CX-13 龍王閃擊",
@@ -33,7 +22,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-23T05:49:34.312449+00:00",
-      "image": "https://i1.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": ""
     },
     {
@@ -44,7 +33,7 @@
       "in_stock": true,
       "status": "normal",
       "first_seen": "2026-10-23T15:25:21.641109+00:00",
-      "image": "https://i2.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
       "availability_text": ""
     }
   ]

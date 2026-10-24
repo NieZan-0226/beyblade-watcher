@@ -1,21 +1,8 @@
 {
-  "updated_at": "2026-10-23T22:31:45.275113+00:00",
+  "updated_at": "2026-10-24T00:58:16.564530+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 43,
+  "count": 42,
   "products": [
-    {
-      "id": "momo_funbox:15687164",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
-      "url": "https://www.momoshop.com.tw/product/15687164",
-      "price": 1227.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-23T22:31:45.117852+00:00",
-      "image": "https://i2.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
-      "availability_text": "",
-      "source_id": "15687164",
-      "source": "MOMO Funbox"
-    },
     {
       "id": "toysrus:1202166",
       "title": "Beyblade戰鬥陀螺 BX-07 極限激戰初始組",
@@ -478,7 +465,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-23T05:49:34.312449+00:00",
-      "image": "https://i1.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": "",
       "source_id": "15800241",
       "source": "MOMO Funbox"
@@ -503,7 +490,7 @@
       "in_stock": true,
       "status": "normal",
       "first_seen": "2026-10-23T15:25:21.641109+00:00",
-      "image": "https://i2.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
       "availability_text": "",
       "source_id": "15116369",
       "source": "MOMO Funbox"
