@@ -1,23 +1,23 @@
 {
-  "15116369": {
-    "key": "15116369",
-    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-16 極限衝擊對戰組C(男孩 對戰)",
-    "url": "https://www.momoshop.com.tw/product/15116369",
-    "price": 1995.0,
-    "in_stock": false,
-    "image": "https://i3.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
-    "availability_text": "",
-    "first_seen": "2026-10-23T15:25:21.641109+00:00"
-  },
   "15687164": {
     "key": "15687164",
     "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
     "url": "https://www.momoshop.com.tw/product/15687164",
     "price": 1227.0,
     "in_stock": false,
-    "image": "https://i1.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
+    "image": "https://i2.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-10-24T05:30:37.319266+00:00"
+  },
+  "15116369": {
+    "key": "15116369",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-16 極限衝擊對戰組C(男孩 對戰)",
+    "url": "https://www.momoshop.com.tw/product/15116369",
+    "price": 1995.0,
+    "in_stock": false,
+    "image": "https://i1.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
+    "availability_text": "",
+    "first_seen": "2026-10-23T15:25:21.641109+00:00"
   },
   "15790379": {
     "key": "15790379",
@@ -35,7 +35,7 @@
     "url": "https://www.momoshop.com.tw/product/15800241",
     "price": 790.0,
     "in_stock": false,
-    "image": "https://i1.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+    "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-10-23T05:49:34.312449+00:00"
   },
