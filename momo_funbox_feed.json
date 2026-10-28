@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-28T02:07:36.906408+00:00",
+  "updated_at": "2026-10-28T08:35:06.840495+00:00",
   "source": "MOMO Funbox",
-  "count": 5,
+  "count": 3,
   "products": [
     {
       "id": "15790379",
@@ -11,7 +11,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-18T19:34:14.526564+00:00",
-      "image": "https://i4.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
       "availability_text": ""
     },
     {
@@ -22,29 +22,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-23T05:49:34.312449+00:00",
-      "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
-      "availability_text": ""
-    },
-    {
-      "id": "15687164",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-00 新世紀福音戰士改造組",
-      "url": "https://www.momoshop.com.tw/product/15687164",
-      "price": 1227.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-24T05:30:37.319266+00:00",
-      "image": "https://i4.momoshop.com.tw/1789033320/goodsimg/0015/687/164/15687164_R_m.webp",
-      "availability_text": ""
-    },
-    {
-      "id": "15116369",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-16 極限衝擊對戰組C(男孩 對戰)",
-      "url": "https://www.momoshop.com.tw/product/15116369",
-      "price": 1995.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-27T14:11:03.308726+00:00",
-      "image": "https://i2.momoshop.com.tw/1775533984/goodsimg/0015/116/369/15116369_R_m.webp",
+      "image": "https://i3.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": ""
     },
     {
@@ -55,7 +33,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-27T19:27:21.647508+00:00",
-      "image": "https://i3.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
       "availability_text": "10/29 07:00 開賣"
     }
   ]
