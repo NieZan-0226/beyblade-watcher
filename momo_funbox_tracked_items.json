@@ -5,9 +5,19 @@
     "url": "https://www.momoshop.com.tw/product/15838927",
     "price": 1045.0,
     "in_stock": false,
-    "image": "https://i1.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
+    "image": "https://i3.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
     "availability_text": "10/29 07:00 開賣",
     "first_seen": "2026-10-27T19:27:21.647508+00:00"
+  },
+  "15790379": {
+    "key": "15790379",
+    "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X CX-19鱷魚裂甲+ CX-13 龍王閃擊",
+    "url": "https://www.momoshop.com.tw/product/15790379",
+    "price": 845.0,
+    "in_stock": false,
+    "image": "https://i3.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+    "availability_text": "",
+    "first_seen": "2026-10-28T20:29:30.931255+00:00"
   },
   "15800241": {
     "key": "15800241",
@@ -15,7 +25,7 @@
     "url": "https://www.momoshop.com.tw/product/15800241",
     "price": 790.0,
     "in_stock": false,
-    "image": "https://i3.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+    "image": "https://i1.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
     "availability_text": "",
     "first_seen": "2026-10-23T05:49:34.312449+00:00"
   },
@@ -25,6 +35,6 @@
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 21
+    "source_count": 20
   }
 }
