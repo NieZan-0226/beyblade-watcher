@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-10-30T19:37:53.847676+00:00",
+  "updated_at": "2026-10-30T23:17:05.528027+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 41,
+  "count": 42,
   "products": [
+    {
+      "id": "momo_funbox:15838927",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-14 天蠍長矛0-70Z+UX-19 子彈獅鷲H",
+      "url": "https://www.momoshop.com.tw/product/15838927",
+      "price": 1045.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-10-30T23:17:05.402553+00:00",
+      "image": "https://i2.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
+      "availability_text": "",
+      "source_id": "15838927",
+      "source": "MOMO Funbox"
+    },
     {
       "id": "toysrus:1202166",
       "title": "Beyblade戰鬥陀螺 BX-07 極限激戰初始組",
@@ -452,7 +465,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-23T05:49:34.312449+00:00",
-      "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+      "image": "https://i3.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": "",
       "source_id": "15800241",
       "source": "MOMO Funbox"
@@ -477,7 +490,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-28T20:29:30.931255+00:00",
-      "image": "https://i3.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
       "availability_text": "",
       "source_id": "15790379",
       "source": "MOMO Funbox"
