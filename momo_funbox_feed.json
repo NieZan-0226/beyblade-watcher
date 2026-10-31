@@ -1,19 +1,8 @@
 {
-  "updated_at": "2026-10-30T23:17:05.496866+00:00",
+  "updated_at": "2026-10-31T02:25:40.878328+00:00",
   "source": "MOMO Funbox",
   "count": 3,
   "products": [
-    {
-      "id": "15838927",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-14 天蠍長矛0-70Z+UX-19 子彈獅鷲H",
-      "url": "https://www.momoshop.com.tw/product/15838927",
-      "price": 1045.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-10-30T23:17:05.402553+00:00",
-      "image": "https://i2.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
-      "availability_text": ""
-    },
     {
       "id": "15800241",
       "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
@@ -22,7 +11,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-23T05:49:34.312449+00:00",
-      "image": "https://i3.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
       "availability_text": ""
     },
     {
@@ -33,7 +22,18 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-28T20:29:30.931255+00:00",
-      "image": "https://i2.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "availability_text": ""
+    },
+    {
+      "id": "15838927",
+      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-14 天蠍長矛0-70Z+UX-19 子彈獅鷲H",
+      "url": "https://www.momoshop.com.tw/product/15838927",
+      "price": 1045.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-10-30T23:17:05.402553+00:00",
+      "image": "https://i3.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
       "availability_text": ""
     }
   ]
