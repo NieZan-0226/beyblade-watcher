@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-02T01:51:35.021700+00:00",
+  "updated_at": "2026-11-02T08:24:21.679506+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 42,
+  "count": 37,
   "products": [
     {
       "id": "toysrus:1202166",
@@ -309,50 +309,6 @@
       "source": "森森文具玩具"
     },
     {
-      "id": "funbox:69274375",
-      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 海怪扭擺S3-70O 金屬塗裝：藍",
-      "url": "https://shop.funbox.com.tw/products/bbpr07733",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-21T04:28:27.657777+00:00",
-      "source_id": "69274375",
-      "source": "Funbox"
-    },
-    {
-      "id": "funbox:69274376",
-      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 雄鹿戰角B2-60D 金屬塗裝：橘",
-      "url": "https://shop.funbox.com.tw/products/bbpr07736",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-21T04:28:27.657777+00:00",
-      "source_id": "69274376",
-      "source": "Funbox"
-    },
-    {
-      "id": "funbox:69274374",
-      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 黃蜂要塞R7-60T 金屬塗裝：黃",
-      "url": "https://shop.funbox.com.tw/products/bbpr07730",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-21T04:28:27.657777+00:00",
-      "source_id": "69274374",
-      "source": "Funbox"
-    },
-    {
-      "id": "funbox:69274377",
-      "title": "【APP兌換】購買票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I",
-      "url": "https://shop.funbox.com.tw/products/bbpr07739",
-      "price": 999999.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-21T04:28:27.657777+00:00",
-      "source_id": "69274377",
-      "source": "Funbox"
-    },
-    {
       "id": "sensen:beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
       "title": "BEYBLADE X 戰鬥陀螺X BX-00 美國隊長 紅浩克",
       "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
@@ -445,19 +401,6 @@
       "source": "森森文具玩具"
     },
     {
-      "id": "momo_funbox:15800241",
-      "title": "【TAKARA TOMY】BEYBLADE X 戰鬥陀螺X UX-03魔導神杖+CX-02魔導至尊",
-      "url": "https://www.momoshop.com.tw/product/15800241",
-      "price": 790.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-23T05:49:34.312449+00:00",
-      "image": "https://i3.momoshop.com.tw/1792048796/goodsimg/0015/800/241/15800241_R_m.webp",
-      "availability_text": "",
-      "source_id": "15800241",
-      "source": "MOMO Funbox"
-    },
-    {
       "id": "sensen:beyblade-x-cx-00-valkyrievolt-s4-70v-gunmetal",
       "title": "11月新品【BEYBLADE X】戰鬥陀螺X App・活動限定-戰神伏特 ValkyrieVolt S4-70V 槍灰色版（圖鑑）",
       "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-00-valkyrievolt-s4-70v-gunmetal",
@@ -477,7 +420,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-28T20:29:30.931255+00:00",
-      "image": "https://i1.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1791883103/goodsimg/0015/790/379/15790379_R_m.webp",
       "availability_text": "",
       "source_id": "15790379",
       "source": "MOMO Funbox"
@@ -490,7 +433,7 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-30T23:17:05.402553+00:00",
-      "image": "https://i1.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
+      "image": "https://i4.momoshop.com.tw/1793104382/goodsimg/0015/838/927/15838927_R_m.webp",
       "availability_text": "",
       "source_id": "15838927",
       "source": "MOMO Funbox"
