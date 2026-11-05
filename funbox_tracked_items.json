@@ -23,6 +23,38 @@
     "in_stock": true,
     "first_seen": "2026-10-01T09:03:24.914558+00:00"
   },
+  "69274377": {
+    "key": "69274377",
+    "title": "【APP兌換】購買票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I",
+    "url": "https://shop.funbox.com.tw/products/bbpr07739",
+    "price": 999999.0,
+    "in_stock": false,
+    "first_seen": "2026-11-05T09:15:07.680267+00:00"
+  },
+  "69274376": {
+    "key": "69274376",
+    "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 雄鹿戰角B2-60D 金屬塗裝：橘",
+    "url": "https://shop.funbox.com.tw/products/bbpr07736",
+    "price": 999999.0,
+    "in_stock": false,
+    "first_seen": "2026-11-05T09:15:07.680267+00:00"
+  },
+  "69274375": {
+    "key": "69274375",
+    "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 海怪扭擺S3-70O 金屬塗裝：藍",
+    "url": "https://shop.funbox.com.tw/products/bbpr07733",
+    "price": 999999.0,
+    "in_stock": false,
+    "first_seen": "2026-11-05T09:15:07.680267+00:00"
+  },
+  "69274374": {
+    "key": "69274374",
+    "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 黃蜂要塞R7-60T 金屬塗裝：黃",
+    "url": "https://shop.funbox.com.tw/products/bbpr07730",
+    "price": 999999.0,
+    "in_stock": false,
+    "first_seen": "2026-11-05T09:15:07.680267+00:00"
+  },
   "66047423": {
     "key": "66047423",
     "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
@@ -40,10 +72,9 @@
     "first_seen": "2026-10-22T10:27:58.142281+00:00"
   },
   "__watcher_meta__": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_failure_at": "2026-11-05T02:06:08.220381+00:00",
     "last_short_response_at": "2026-10-21T00:02:55.227407+00:00",
-    "last_short_response_count": 1,
-    "last_error": "HTTPSConnectionPool(host='shop.funbox.com.tw', port=443): Max retries exceeded with url: /category_products/takaratomy/beyblade.json?limit=50&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='shop.funbox.com.tw', port=443) at 0x7fb357dce2d0>, 'Connection to shop.funbox.com.tw timed out. (connect timeout=15)'))"
+    "last_short_response_count": 1
   }
 }
