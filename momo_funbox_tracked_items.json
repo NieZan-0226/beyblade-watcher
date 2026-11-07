@@ -16,7 +16,7 @@
     "price": 1895.0,
     "in_stock": false,
     "image": "https://i3.momoshop.com.tw/1793948159/goodsimg/0015/883/209/15883209_R_m.webp",
-    "availability_text": "11/7 11:00 開賣",
+    "availability_text": "",
     "first_seen": "2026-11-06T17:39:19.311037+00:00"
   },
   "15883211": {
@@ -25,7 +25,7 @@
     "url": "https://www.momoshop.com.tw/product/15883211",
     "price": 1140.0,
     "in_stock": false,
-    "image": "https://i3.momoshop.com.tw/1793948591/goodsimg/0015/883/211/15883211_R_m.webp",
+    "image": "https://i2.momoshop.com.tw/1793948591/goodsimg/0015/883/211/15883211_R_m.webp",
     "availability_text": "11/8 00:00 開賣",
     "first_seen": "2026-11-06T17:39:19.311037+00:00"
   },
@@ -35,7 +35,7 @@
     "url": "https://www.momoshop.com.tw/product/15875383",
     "price": 4040.0,
     "in_stock": false,
-    "image": "https://i1.momoshop.com.tw/1793948130/goodsimg/0015/875/383/15875383_R_m.webp",
+    "image": "https://i4.momoshop.com.tw/1793948130/goodsimg/0015/875/383/15875383_R_m.webp",
     "availability_text": "11/11 00:00 開賣",
     "first_seen": "2026-11-06T17:39:19.311037+00:00"
   },
@@ -55,6 +55,6 @@
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
-    "source_count": 27
+    "source_count": 26
   }
 }
