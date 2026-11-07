@@ -1,28 +1,17 @@
 {
-  "updated_at": "2026-11-07T08:49:24.850795+00:00",
+  "updated_at": "2026-11-07T15:13:44.045223+00:00",
   "source": "MOMO Funbox",
   "count": 5,
   "products": [
-    {
-      "id": "15883212",
-      "title": "【TAKARA TOMY】戰鬥陀螺X CX-11帝王威能+BX-42 發射器握把+UX-03 魔導神杖",
-      "url": "https://www.momoshop.com.tw/product/15883212",
-      "price": 1540.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-11-06T17:39:19.311037+00:00",
-      "image": "https://i3.momoshop.com.tw/1793948607/goodsimg/0015/883/212/15883212_R_m.webp",
-      "availability_text": "11/9 00:00 開賣"
-    },
     {
       "id": "15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
       "url": "https://www.momoshop.com.tw/product/15883209",
       "price": 1895.0,
-      "in_stock": false,
-      "status": "normal",
+      "in_stock": true,
+      "status": "restock",
       "first_seen": "2026-11-06T17:39:19.311037+00:00",
-      "image": "https://i3.momoshop.com.tw/1793948159/goodsimg/0015/883/209/15883209_R_m.webp",
+      "image": "https://i2.momoshop.com.tw/1793948159/goodsimg/0015/883/209/15883209_OR_m.webp",
       "availability_text": ""
     },
     {
@@ -33,19 +22,19 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-11-06T17:39:19.311037+00:00",
-      "image": "https://i2.momoshop.com.tw/1793948591/goodsimg/0015/883/211/15883211_R_m.webp",
-      "availability_text": "11/8 00:00 開賣"
+      "image": "https://i3.momoshop.com.tw/1793948591/goodsimg/0015/883/211/15883211_OR_m.webp",
+      "availability_text": "11/08 00:00 開賣"
     },
     {
-      "id": "15875383",
-      "title": "【TAKARA TOMY】戰鬥陀螺X CX-11帝王威能+BX-37 雙重極限衝擊+UX-03 魔導神杖",
-      "url": "https://www.momoshop.com.tw/product/15875383",
-      "price": 4040.0,
+      "id": "15883212",
+      "title": "【TAKARA TOMY】戰鬥陀螺X CX-11帝王威能+BX-42 發射器握把+UX-03 魔導神杖",
+      "url": "https://www.momoshop.com.tw/product/15883212",
+      "price": 1540.0,
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-11-06T17:39:19.311037+00:00",
-      "image": "https://i4.momoshop.com.tw/1793948130/goodsimg/0015/875/383/15875383_R_m.webp",
-      "availability_text": "11/11 00:00 開賣"
+      "image": "https://i4.momoshop.com.tw/1793948607/goodsimg/0015/883/212/15883212_OR_m.webp",
+      "availability_text": "11/09 00:00 開賣"
     },
     {
       "id": "15875358",
@@ -55,8 +44,19 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-11-06T17:39:19.311037+00:00",
-      "image": "https://i4.momoshop.com.tw/1793948114/goodsimg/0015/875/358/15875358_R_m.webp",
+      "image": "https://i1.momoshop.com.tw/1793948114/goodsimg/0015/875/358/15875358_OR_m.webp",
       "availability_text": "11/10 11:00 開賣"
+    },
+    {
+      "id": "15875383",
+      "title": "【TAKARA TOMY】戰鬥陀螺X CX-11帝王威能+BX-37 雙重極限衝擊+UX-03 魔導神杖",
+      "url": "https://www.momoshop.com.tw/product/15875383",
+      "price": 4040.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-06T17:39:19.311037+00:00",
+      "image": "https://i1.momoshop.com.tw/1793948130/goodsimg/0015/875/383/15875383_OR_m.webp",
+      "availability_text": "11/11 00:00 開賣"
     }
   ]
 }
