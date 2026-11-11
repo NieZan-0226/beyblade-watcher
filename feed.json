@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-11-11T00:02:31.020350+00:00",
+  "updated_at": "2026-11-11T05:18:08.236162+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 44,
   "products": [
-    {
-      "id": "sensen:battle-storage-cart-c30",
-      "title": "【森森文具玩具】陀螺戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
-      "url": "https://www.sen-sen.com.tw/products/battle-storage-cart-c30",
-      "price": 4999.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-11-10T23:56:11.220125+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMTE3ODJfMzgzYTZmNGMxMjQxYjAxZjdiYWYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3f78a516f33dd9a3",
-      "source_id": "battle-storage-cart-c30",
-      "source": "森森文具玩具"
-    },
     {
       "id": "momo_funbox:15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
@@ -156,9 +144,9 @@
     },
     {
       "id": "sensen:beyblade-x-bx-52-luster-dragoon-6-60lc",
-      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-52 光耀龍騎 6-60LC 左旋強攻啟動組（暫譯）",
+      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-52 輝耀龍騎 6-60LC 左旋強攻啟動組",
       "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-52-luster-dragoon-6-60lc",
-      "price": 0.0,
+      "price": 495.0,
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-15T15:04:41.668721+00:00",
@@ -168,9 +156,9 @@
     },
     {
       "id": "sensen:beyblade-x-bx-53-all-in-one-set",
-      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-53 全方位套裝（暫譯）",
+      "title": "10月新品【BEYBLADE X】戰鬥陀螺X BX-53 極限衝擊對戰組",
       "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-53-all-in-one-set",
-      "price": 0.0,
+      "price": 1995.0,
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-09-15T15:04:41.668721+00:00",
@@ -520,6 +508,18 @@
       "availability_text": "11/08 00:00 開賣",
       "source_id": "15883211",
       "source": "MOMO Funbox"
+    },
+    {
+      "id": "sensen:battle-storage-cart-c30",
+      "title": "【森森文具玩具】陀螺戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
+      "url": "https://www.sen-sen.com.tw/products/battle-storage-cart-c30",
+      "price": 4999.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-11-10T23:56:11.220125+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMTE3ODJfMzgzYTZmNGMxMjQxYjAxZjdiYWYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3f78a516f33dd9a3",
+      "source_id": "battle-storage-cart-c30",
+      "source": "森森文具玩具"
     }
   ]
 }
