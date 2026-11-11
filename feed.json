@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-11-10T18:59:55.099539+00:00",
+  "updated_at": "2026-11-11T00:02:31.020350+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 44,
   "products": [
+    {
+      "id": "sensen:battle-storage-cart-c30",
+      "title": "【森森文具玩具】陀螺戰鬥收納車 #C30｜慶祝新品上市，下單即贈CX-18｜台灣製造｜陀螺收納戰鬥桌",
+      "url": "https://www.sen-sen.com.tw/products/battle-storage-cart-c30",
+      "price": 4999.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-11-10T23:56:11.220125+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMTE3ODJfMzgzYTZmNGMxMjQxYjAxZjdiYWYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3f78a516f33dd9a3",
+      "source_id": "battle-storage-cart-c30",
+      "source": "森森文具玩具"
+    },
     {
       "id": "momo_funbox:15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
@@ -319,18 +331,6 @@
       "first_seen": "2026-10-19T01:45:39.985977+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcyMzkwLzE3ODYyMDA1NTJfYTdiOTBiZTU3NDRjMDI2NjhkZjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3555834b43c29594",
       "source_id": "beyblade-warrior-storage-bag",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
-      "title": "BEYBLADE X 戰鬥陀螺X BX-00 美國隊長 紅浩克",
-      "url": "https://www.sen-sen.com.tw/products/beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
-      "price": 750.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-21T14:35:32.661072+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY3MjgzMjEzLzE3Nzc1NDk4MDdfZTc1NDQzYjQ3OTcwM2FmNTk3MWQuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=6421501377530d9d",
-      "source_id": "beyblade-x-戰鬥陀螺x-bx-00-美國隊長-紅浩克",
       "source": "森森文具玩具"
     },
     {
