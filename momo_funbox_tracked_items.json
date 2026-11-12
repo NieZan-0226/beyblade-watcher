@@ -50,13 +50,13 @@
     "first_seen": "2026-11-06T17:39:19.311037+00:00"
   },
   "__meta__": {
-    "consecutive_failures": 17,
+    "consecutive_failures": 18,
     "initialized": true,
     "max_pages": 30,
     "keyword_re": "BEYBLADE|戰鬥陀螺",
     "fetch_mode": "rendered",
     "source_count": 9,
-    "last_failure_at": "2026-11-11T19:59:33.751145+00:00",
+    "last_failure_at": "2026-11-12T01:56:24.600364+00:00",
     "last_error": "MOMO 頁面載入完成，但找不到商品卡片。"
   }
 }
