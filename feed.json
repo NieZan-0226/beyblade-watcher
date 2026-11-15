@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T00:57:46.781979+00:00",
+  "updated_at": "2026-11-15T07:45:04.618503+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 40,
   "products": [
@@ -360,7 +360,7 @@
       "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
       "url": "https://shop.funbox.com.tw/products/bb09728",
       "price": 1995.0,
-      "in_stock": true,
+      "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-22T10:27:58.142281+00:00",
       "source_id": "66047423",

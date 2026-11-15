@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T00:50:58.221789+00:00",
+  "updated_at": "2026-11-15T07:38:15.576528+00:00",
   "source": "Funbox",
   "count": 5,
   "products": [
@@ -35,7 +35,7 @@
       "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
       "url": "https://shop.funbox.com.tw/products/bb09728",
       "price": 1995.0,
-      "in_stock": true,
+      "in_stock": false,
       "status": "normal",
       "first_seen": "2026-10-22T10:27:58.142281+00:00"
     },
