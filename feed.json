@@ -1,8 +1,19 @@
 {
-  "updated_at": "2026-11-16T00:05:10.209021+00:00",
+  "updated_at": "2026-11-16T05:29:44.844314+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 40,
   "products": [
+    {
+      "id": "funbox:66047423",
+      "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
+      "url": "https://shop.funbox.com.tw/products/bb09728",
+      "price": 1995.0,
+      "in_stock": true,
+      "status": "restock",
+      "first_seen": "2026-10-22T10:27:58.142281+00:00",
+      "source_id": "66047423",
+      "source": "Funbox"
+    },
     {
       "id": "momo_funbox:15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
@@ -353,17 +364,6 @@
       "status": "normal",
       "first_seen": "2026-10-22T10:27:58.142281+00:00",
       "source_id": "71618748",
-      "source": "Funbox"
-    },
-    {
-      "id": "funbox:66047423",
-      "title": "BEYBLADE X 戰鬥陀螺 CX-16 極限衝擊對戰組C",
-      "url": "https://shop.funbox.com.tw/products/bb09728",
-      "price": 1995.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-22T10:27:58.142281+00:00",
-      "source_id": "66047423",
       "source": "Funbox"
     },
     {
