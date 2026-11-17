@@ -31,6 +31,14 @@
     "in_stock": true,
     "first_seen": "2026-10-22T10:27:58.142281+00:00"
   },
+  "61709210": {
+    "key": "61709210",
+    "title": "BEYBLADE X 戰鬥陀螺  CX-11 帝王威能",
+    "url": "https://shop.funbox.com.tw/products/bb09877",
+    "price": 995.0,
+    "in_stock": false,
+    "first_seen": "2026-11-17T14:16:15.091185+00:00"
+  },
   "50951590": {
     "key": "50951590",
     "title": "BEYBLADE X 戰鬥陀螺 BX-37 雙重極限衝擊戰鬥盤 豪華組",
@@ -38,6 +46,14 @@
     "price": 2750.0,
     "in_stock": true,
     "first_seen": "2026-10-22T10:27:58.142281+00:00"
+  },
+  "50617609": {
+    "key": "50617609",
+    "title": "BEYBLADE X 戰鬥陀螺 UX-10 騎士圓甲改造組",
+    "url": "https://shop.funbox.com.tw/products/bb93954",
+    "price": 1250.0,
+    "in_stock": false,
+    "first_seen": "2026-11-17T14:16:15.091185+00:00"
   },
   "__watcher_meta__": {
     "consecutive_failures": 0,
