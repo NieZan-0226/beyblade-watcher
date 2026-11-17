@@ -1,30 +1,8 @@
 {
-  "updated_at": "2026-11-17T14:23:04.808754+00:00",
+  "updated_at": "2026-11-17T22:33:06.544228+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 42,
   "products": [
-    {
-      "id": "funbox:61709210",
-      "title": "BEYBLADE X 戰鬥陀螺  CX-11 帝王威能",
-      "url": "https://shop.funbox.com.tw/products/bb09877",
-      "price": 995.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-11-17T14:16:15.091185+00:00",
-      "source_id": "61709210",
-      "source": "Funbox"
-    },
-    {
-      "id": "funbox:50617609",
-      "title": "BEYBLADE X 戰鬥陀螺 UX-10 騎士圓甲改造組",
-      "url": "https://shop.funbox.com.tw/products/bb93954",
-      "price": 1250.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-11-17T14:16:15.091185+00:00",
-      "source_id": "50617609",
-      "source": "Funbox"
-    },
     {
       "id": "momo_funbox:15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
@@ -498,6 +476,28 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMTE3ODJfMzgzYTZmNGMxMjQxYjAxZjdiYWYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3f78a516f33dd9a3",
       "source_id": "battle-storage-cart-c30",
       "source": "森森文具玩具"
+    },
+    {
+      "id": "funbox:61709210",
+      "title": "BEYBLADE X 戰鬥陀螺  CX-11 帝王威能",
+      "url": "https://shop.funbox.com.tw/products/bb09877",
+      "price": 995.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-17T14:16:15.091185+00:00",
+      "source_id": "61709210",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:50617609",
+      "title": "BEYBLADE X 戰鬥陀螺 UX-10 騎士圓甲改造組",
+      "url": "https://shop.funbox.com.tw/products/bb93954",
+      "price": 1250.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-17T14:16:15.091185+00:00",
+      "source_id": "50617609",
+      "source": "Funbox"
     }
   ]
 }
