@@ -1,8 +1,44 @@
 {
-  "updated_at": "2026-11-18T03:54:25.578984+00:00",
+  "updated_at": "2026-11-18T12:25:06.458920+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 42,
   "products": [
+    {
+      "id": "sensen:beyblade-x-bx-55-random-booster-vol-12",
+      "title": "12月新品【BEYBLADE X】戰鬥陀螺X BX-55 隨機強化組 Vol.12 荷魯斯碎擊 Horus Shatter（日版）-暫譯",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-bx-55-random-booster-vol-12",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-11-18T12:18:44.223885+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczODI3OTM2LzE3OTQ5Nzc0ODhfYjEyYzkxNzczZjk0ZGMwMmZlZGYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=0bed6c3bafdbe057",
+      "source_id": "beyblade-x-bx-55-random-booster-vol-12",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-cx-00-bahamut-blitz-bk1-50i-metal-coat-black",
+      "title": "12月新品【BEYBLADE X】戰鬥陀螺X CX-00【B4商店限定】龍王閃擊 BK1-50I 金屬塗裝：黑色（日版）",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-cx-00-bahamut-blitz-bk1-50i-metal-coat-black",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-11-18T12:18:44.223885+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczODI3OTM3LzE3OTQ5NzY5MzlfN2RkOWJlYzY3NzA4YWZiMmQ0OTYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=d6f0a7931e23b9f7",
+      "source_id": "beyblade-x-cx-00-bahamut-blitz-bk1-50i-metal-coat-black",
+      "source": "森森文具玩具"
+    },
+    {
+      "id": "sensen:beyblade-x-ux-22-vanish-lucifer-ww",
+      "title": "12月新品【BEYBLADE X】戰鬥陀螺X UX-22 消滅路西法 Vanish Lucifer WW 防禦型豪華組（日版）暫譯",
+      "url": "https://www.sen-sen.com.tw/products/beyblade-x-ux-22-vanish-lucifer-ww",
+      "price": 0.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-11-18T12:18:44.223885+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczODI3OTM0LzE3OTQ5Nzc5MjFfZWQ5MTJiYmRlOTkxYzk0YjBiZTAucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=574f4886162a1409",
+      "source_id": "beyblade-x-ux-22-vanish-lucifer-ww",
+      "source": "森森文具玩具"
+    },
     {
       "id": "momo_funbox:15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
@@ -15,17 +51,6 @@
       "availability_text": "",
       "source_id": "15883209",
       "source": "MOMO Funbox"
-    },
-    {
-      "id": "funbox:61709210",
-      "title": "BEYBLADE X 戰鬥陀螺  CX-11 帝王威能",
-      "url": "https://shop.funbox.com.tw/products/bb09877",
-      "price": 995.0,
-      "in_stock": true,
-      "status": "restock",
-      "first_seen": "2026-11-17T14:16:15.091185+00:00",
-      "source_id": "61709210",
-      "source": "Funbox"
     },
     {
       "id": "toysrus:1202166",
@@ -261,18 +286,6 @@
       "source": "森森文具玩具"
     },
     {
-      "id": "sensen:x-hangar-y35-battle-outing-box",
-      "title": "X-HANGAR Y-35 戰鬥外出箱｜陀螺對戰盤與收納展示櫃（6色可選）",
-      "url": "https://www.sen-sen.com.tw/products/x-hangar-y35-battle-outing-box",
-      "price": 3099.0,
-      "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-10-19T01:45:39.985977+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY5NDU5MDc1LzE3ODM2OTc5NzRfZTZiMTY3NTk1ZTczODFkNzUwM2YuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=2a0e64593eba6b50",
-      "source_id": "x-hangar-y35-battle-outing-box",
-      "source": "森森文具玩具"
-    },
-    {
       "id": "sensen:x-hangar-beyblade-x-check-board",
       "title": "X-HANGAR 戰鬥陀螺X 檢查板｜6格陀螺檢查盤｜比賽檢查／收納展示板｜3色可選",
       "url": "https://www.sen-sen.com.tw/products/x-hangar-beyblade-x-check-board",
@@ -282,18 +295,6 @@
       "first_seen": "2026-10-19T01:45:39.985977+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcwOTM1LzE3ODYxOTk0NjdfMjdjMGRmYTg3M2ZhMWQ2MTJhMzMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=670632b029186dc4",
       "source_id": "x-hangar-beyblade-x-check-board",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:x-battle-case-blade-magnetic-beyblade-storage-box",
-      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
-      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
-      "price": 780.0,
-      "in_stock": true,
-      "status": "normal",
-      "first_seen": "2026-10-19T01:45:39.985977+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95",
-      "source_id": "x-battle-case-blade-magnetic-beyblade-storage-box",
       "source": "森森文具玩具"
     },
     {
@@ -330,18 +331,6 @@
       "first_seen": "2026-10-19T01:45:39.985977+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMDcyMzkwLzE3ODYyMDA1NTJfYTdiOTBiZTU3NDRjMDI2NjhkZjgucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3555834b43c29594",
       "source_id": "beyblade-warrior-storage-bag",
-      "source": "森森文具玩具"
-    },
-    {
-      "id": "sensen:cx-18-brachiowhip-ow5-70nr",
-      "title": "戰鬥陀螺 CX-18 隨機強化組 - 腕龍鞭打 OW5-70Nr",
-      "url": "https://www.sen-sen.com.tw/products/cx-18-brachiowhip-ow5-70nr",
-      "price": 319.0,
-      "in_stock": false,
-      "status": "normal",
-      "first_seen": "2026-10-21T14:35:32.661072+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzY4Nzc2MzM3LzE3ODEzMjU5MDZfYTA2NGRhOWExNTE1ODk3OTE2MzkucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=75558cb4123d22de",
-      "source_id": "cx-18-brachiowhip-ow5-70nr",
       "source": "森森文具玩具"
     },
     {
@@ -487,6 +476,17 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcxMjg2MDgyLzE3ODcxMTE3ODJfMzgzYTZmNGMxMjQxYjAxZjdiYWYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=3f78a516f33dd9a3",
       "source_id": "battle-storage-cart-c30",
       "source": "森森文具玩具"
+    },
+    {
+      "id": "funbox:61709210",
+      "title": "BEYBLADE X 戰鬥陀螺  CX-11 帝王威能",
+      "url": "https://shop.funbox.com.tw/products/bb09877",
+      "price": 995.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-17T14:16:15.091185+00:00",
+      "source_id": "61709210",
+      "source": "Funbox"
     },
     {
       "id": "funbox:50617609",

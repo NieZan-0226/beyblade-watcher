@@ -1,17 +1,8 @@
 {
-  "updated_at": "2026-11-18T03:47:36.396922+00:00",
+  "updated_at": "2026-11-18T12:18:17.464960+00:00",
   "source": "Funbox",
   "count": 7,
   "products": [
-    {
-      "id": "61709210",
-      "title": "BEYBLADE X 戰鬥陀螺  CX-11 帝王威能",
-      "url": "https://shop.funbox.com.tw/products/bb09877",
-      "price": 995.0,
-      "in_stock": true,
-      "status": "restock",
-      "first_seen": "2026-11-17T14:16:15.091185+00:00"
-    },
     {
       "id": "69274378",
       "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
@@ -56,6 +47,15 @@
       "in_stock": true,
       "status": "normal",
       "first_seen": "2026-10-22T10:27:58.142281+00:00"
+    },
+    {
+      "id": "61709210",
+      "title": "BEYBLADE X 戰鬥陀螺  CX-11 帝王威能",
+      "url": "https://shop.funbox.com.tw/products/bb09877",
+      "price": 995.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-17T14:16:15.091185+00:00"
     },
     {
       "id": "50617609",
