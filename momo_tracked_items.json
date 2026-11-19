@@ -1,12 +1,12 @@
 {
   "__meta__": {
-    "consecutive_failures": 45,
+    "consecutive_failures": 46,
     "initialized": true,
     "max_pages": 30,
     "keyword_re": "BEYBLADE",
     "fetch_mode": "rendered",
     "source_count": 1,
-    "last_failure_at": "2026-11-19T10:02:45.630029+00:00",
+    "last_failure_at": "2026-11-19T19:01:45.171013+00:00",
     "last_error": "MOMO 頁面載入完成，但找不到商品卡片。"
   }
 }
