@@ -1,8 +1,63 @@
 {
-  "updated_at": "2026-11-18T20:55:30.391478+00:00",
+  "updated_at": "2026-11-19T02:11:42.832490+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
-  "count": 42,
+  "count": 47,
   "products": [
+    {
+      "id": "funbox:67587462",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 BX-00 限定軸心組 白銀版",
+      "url": "https://shop.funbox.com.tw/products/bbpr08919",
+      "price": 999999.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-11-19T02:04:54.989213+00:00",
+      "source_id": "67587462",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:69274375",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 海怪扭擺S3-70O 金屬塗裝：藍",
+      "url": "https://shop.funbox.com.tw/products/bbpr07733",
+      "price": 999999.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-11-19T02:04:54.989213+00:00",
+      "source_id": "69274375",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:69274376",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 雄鹿戰角B2-60D 金屬塗裝：橘",
+      "url": "https://shop.funbox.com.tw/products/bbpr07736",
+      "price": 999999.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-11-19T02:04:54.989213+00:00",
+      "source_id": "69274376",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:69274374",
+      "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 黃蜂要塞R7-60T 金屬塗裝：黃",
+      "url": "https://shop.funbox.com.tw/products/bbpr07730",
+      "price": 999999.0,
+      "in_stock": false,
+      "status": "new",
+      "first_seen": "2026-11-19T02:04:54.989213+00:00",
+      "source_id": "69274374",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:69274377",
+      "title": "【APP兌換】購買票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I",
+      "url": "https://shop.funbox.com.tw/products/bbpr07739",
+      "price": 999999.0,
+      "in_stock": true,
+      "status": "new",
+      "first_seen": "2026-11-19T02:04:54.989213+00:00",
+      "source_id": "69274377",
+      "source": "Funbox"
+    },
     {
       "id": "momo_funbox:15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
