@@ -15,6 +15,22 @@
     "in_stock": false,
     "first_seen": "2026-10-22T10:27:58.142281+00:00"
   },
+  "70318599": {
+    "key": "70318599",
+    "title": "BEYBLADE X 戰鬥陀螺 UX-20 榮耀武神LF",
+    "url": "https://shop.funbox.com.tw/products/bb09613",
+    "price": 595.0,
+    "in_stock": false,
+    "first_seen": "2026-11-23T07:49:52.087051+00:00"
+  },
+  "70318594": {
+    "key": "70318594",
+    "title": "BEYBLADE X 戰鬥陀螺 BX-50 天堂日輪 隨機強化組",
+    "url": "https://shop.funbox.com.tw/products/bb08417",
+    "price": 350.0,
+    "in_stock": false,
+    "first_seen": "2026-11-23T07:49:52.087051+00:00"
+  },
   "69274378": {
     "key": "69274378",
     "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
@@ -22,46 +38,6 @@
     "price": 999999.0,
     "in_stock": true,
     "first_seen": "2026-10-01T09:03:24.914558+00:00"
-  },
-  "69274377": {
-    "key": "69274377",
-    "title": "【APP兌換】購買票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I",
-    "url": "https://shop.funbox.com.tw/products/bbpr07739",
-    "price": 999999.0,
-    "in_stock": false,
-    "first_seen": "2026-11-19T02:04:54.989213+00:00"
-  },
-  "69274376": {
-    "key": "69274376",
-    "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 雄鹿戰角B2-60D 金屬塗裝：橘",
-    "url": "https://shop.funbox.com.tw/products/bbpr07736",
-    "price": 999999.0,
-    "in_stock": false,
-    "first_seen": "2026-11-19T02:04:54.989213+00:00"
-  },
-  "69274375": {
-    "key": "69274375",
-    "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 海怪扭擺S3-70O 金屬塗裝：藍",
-    "url": "https://shop.funbox.com.tw/products/bbpr07733",
-    "price": 999999.0,
-    "in_stock": false,
-    "first_seen": "2026-11-19T02:04:54.989213+00:00"
-  },
-  "69274374": {
-    "key": "69274374",
-    "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 CX-00 黃蜂要塞R7-60T 金屬塗裝：黃",
-    "url": "https://shop.funbox.com.tw/products/bbpr07730",
-    "price": 999999.0,
-    "in_stock": false,
-    "first_seen": "2026-11-19T02:04:54.989213+00:00"
-  },
-  "67587462": {
-    "key": "67587462",
-    "title": "【APP兌換】BEYBLADE X 戰鬥陀螺 BX-00 限定軸心組 白銀版",
-    "url": "https://shop.funbox.com.tw/products/bbpr08919",
-    "price": 999999.0,
-    "in_stock": false,
-    "first_seen": "2026-11-19T02:04:54.989213+00:00"
   },
   "66047423": {
     "key": "66047423",
@@ -86,14 +62,6 @@
     "price": 2750.0,
     "in_stock": true,
     "first_seen": "2026-10-22T10:27:58.142281+00:00"
-  },
-  "50617609": {
-    "key": "50617609",
-    "title": "BEYBLADE X 戰鬥陀螺 UX-10 騎士圓甲改造組",
-    "url": "https://shop.funbox.com.tw/products/bb93954",
-    "price": 1250.0,
-    "in_stock": false,
-    "first_seen": "2026-11-17T14:16:15.091185+00:00"
   },
   "__watcher_meta__": {
     "consecutive_failures": 0,
