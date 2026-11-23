@@ -1,26 +1,8 @@
 {
-  "updated_at": "2026-11-23T07:49:52.520621+00:00",
+  "updated_at": "2026-11-23T19:30:28.992826+00:00",
   "source": "Funbox",
   "count": 8,
   "products": [
-    {
-      "id": "70318599",
-      "title": "BEYBLADE X 戰鬥陀螺 UX-20 榮耀武神LF",
-      "url": "https://shop.funbox.com.tw/products/bb09613",
-      "price": 595.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-11-23T07:49:52.087051+00:00"
-    },
-    {
-      "id": "70318594",
-      "title": "BEYBLADE X 戰鬥陀螺 BX-50 天堂日輪 隨機強化組",
-      "url": "https://shop.funbox.com.tw/products/bb08417",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-11-23T07:49:52.087051+00:00"
-    },
     {
       "id": "69274378",
       "title": "【APP兌換】交換票券_戰鬥陀螺 CX-00 龍神勇氣G4-70I 金屬塗裝：水藍",
@@ -74,6 +56,24 @@
       "in_stock": false,
       "status": "normal",
       "first_seen": "2026-11-17T14:16:15.091185+00:00"
+    },
+    {
+      "id": "70318599",
+      "title": "BEYBLADE X 戰鬥陀螺 UX-20 榮耀武神LF",
+      "url": "https://shop.funbox.com.tw/products/bb09613",
+      "price": 595.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-23T07:49:52.087051+00:00"
+    },
+    {
+      "id": "70318594",
+      "title": "BEYBLADE X 戰鬥陀螺 BX-50 天堂日輪 隨機強化組",
+      "url": "https://shop.funbox.com.tw/products/bb08417",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-23T07:49:52.087051+00:00"
     }
   ]
 }

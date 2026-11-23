@@ -1,30 +1,8 @@
 {
-  "updated_at": "2026-11-23T07:56:43.223201+00:00",
+  "updated_at": "2026-11-23T19:37:15.765689+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 43,
   "products": [
-    {
-      "id": "funbox:70318594",
-      "title": "BEYBLADE X 戰鬥陀螺 BX-50 天堂日輪 隨機強化組",
-      "url": "https://shop.funbox.com.tw/products/bb08417",
-      "price": 350.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-11-23T07:49:52.087051+00:00",
-      "source_id": "70318594",
-      "source": "Funbox"
-    },
-    {
-      "id": "funbox:70318599",
-      "title": "BEYBLADE X 戰鬥陀螺 UX-20 榮耀武神LF",
-      "url": "https://shop.funbox.com.tw/products/bb09613",
-      "price": 595.0,
-      "in_stock": false,
-      "status": "new",
-      "first_seen": "2026-11-23T07:49:52.087051+00:00",
-      "source_id": "70318599",
-      "source": "Funbox"
-    },
     {
       "id": "momo_funbox:15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
@@ -509,6 +487,28 @@
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczODI3OTM0LzE3OTQ5Nzc5MjFfZWQ5MTJiYmRlOTkxYzk0YjBiZTAucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=574f4886162a1409",
       "source_id": "beyblade-x-ux-22-vanish-lucifer-ww",
       "source": "森森文具玩具"
+    },
+    {
+      "id": "funbox:70318594",
+      "title": "BEYBLADE X 戰鬥陀螺 BX-50 天堂日輪 隨機強化組",
+      "url": "https://shop.funbox.com.tw/products/bb08417",
+      "price": 350.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-23T07:49:52.087051+00:00",
+      "source_id": "70318594",
+      "source": "Funbox"
+    },
+    {
+      "id": "funbox:70318599",
+      "title": "BEYBLADE X 戰鬥陀螺 UX-20 榮耀武神LF",
+      "url": "https://shop.funbox.com.tw/products/bb09613",
+      "price": 595.0,
+      "in_stock": false,
+      "status": "normal",
+      "first_seen": "2026-11-23T07:49:52.087051+00:00",
+      "source_id": "70318599",
+      "source": "Funbox"
     }
   ]
 }
