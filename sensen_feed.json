@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-11-26T10:04:15.639871+00:00",
+  "updated_at": "2026-11-26T19:31:04.961941+00:00",
   "source": "森森文具玩具",
   "count": 23,
   "products": [
-    {
-      "id": "x-battle-case-blade-magnetic-beyblade-storage-box",
-      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
-      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
-      "price": 780.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-11-26T10:04:15.408258+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95"
-    },
     {
       "id": "beyblade-x-cx-19-random-booster",
       "title": "9月新品【BEYBLADE X】戰鬥陀螺X CX-19 隨機強化組",
@@ -232,6 +222,16 @@
       "status": "normal",
       "first_seen": "2026-11-18T12:18:44.223885+00:00",
       "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzczODI3OTM0LzE3OTQ5Nzc5MjFfZWQ5MTJiYmRlOTkxYzk0YjBiZTAucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=574f4886162a1409"
+    },
+    {
+      "id": "x-battle-case-blade-magnetic-beyblade-storage-box",
+      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
+      "price": 780.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-11-26T10:04:15.408258+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95"
     }
   ]
 }

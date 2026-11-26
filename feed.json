@@ -1,20 +1,8 @@
 {
-  "updated_at": "2026-11-26T10:10:36.339296+00:00",
+  "updated_at": "2026-11-26T19:37:28.059502+00:00",
   "source": "Funbox + Toys\"R\"Us Taiwan + 誠品線上 + 森森文具玩具 + 孩子玩伴 + MOMO 墊腳石 + MOMO Funbox",
   "count": 43,
   "products": [
-    {
-      "id": "sensen:x-battle-case-blade-magnetic-beyblade-storage-box",
-      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
-      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
-      "price": 780.0,
-      "in_stock": true,
-      "status": "new",
-      "first_seen": "2026-11-26T10:04:15.408258+00:00",
-      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95",
-      "source_id": "x-battle-case-blade-magnetic-beyblade-storage-box",
-      "source": "森森文具玩具"
-    },
     {
       "id": "momo_funbox:15883209",
       "title": "【TAKARA TOMY】戰鬥陀螺X UX-10 騎士圓甲改造組+CX-19 鱷魚裂甲+UX-03 魔導神杖",
@@ -509,6 +497,18 @@
       "first_seen": "2026-11-23T07:49:52.087051+00:00",
       "source_id": "70318599",
       "source": "Funbox"
+    },
+    {
+      "id": "sensen:x-battle-case-blade-magnetic-beyblade-storage-box",
+      "title": "X-比賽盒（爆刃款）｜磁吸戰鬥陀螺收納盒 三入裝 霧面防刮 6色可選",
+      "url": "https://www.sen-sen.com.tw/products/x-battle-case-blade-magnetic-beyblade-storage-box",
+      "price": 780.0,
+      "in_stock": true,
+      "status": "normal",
+      "first_seen": "2026-11-26T10:04:15.408258+00:00",
+      "image": "https://www.sen-sen.com.tw/media/W1siZiIsIjIzNTYzL3Byb2R1Y3RzLzcwOTQ3MjI3LzE3ODYwOTYyNTdfYmU2MzdkZTZiOTc3YTZlNzkxNjEuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0898a83333285d95",
+      "source_id": "x-battle-case-blade-magnetic-beyblade-storage-box",
+      "source": "森森文具玩具"
     }
   ]
 }
